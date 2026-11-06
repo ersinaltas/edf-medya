@@ -1,0 +1,2768 @@
+[
+ {
+  "key": "Wednesday",
+  "gun": "Çarşamba",
+  "tarih": "3 Şubat",
+  "cols": [
+   {
+    "name": "SALON 1",
+    "c0": 2,
+    "span": 3
+   }
+  ],
+  "ncols": 3,
+  "times": [
+   "22:00 – 23:00",
+   "23:00 – 00:00",
+   "00:00 – …",
+   ""
+  ],
+  "cells": [
+   {
+    "r": 0,
+    "c": 0,
+    "rs": 3,
+    "cs": 3,
+    "type": "event",
+    "cat": "party",
+    "title": "Wednesday Welcome Party",
+    "sub": [
+     "Dress Code: Elegance"
+    ]
+   },
+   {
+    "r": 3,
+    "c": 0,
+    "rs": 1,
+    "cs": 3,
+    "type": "event",
+    "cat": "party",
+    "title": "Club, Salsa, Bachata, Ki̇zomba",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "key": "Thursday",
+  "gun": "Perşembe",
+  "tarih": "4 Şubat",
+  "cols": [
+   {
+    "name": "SALON 1",
+    "c0": 2,
+    "span": 1
+   },
+   {
+    "name": "SALON 2",
+    "c0": 3,
+    "span": 1
+   },
+   {
+    "name": "SALON 3",
+    "c0": 4,
+    "span": 1
+   },
+   {
+    "name": "DIŞ ALAN",
+    "c0": 5,
+    "span": 1
+   }
+  ],
+  "ncols": 4,
+  "times": [
+   "14:00 – 14:50",
+   "15:00 – 15:50",
+   "16:00 – 16:50",
+   "17:00 – 17:50",
+   "18:00 – 18:50",
+   "19:00 – 19:50",
+   "20:00 – 20:50",
+   "21:00 – 21:50",
+   "22:00 – 23:00",
+   "23:00 – 00:00",
+   "00:00 – …",
+   ""
+  ],
+  "cells": [
+   {
+    "r": 0,
+    "c": 0,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 0,
+    "c": 1,
+    "rs": 8,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 0,
+    "c": 2,
+    "rs": 8,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 0,
+    "c": 3,
+    "rs": 3,
+    "cs": 1,
+    "type": "ws",
+    "cat": "redbull",
+    "title": "COAT PARTY",
+    "egitmen": "",
+    "_eski": "RED BULL"
+   },
+   {
+    "r": 2,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Görkem & Zeynep"
+   },
+   {
+    "r": 3,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On1 Shines",
+    "egitmen": "",
+    "_eski": "Onurcan & Yağmur"
+   },
+   {
+    "r": 3,
+    "c": 3,
+    "rs": 7,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 4,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Dominic Style Bachata FW",
+    "egitmen": "",
+    "_eski": "Burak & Begüm"
+   },
+   {
+    "r": 5,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 PW & Shines",
+    "egitmen": "",
+    "_eski": "Erdem & Tuğçe"
+   },
+   {
+    "r": 6,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata Musicality",
+    "egitmen": "",
+    "_eski": "Mert Gençoğuz"
+   },
+   {
+    "r": 7,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On1 PW & Shines",
+    "egitmen": "",
+    "_eski": "Bahadır & Ezgi"
+   },
+   {
+    "r": 8,
+    "c": 0,
+    "rs": 3,
+    "cs": 3,
+    "type": "event",
+    "cat": "party",
+    "title": "Thursday Mega Party",
+    "sub": [
+     "Dress Code: High School"
+    ]
+   },
+   {
+    "r": 10,
+    "c": 3,
+    "rs": 2,
+    "cs": 1,
+    "type": "ws",
+    "cat": "redbull",
+    "title": "COAT PARTY",
+    "egitmen": "",
+    "_eski": "RED BULL"
+   },
+   {
+    "r": 11,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Bachata",
+    "sub": []
+   },
+   {
+    "r": 11,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Salsa",
+    "sub": []
+   },
+   {
+    "r": 11,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Ki̇zomba",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "key": "Friday",
+  "gun": "Cuma",
+  "tarih": "5 Şubat",
+  "cols": [
+   {
+    "name": "SALON 1",
+    "c0": 2,
+    "span": 1
+   },
+   {
+    "name": "SALON 2",
+    "c0": 3,
+    "span": 1
+   },
+   {
+    "name": "SALON 3",
+    "c0": 4,
+    "span": 1
+   },
+   {
+    "name": "SALON 4",
+    "c0": 5,
+    "span": 1
+   },
+   {
+    "name": "SALON 5",
+    "c0": 6,
+    "span": 1
+   },
+   {
+    "name": "SALON 6",
+    "c0": 7,
+    "span": 1
+   },
+   {
+    "name": "DIŞ ALAN",
+    "c0": 8,
+    "span": 1
+   }
+  ],
+  "ncols": 7,
+  "times": [
+   "13:00 – 13:50",
+   "14:00 – 14:50",
+   "15:00 – 15:50",
+   "16:00 – 16:50",
+   "17:00 – 17:50",
+   "18:00 – 18:50",
+   "19:00 – 19:50",
+   "20:00 – 21:00",
+   "21:00 – 22:00",
+   "22:00 – 23:00",
+   "23:00 – 00:00",
+   "00:00 – …",
+   ""
+  ],
+  "cells": [
+   {
+    "r": 0,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachatazouk",
+    "egitmen": "",
+    "_eski": "Yalçın Çoban"
+   },
+   {
+    "r": 0,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa Fusion",
+    "egitmen": "",
+    "_eski": "Ilgım Ezgi Özmen"
+   },
+   {
+    "r": 0,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata Social PW",
+    "egitmen": "",
+    "_eski": "Umut & Berna"
+   },
+   {
+    "r": 0,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 PW",
+    "egitmen": "",
+    "_eski": "Samet & Dilara"
+   },
+   {
+    "r": 0,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Feminine Fusion Body Movement",
+    "egitmen": "",
+    "_eski": "Gülenay Lambert"
+   },
+   {
+    "r": 0,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Modern Fusion",
+    "egitmen": "",
+    "_eski": "Kübrasu"
+   },
+   {
+    "r": 0,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 1,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Salsa Special Class Musicality",
+    "egitmen": "",
+    "_eski": "Burak Gökgürler"
+   },
+   {
+    "r": 1,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "zumba",
+    "title": "Zumba",
+    "egitmen": "",
+    "_eski": "Kano Melez & Eşref & Cem Eren & Seda"
+   },
+   {
+    "r": 1,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 PW",
+    "egitmen": "",
+    "_eski": "Ahmet & Ekaterina"
+   },
+   {
+    "r": 1,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Mert & Polina"
+   },
+   {
+    "r": 1,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa Jazz",
+    "egitmen": "",
+    "_eski": "Timuçin Çakıroğlu"
+   },
+   {
+    "r": 1,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Mert & Sena"
+   },
+   {
+    "r": 1,
+    "c": 6,
+    "rs": 4,
+    "cs": 1,
+    "type": "ws",
+    "cat": "redbull",
+    "title": "COAT PARTY",
+    "egitmen": "",
+    "_eski": "RED BULL"
+   },
+   {
+    "r": 2,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Breaking Routine",
+    "egitmen": "",
+    "_eski": "Sincap & Snaype"
+   },
+   {
+    "r": 2,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Zouk",
+    "egitmen": "",
+    "_eski": "Furkan Demirtaş"
+   },
+   {
+    "r": 2,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 PW (inc. Hand Tricks) & Shine",
+    "egitmen": "",
+    "_eski": "Berkan & Yasemin"
+   },
+   {
+    "r": 2,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa On2 Shines Fusion Feeling",
+    "egitmen": "",
+    "_eski": "Ali Raşit Beyler"
+   },
+   {
+    "r": 2,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata Moderna",
+    "egitmen": "",
+    "_eski": "Mustafa Ateş"
+   },
+   {
+    "r": 2,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 3,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Reggaeton",
+    "egitmen": "",
+    "_eski": "Onur Alp Sancaktar"
+   },
+   {
+    "r": 3,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa On2 PW",
+    "egitmen": "",
+    "_eski": "Victor Ortega"
+   },
+   {
+    "r": 3,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "zumba",
+    "title": "Zumba",
+    "egitmen": "",
+    "_eski": "Eşref Eröz & Cem Eren Sevinçer"
+   },
+   {
+    "r": 3,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Bachata PW Sensual Techniques",
+    "egitmen": "",
+    "_eski": "Gülçin & Fatih"
+   },
+   {
+    "r": 3,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Ladies Styling",
+    "egitmen": "",
+    "_eski": "Büşra Soylu"
+   },
+   {
+    "r": 3,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "High Heels",
+    "egitmen": "",
+    "_eski": "Alina Pavlenko"
+   },
+   {
+    "r": 4,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa Shines",
+    "egitmen": "",
+    "_eski": "Cuban Mambo"
+   },
+   {
+    "r": 4,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata",
+    "egitmen": "",
+    "_eski": "Onurcan & Yağmur"
+   },
+   {
+    "r": 4,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "zumba",
+    "title": "Zumba",
+    "egitmen": "",
+    "_eski": "Seda Meriç & Zin Performansları"
+   },
+   {
+    "r": 4,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Hip Hop Choreography",
+    "egitmen": "",
+    "_eski": "Hakan Kılıç"
+   },
+   {
+    "r": 4,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Urban Kizomba Ladies Styling",
+    "egitmen": "",
+    "_eski": "Irmak Ezgi Sayın"
+   },
+   {
+    "r": 4,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "High Heels (+16)",
+    "egitmen": "",
+    "_eski": "Çağla Özcan"
+   },
+   {
+    "r": 5,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata Fusion Musicality",
+    "egitmen": "",
+    "_eski": "Murat Karakaş & Yağmur Uzun"
+   },
+   {
+    "r": 5,
+    "c": 1,
+    "rs": 4,
+    "cs": 1,
+    "type": "event",
+    "cat": "rehearsal",
+    "title": "Show Rehearsals",
+    "sub": []
+   },
+   {
+    "r": 5,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa On2 Shines & Musicality",
+    "egitmen": "",
+    "_eski": "Esin Teke & Mustafa Güzelal"
+   },
+   {
+    "r": 5,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "On2 Musicality FW",
+    "egitmen": "",
+    "_eski": "Koray & Beyza"
+   },
+   {
+    "r": 5,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Ladies Styling",
+    "egitmen": "",
+    "_eski": "Hüma Şimal Ceylan"
+   },
+   {
+    "r": 5,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata",
+    "egitmen": "",
+    "_eski": "Emre & Oksana"
+   },
+   {
+    "r": 5,
+    "c": 6,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "sunset",
+    "title": "Sunset +1 Party",
+    "sub": []
+   },
+   {
+    "r": 6,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Heels",
+    "egitmen": "",
+    "_eski": "Ekinsu Özcan"
+   },
+   {
+    "r": 6,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa On1 PW",
+    "egitmen": "",
+    "_eski": "Sezgin Özaslan"
+   },
+   {
+    "r": 6,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 Musicality in PW",
+    "egitmen": "",
+    "_eski": "Ufuk & Gülhas"
+   },
+   {
+    "r": 6,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Utku & Hazal"
+   },
+   {
+    "r": 6,
+    "c": 5,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "kids",
+    "title": "Kids Party",
+    "sub": []
+   },
+   {
+    "r": 7,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Ladies Styling",
+    "egitmen": "",
+    "_eski": "Nil Ergün"
+   },
+   {
+    "r": 7,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Berkay & Hilal"
+   },
+   {
+    "r": 7,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Urban Kizomba",
+    "egitmen": "",
+    "_eski": "İrfan Ayık"
+   },
+   {
+    "r": 7,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "beg",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Anıl & Elif"
+   },
+   {
+    "r": 7,
+    "c": 6,
+    "rs": 4,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 8,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 8,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 8,
+    "c": 3,
+    "rs": 5,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Lindy Hop & Swing Dance Party",
+    "sub": []
+   },
+   {
+    "r": 8,
+    "c": 4,
+    "rs": 5,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 8,
+    "c": 5,
+    "rs": 5,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 9,
+    "c": 0,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Friday Salsa - Bachata - Kizomba Party",
+    "sub": [
+     "Dress Code: Love in Burning Men"
+    ]
+   },
+   {
+    "r": 9,
+    "c": 1,
+    "rs": 2,
+    "cs": 2,
+    "type": "event",
+    "cat": "party",
+    "title": "Friday Show Program",
+    "sub": []
+   },
+   {
+    "r": 11,
+    "c": 0,
+    "rs": 1,
+    "cs": 3,
+    "type": "event",
+    "cat": "party",
+    "title": "Friday Mega Party",
+    "sub": [
+     "Dress Code: Love in Burning Men"
+    ]
+   },
+   {
+    "r": 11,
+    "c": 6,
+    "rs": 2,
+    "cs": 1,
+    "type": "ws",
+    "cat": "redbull",
+    "title": "COAT PARTY",
+    "egitmen": "",
+    "_eski": "RED BULL"
+   },
+   {
+    "r": 12,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Bachata",
+    "sub": []
+   },
+   {
+    "r": 12,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Salsa",
+    "sub": []
+   },
+   {
+    "r": 12,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Ki̇zomba",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "key": "Saturday",
+  "gun": "Cumartesi",
+  "tarih": "6 Şubat",
+  "cols": [
+   {
+    "name": "SALON 1",
+    "c0": 2,
+    "span": 1
+   },
+   {
+    "name": "SALON 2",
+    "c0": 3,
+    "span": 1
+   },
+   {
+    "name": "SALON 3",
+    "c0": 4,
+    "span": 1
+   },
+   {
+    "name": "SALON 4",
+    "c0": 5,
+    "span": 1
+   },
+   {
+    "name": "SALON 5",
+    "c0": 6,
+    "span": 1
+   },
+   {
+    "name": "SALON 6",
+    "c0": 7,
+    "span": 1
+   },
+   {
+    "name": "SALON 7",
+    "c0": 8,
+    "span": 1
+   },
+   {
+    "name": "DIŞ ALAN",
+    "c0": 9,
+    "span": 1
+   }
+  ],
+  "ncols": 8,
+  "times": [
+   "11:00 – 11:50",
+   "12:00 – 12:50",
+   "13:00 – 13:50",
+   "14:00 – 14:50",
+   "15:00 – 15:50",
+   "16:00 – 16:50",
+   "17:00 – 17:50",
+   "18:00 – 18:50",
+   "19:00 – 19:50",
+   "20:00 – 21:00",
+   "21:00 – 22:00",
+   "22:00 – 23:00",
+   "23:00 – 00:00",
+   "00:00 – …",
+   ""
+  ],
+  "cells": [
+   {
+    "r": 0,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Routine",
+    "egitmen": "",
+    "_eski": "Biser & Gumpop"
+   },
+   {
+    "r": 0,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Salsa Fusion Musicality",
+    "egitmen": "",
+    "_eski": "Mert Merkan"
+   },
+   {
+    "r": 0,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Playing with the Guitar in Bachata",
+    "egitmen": "",
+    "_eski": "Elwin & Gaby"
+   },
+   {
+    "r": 0,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata Lady Style",
+    "egitmen": "",
+    "_eski": "Ayşe Tekin"
+   },
+   {
+    "r": 0,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "beg",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Görkem & Zeynep"
+   },
+   {
+    "r": 0,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "KPOP",
+    "egitmen": "",
+    "_eski": "Lara Özen"
+   },
+   {
+    "r": 0,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Breaking Form, Power Move Tech., FW Flow",
+    "egitmen": "",
+    "_eski": "Matto & Osman Altındağ"
+   },
+   {
+    "r": 0,
+    "c": 7,
+    "rs": 4,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 1,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "House",
+    "egitmen": "",
+    "_eski": "Burak Kılıç"
+   },
+   {
+    "r": 1,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Sensual Bachata PW",
+    "egitmen": "",
+    "_eski": "Nur & Bahadır"
+   },
+   {
+    "r": 1,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Movement Musicality Fusion",
+    "egitmen": "",
+    "_eski": "İzel Altınören"
+   },
+   {
+    "r": 1,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Choreography",
+    "egitmen": "",
+    "_eski": "İdil Dağlı"
+   },
+   {
+    "r": 1,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 PW",
+    "egitmen": "",
+    "_eski": "Bartuğ & Dilek"
+   },
+   {
+    "r": 1,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Hip Hop Freestyle",
+    "egitmen": "",
+    "_eski": "Jamin"
+   },
+   {
+    "r": 1,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata Ladies Styling & Musicality",
+    "egitmen": "",
+    "_eski": "Zeynep Koçak"
+   },
+   {
+    "r": 2,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Hip Hop Choreography",
+    "egitmen": "",
+    "_eski": "Efe Tankız"
+   },
+   {
+    "r": 2,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "zumba",
+    "title": "Zumba",
+    "egitmen": "",
+    "_eski": "ZES Didem Zeybek"
+   },
+   {
+    "r": 2,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachatazouk",
+    "egitmen": "",
+    "_eski": "Sude & Kerem"
+   },
+   {
+    "r": 2,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Pachanga",
+    "egitmen": "",
+    "_eski": "Büşra Yaşlı"
+   },
+   {
+    "r": 2,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Salsa On2 PW",
+    "egitmen": "",
+    "_eski": "Ezel & Cem"
+   },
+   {
+    "r": 2,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Afro",
+    "egitmen": "",
+    "_eski": "Meriç Su Giray"
+   },
+   {
+    "r": 2,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "KPOP",
+    "egitmen": "",
+    "_eski": "Melike Ulusoy"
+   },
+   {
+    "r": 3,
+    "c": 0,
+    "rs": 8,
+    "cs": 1,
+    "type": "event",
+    "cat": "comp",
+    "title": "Underground Pro Arena",
+    "sub": [
+     "14.00-16.00 +1 Salsa Battle",
+     "16.00-17.00 Red Bull Dance Your Style",
+     "Show Battle",
+     "17.00-18.00 Hiphop Pro",
+     "18.00-19.00 Hiphop Kids + Hiphop Junior",
+     "19.00-20.00 Funk Battle",
+     "20.00-21.00 House Battle",
+     "21.00-22.00 Breaking Battle",
+     "*Kategoriler saatlerinden erken başlayabilir"
+    ]
+   },
+   {
+    "r": 3,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Salserity",
+    "egitmen": "",
+    "_eski": "Emek & Büşra"
+   },
+   {
+    "r": 3,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Funk Style",
+    "egitmen": "",
+    "_eski": "Aydan & EDY"
+   },
+   {
+    "r": 3,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa Flamenco Musicality",
+    "egitmen": "",
+    "_eski": "Gülden Melek"
+   },
+   {
+    "r": 3,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Anıl & Gizem"
+   },
+   {
+    "r": 3,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "KPOP",
+    "egitmen": "",
+    "_eski": "İrem Dağ"
+   },
+   {
+    "r": 3,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "lindy",
+    "title": "Authentic Jazz",
+    "egitmen": "",
+    "_eski": "Işıl Göksu"
+   },
+   {
+    "r": 4,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Bachata Lead & Follow Techniques",
+    "egitmen": "",
+    "_eski": "Mine & Serkan"
+   },
+   {
+    "r": 4,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Musicality Mambo Fusion",
+    "egitmen": "",
+    "_eski": "Yiğit İsiyel"
+   },
+   {
+    "r": 4,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Kizomba Footwork & Styling",
+    "egitmen": "",
+    "_eski": "Endos & Nien"
+   },
+   {
+    "r": 4,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Salsa On2 PW & Shines",
+    "egitmen": "",
+    "_eski": "Elada Team"
+   },
+   {
+    "r": 4,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa PW & Connection",
+    "egitmen": "",
+    "_eski": "Melis & Efe"
+   },
+   {
+    "r": 4,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Ali Fırat & Ecem Nur"
+   },
+   {
+    "r": 4,
+    "c": 7,
+    "rs": 3,
+    "cs": 1,
+    "type": "ws",
+    "cat": "redbull",
+    "title": "COAT PARTY",
+    "egitmen": "",
+    "_eski": "RED BULL"
+   },
+   {
+    "r": 5,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa On2 Crazy Shines",
+    "egitmen": "",
+    "_eski": "Belén & Nacho"
+   },
+   {
+    "r": 5,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 PW",
+    "egitmen": "",
+    "_eski": "Selin & Mehmet"
+   },
+   {
+    "r": 5,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Musicality",
+    "egitmen": "",
+    "_eski": "Batu & Sude"
+   },
+   {
+    "r": 5,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "lindy",
+    "title": "Lindy Hop",
+    "egitmen": "",
+    "_eski": "Zehra & Nihat"
+   },
+   {
+    "r": 5,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Salsa Flow",
+    "egitmen": "",
+    "_eski": "Ozan & Nehir"
+   },
+   {
+    "r": 5,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "beg",
+    "title": "Bachata Musicality",
+    "egitmen": "",
+    "_eski": "Yağmur & Elif"
+   },
+   {
+    "r": 6,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Quality of Connection in Bachata",
+    "egitmen": "",
+    "_eski": "Duda & Adriana"
+   },
+   {
+    "r": 6,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa On2 Shines",
+    "egitmen": "",
+    "_eski": "Nervif & Mireia"
+   },
+   {
+    "r": 6,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Mambo Fusion",
+    "egitmen": "",
+    "_eski": "Dmitry Samonov"
+   },
+   {
+    "r": 6,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Lady Style Choreography",
+    "egitmen": "",
+    "_eski": "Sude & Serra"
+   },
+   {
+    "r": 6,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Tarraxo",
+    "egitmen": "",
+    "_eski": "Papi"
+   },
+   {
+    "r": 6,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "lindy",
+    "title": "Lindy Hop Aerial",
+    "egitmen": "",
+    "_eski": "Zehra & Nihat"
+   },
+   {
+    "r": 7,
+    "c": 1,
+    "rs": 4,
+    "cs": 1,
+    "type": "event",
+    "cat": "rehearsal",
+    "title": "Show Rehearsals",
+    "sub": []
+   },
+   {
+    "r": 7,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On1",
+    "egitmen": "",
+    "_eski": "Görkem Çitim"
+   },
+   {
+    "r": 7,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa Ladies",
+    "egitmen": "",
+    "_eski": "Nur Özkan Cansu"
+   },
+   {
+    "r": 7,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Kizomba Fusion",
+    "egitmen": "",
+    "_eski": "Gökhan & Derya"
+   },
+   {
+    "r": 7,
+    "c": 5,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "kids",
+    "title": "Kids Party",
+    "sub": []
+   },
+   {
+    "r": 7,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Yiğitcan & Gizem"
+   },
+   {
+    "r": 7,
+    "c": 7,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "sunset",
+    "title": "Sunset +1 Party",
+    "sub": []
+   },
+   {
+    "r": 8,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 Musicality Footwork",
+    "egitmen": "",
+    "_eski": "Tuğba Üte"
+   },
+   {
+    "r": 8,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Urban Kizomba Techniques",
+    "egitmen": "",
+    "_eski": "Ömer Kılıçgil & Dile Bakır"
+   },
+   {
+    "r": 8,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Street Jazz Fusion",
+    "egitmen": "",
+    "_eski": "Petek Öztürk"
+   },
+   {
+    "r": 8,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Heels",
+    "egitmen": "",
+    "_eski": "Yalda Lizardi"
+   },
+   {
+    "r": 9,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Ladies Styling",
+    "egitmen": "",
+    "_eski": "Kumsal Çavuş"
+   },
+   {
+    "r": 9,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "kpop",
+    "title": "Kpop Random Dance Play",
+    "sub": []
+   },
+   {
+    "r": 9,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Open Style",
+    "egitmen": "",
+    "_eski": "Yiğit Ozan Ünal"
+   },
+   {
+    "r": 9,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "High Heels",
+    "egitmen": "",
+    "_eski": "Albina Gizzatullina"
+   },
+   {
+    "r": 9,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Hiphop Collab",
+    "egitmen": "",
+    "_eski": "Kaan & Yağmur"
+   },
+   {
+    "r": 9,
+    "c": 7,
+    "rs": 4,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 10,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 10,
+    "c": 3,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "comp",
+    "title": "Lindy Hop Mix & Match",
+    "sub": [
+     "Prelim"
+    ]
+   },
+   {
+    "r": 10,
+    "c": 4,
+    "rs": 5,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 10,
+    "c": 5,
+    "rs": 3,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 10,
+    "c": 6,
+    "rs": 5,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 11,
+    "c": 0,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Saturday Salsa - Bachata - Kizomba Party",
+    "sub": [
+     "Dress Code: Valentine Elegance"
+    ]
+   },
+   {
+    "r": 11,
+    "c": 1,
+    "rs": 2,
+    "cs": 2,
+    "type": "event",
+    "cat": "party",
+    "title": "Saturday Show Program",
+    "sub": []
+   },
+   {
+    "r": 12,
+    "c": 3,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "comp",
+    "title": "Lindy Hop Mix & Match",
+    "sub": []
+   },
+   {
+    "r": 13,
+    "c": 0,
+    "rs": 1,
+    "cs": 3,
+    "type": "event",
+    "cat": "party",
+    "title": "Saturday Gala Party",
+    "sub": [
+     "Dress Code: Valentine Elegance"
+    ]
+   },
+   {
+    "r": 13,
+    "c": 5,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "hh",
+    "title": "Hip Hop / R&B Party",
+    "sub": []
+   },
+   {
+    "r": 13,
+    "c": 7,
+    "rs": 2,
+    "cs": 1,
+    "type": "ws",
+    "cat": "redbull",
+    "title": "COAT PARTY",
+    "egitmen": "",
+    "_eski": "RED BULL"
+   },
+   {
+    "r": 14,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Bachata",
+    "sub": []
+   },
+   {
+    "r": 14,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Salsa",
+    "sub": []
+   },
+   {
+    "r": 14,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "comp",
+    "title": "Kizomba Burn the Battle",
+    "sub": []
+   },
+   {
+    "r": 14,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Lindy Hop & Swing Party",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "key": "Sunday",
+  "gun": "Pazar",
+  "tarih": "7 Şubat",
+  "cols": [
+   {
+    "name": "SALON 1",
+    "c0": 2,
+    "span": 1
+   },
+   {
+    "name": "SALON 2",
+    "c0": 3,
+    "span": 1
+   },
+   {
+    "name": "SALON 3",
+    "c0": 4,
+    "span": 1
+   },
+   {
+    "name": "SALON 4",
+    "c0": 5,
+    "span": 1
+   },
+   {
+    "name": "SALON 5",
+    "c0": 6,
+    "span": 1
+   },
+   {
+    "name": "SALON 6",
+    "c0": 7,
+    "span": 1
+   },
+   {
+    "name": "SALON 7",
+    "c0": 8,
+    "span": 1
+   },
+   {
+    "name": "DIŞ ALAN",
+    "c0": 9,
+    "span": 1
+   }
+  ],
+  "ncols": 8,
+  "times": [
+   "11:00 – 11:50",
+   "12:00 – 12:50",
+   "13:00 – 13:50",
+   "14:00 – 14:50",
+   "15:00 – 15:50",
+   "16:00 – 16:50",
+   "17:00 – 17:50",
+   "18:00 – 18:50",
+   "19:00 – 20:00",
+   "20:00 – 21:00",
+   "21:00 – 22:00",
+   "22:00 – 23:00",
+   "23:00 – 00:00",
+   "00:00 – …",
+   ""
+  ],
+  "cells": [
+   {
+    "r": 0,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Open Style Choreography",
+    "egitmen": "",
+    "_eski": "Desen & Saleh"
+   },
+   {
+    "r": 0,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Mambo Shines",
+    "egitmen": "",
+    "_eski": "Simge & Arda"
+   },
+   {
+    "r": 0,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Oryantal",
+    "egitmen": "",
+    "_eski": "Dilek Turan"
+   },
+   {
+    "r": 0,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 FW & PW",
+    "egitmen": "",
+    "_eski": "Gabrial & Rocio"
+   },
+   {
+    "r": 0,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 0,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 0,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 0,
+    "c": 7,
+    "rs": 3,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 1,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Hip Hop",
+    "egitmen": "",
+    "_eski": "Emre Kalfa"
+   },
+   {
+    "r": 1,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Bachataboom",
+    "egitmen": "",
+    "_eski": "Nervif & Mireia"
+   },
+   {
+    "r": 1,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Footwork with Afrocuban Elements",
+    "egitmen": "",
+    "_eski": "George & Elena"
+   },
+   {
+    "r": 1,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Ladies Styling Salsa On2",
+    "egitmen": "",
+    "_eski": "Ekaterina Avramenko"
+   },
+   {
+    "r": 1,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "High Heels",
+    "egitmen": "",
+    "_eski": "Rojbin Ceylan"
+   },
+   {
+    "r": 1,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Hip Hop Freestyle",
+    "egitmen": "",
+    "_eski": "Koray Khoru"
+   },
+   {
+    "r": 1,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Duygu & Halil Ufuk"
+   },
+   {
+    "r": 2,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa On1 Partnerwork",
+    "egitmen": "",
+    "_eski": "Can & Betül"
+   },
+   {
+    "r": 2,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "zumba",
+    "title": "Zumba",
+    "egitmen": "",
+    "_eski": "Zj Benjamin Richard&Zj Rodrigo Angelo"
+   },
+   {
+    "r": 2,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Bachata with Flavor",
+    "egitmen": "",
+    "_eski": "Duda & Adriana"
+   },
+   {
+    "r": 2,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Choreography",
+    "egitmen": "",
+    "_eski": "Nilsu Ersan"
+   },
+   {
+    "r": 2,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Freestyle",
+    "egitmen": "",
+    "_eski": "İldeniz Akbulut"
+   },
+   {
+    "r": 2,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "beg",
+    "title": "Bachata",
+    "egitmen": "",
+    "_eski": "Beste & Mert"
+   },
+   {
+    "r": 2,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 PW",
+    "egitmen": "",
+    "_eski": "Deniz & Doğukan"
+   },
+   {
+    "r": 3,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Afro Beats",
+    "egitmen": "",
+    "_eski": "Burcu Nergis"
+   },
+   {
+    "r": 3,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Bachata Musicality in PW",
+    "egitmen": "",
+    "_eski": "Elwin & Gaby"
+   },
+   {
+    "r": 3,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa Movesense & Body Movement",
+    "egitmen": "",
+    "_eski": "Melisa Sahra Katılmış"
+   },
+   {
+    "r": 3,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Hip Hop Technique",
+    "egitmen": "",
+    "_eski": "Volkan Arıcı"
+   },
+   {
+    "r": 3,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "lindy",
+    "title": "Solo Jazz",
+    "egitmen": "",
+    "_eski": "Işıl Göksu"
+   },
+   {
+    "r": 3,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "Vogue",
+    "egitmen": "",
+    "_eski": "Deniz Karabulut"
+   },
+   {
+    "r": 3,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Urban Kizz Solo",
+    "egitmen": "",
+    "_eski": "Mira Sakessova"
+   },
+   {
+    "r": 3,
+    "c": 7,
+    "rs": 4,
+    "cs": 1,
+    "type": "ws",
+    "cat": "redbull",
+    "title": "COAT PARTY",
+    "egitmen": "",
+    "_eski": "RED BULL"
+   },
+   {
+    "r": 4,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "hh",
+    "title": "MJ Choreography",
+    "egitmen": "",
+    "_eski": "Barış Jackson"
+   },
+   {
+    "r": 4,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa Body Movement",
+    "egitmen": "",
+    "_eski": "Eloy J Rojas"
+   },
+   {
+    "r": 4,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "zumba",
+    "title": "Zumba",
+    "egitmen": "",
+    "_eski": "Zj Remzi Öztosun"
+   },
+   {
+    "r": 4,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Kizomba Technical Steps",
+    "egitmen": "",
+    "_eski": "Endos & Nien"
+   },
+   {
+    "r": 4,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Sensual",
+    "egitmen": "",
+    "_eski": "Yunus Berk Aydoğan"
+   },
+   {
+    "r": 4,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Palladium Style Shine",
+    "egitmen": "",
+    "_eski": "Tolga & Berfin"
+   },
+   {
+    "r": 4,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On1 PW",
+    "egitmen": "",
+    "_eski": "Lara & Kaan"
+   },
+   {
+    "r": 5,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Afro Cuban Contemporary",
+    "egitmen": "",
+    "_eski": "Hande & Ersin"
+   },
+   {
+    "r": 5,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Fusion",
+    "egitmen": "",
+    "_eski": "Burak & Begüm"
+   },
+   {
+    "r": 5,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "zumba",
+    "title": "Zumba",
+    "egitmen": "",
+    "_eski": "Michael Mahmut & Zin Performansları"
+   },
+   {
+    "r": 5,
+    "c": 3,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Mertcan & Büşra"
+   },
+   {
+    "r": 5,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "lindy",
+    "title": "Lindy Hop",
+    "egitmen": "",
+    "_eski": "Işıl & Alperen"
+   },
+   {
+    "r": 5,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Salsa Footwork",
+    "egitmen": "",
+    "_eski": "Ege Şen & Emre Şen"
+   },
+   {
+    "r": 5,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Musicality",
+    "egitmen": "",
+    "_eski": "La Dans Akademi Salsa Team"
+   },
+   {
+    "r": 6,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Rumba Columbia",
+    "egitmen": "",
+    "_eski": "Engin Orhan"
+   },
+   {
+    "r": 6,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Pachanga",
+    "egitmen": "",
+    "_eski": "Victor Ortega"
+   },
+   {
+    "r": 6,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "adv",
+    "title": "Salsa PW New York Style",
+    "egitmen": "",
+    "_eski": "Belén & Nacho"
+   },
+   {
+    "r": 6,
+    "c": 3,
+    "rs": 5,
+    "cs": 1,
+    "type": "event",
+    "cat": "comp",
+    "title": "Underground Pro Arena",
+    "sub": [
+     "Hiphop Kids Final",
+     "Hiphop Junior Final",
+     "Funk Final",
+     "House Final",
+     "Breaking Final"
+    ]
+   },
+   {
+    "r": 6,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "lindy",
+    "title": "Lindy Hop",
+    "egitmen": "",
+    "_eski": "Işıl & Alperen"
+   },
+   {
+    "r": 6,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Umut & Sümeyra"
+   },
+   {
+    "r": 6,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Salsa On2 Musicality",
+    "egitmen": "",
+    "_eski": "Berkay Omay"
+   },
+   {
+    "r": 7,
+    "c": 0,
+    "rs": 4,
+    "cs": 1,
+    "type": "event",
+    "cat": "comp",
+    "title": "Jack'n Jill Social Bachata Cup",
+    "sub": []
+   },
+   {
+    "r": 7,
+    "c": 1,
+    "rs": 4,
+    "cs": 1,
+    "type": "event",
+    "cat": "rehearsal",
+    "title": "Show Rehearsals",
+    "sub": []
+   },
+   {
+    "r": 7,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata Ladies Styling",
+    "egitmen": "",
+    "_eski": "Yasemin Hepgüler"
+   },
+   {
+    "r": 7,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata Ladies Styling",
+    "egitmen": "",
+    "_eski": "Sheyda Mardani"
+   },
+   {
+    "r": 7,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "İlke & Ümit"
+   },
+   {
+    "r": 7,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "int",
+    "title": "Musicality & Feeling",
+    "egitmen": "",
+    "_eski": "Oğulcan Kalaycı"
+   },
+   {
+    "r": 7,
+    "c": 7,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "sunset",
+    "title": "Sunset +1 Party",
+    "sub": []
+   },
+   {
+    "r": 8,
+    "c": 2,
+    "rs": 3,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 8,
+    "c": 4,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Hakan & Zeynep"
+   },
+   {
+    "r": 8,
+    "c": 5,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Bachata PW",
+    "egitmen": "",
+    "_eski": "Mehmet & Natali"
+   },
+   {
+    "r": 8,
+    "c": 6,
+    "rs": 1,
+    "cs": 1,
+    "type": "ws",
+    "cat": "all",
+    "title": "Modern Dans Doğaçlama",
+    "egitmen": "",
+    "_eski": "Lara Çubukçu"
+   },
+   {
+    "r": 9,
+    "c": 4,
+    "rs": 2,
+    "cs": 3,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 9,
+    "c": 7,
+    "rs": 4,
+    "cs": 1,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 11,
+    "c": 0,
+    "rs": 2,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Sunday Salsa-Bachata-Kizomba Pyjama Party",
+    "sub": []
+   },
+   {
+    "r": 11,
+    "c": 1,
+    "rs": 2,
+    "cs": 2,
+    "type": "event",
+    "cat": "party",
+    "title": "Sunday Show Program",
+    "sub": [
+     "Hiphop VS Salsa Battle Grand Final"
+    ]
+   },
+   {
+    "r": 11,
+    "c": 3,
+    "rs": 4,
+    "cs": 4,
+    "type": "event",
+    "cat": "free",
+    "title": "Free Time",
+    "sub": []
+   },
+   {
+    "r": 13,
+    "c": 0,
+    "rs": 1,
+    "cs": 3,
+    "type": "event",
+    "cat": "party",
+    "title": "Sunday Pyjama Party",
+    "sub": []
+   },
+   {
+    "r": 13,
+    "c": 7,
+    "rs": 2,
+    "cs": 1,
+    "type": "ws",
+    "cat": "redbull",
+    "title": "COAT PARTY",
+    "egitmen": "",
+    "_eski": "RED BULL"
+   },
+   {
+    "r": 14,
+    "c": 0,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Bachata",
+    "sub": []
+   },
+   {
+    "r": 14,
+    "c": 1,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Salsa",
+    "sub": []
+   },
+   {
+    "r": 14,
+    "c": 2,
+    "rs": 1,
+    "cs": 1,
+    "type": "event",
+    "cat": "party",
+    "title": "Ki̇zomba",
+    "sub": []
+   }
+  ]
+ }
+]

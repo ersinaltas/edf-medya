@@ -1,0 +1,393 @@
+<div id="edf-prog"><style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+#edf-prog{--nv:#1B2E4A;--rd:#E44351;--bl:#29649D;--ye:#F0E559;--sa:#EF6A64;--bg:#F6F4EF;--ln:#E3DED4;
+ font-family:'Montserrat',sans-serif;color:var(--nv);background:var(--bg);padding:28px 24px 32px;box-sizing:border-box;max-width:1400px;margin:0 auto;border-right:14px solid var(--rd)}
+#edf-prog *{box-sizing:border-box}
+#edf-prog .hd{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px}
+#edf-prog h2{font-size:clamp(26px,4vw,44px);font-weight:900;line-height:1;margin:0;letter-spacing:-.5px;text-transform:uppercase}
+#edf-prog h2 span{color:var(--rd)}
+#edf-prog .meta{font-weight:700;font-size:14px;margin-top:8px;opacity:.8}
+#edf-prog .draft{background:var(--ye);font-weight:800;font-size:12px;padding:6px 10px;border-radius:4px;letter-spacing:.5px}
+#edf-prog input[type=radio]{position:absolute;opacity:0;pointer-events:none}
+#edf-prog .tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-bottom:14px}
+#edf-prog .tabs label{flex:0 0 auto;cursor:pointer;border:2px solid var(--nv);border-radius:6px;padding:8px 14px;font-weight:800;font-size:13px;text-transform:uppercase;line-height:1.15;text-align:center;background:#fff}
+#edf-prog .tabs label small{display:block;font-weight:600;font-size:11px;opacity:.7}
+#edf-prog .pn{display:none}
+#edf-prog #edfd0:checked~.tabs label[for=edfd0]{background:var(--nv);color:#fff}
+#edf-prog #edfd0:checked~.pns .pn0{display:block}
+#edf-prog #edfd1:checked~.tabs label[for=edfd1]{background:var(--nv);color:#fff}
+#edf-prog #edfd1:checked~.pns .pn1{display:block}
+#edf-prog #edfd2:checked~.tabs label[for=edfd2]{background:var(--nv);color:#fff}
+#edf-prog #edfd2:checked~.pns .pn2{display:block}
+#edf-prog #edfd3:checked~.tabs label[for=edfd3]{background:var(--nv);color:#fff}
+#edf-prog #edfd3:checked~.pns .pn3{display:block}
+#edf-prog #edfd4:checked~.tabs label[for=edfd4]{background:var(--nv);color:#fff}
+#edf-prog #edfd4:checked~.pns .pn4{display:block}
+
+#edf-prog .leg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:11px;font-weight:700;margin:0 0 14px}
+#edf-prog .leg i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:5px}
+#edf-prog .sc{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--ln);border-radius:8px;background:#fff}
+#edf-prog .g{display:grid;gap:4px;padding:4px;width:100%}
+#edf-prog .th{background:var(--nv);color:#fff;font-weight:800;font-size:12px;letter-spacing:.5px;padding:10px 8px;text-align:center;border-radius:4px}
+#edf-prog .tm{position:sticky;left:0;z-index:2;background:#fff;font-weight:800;font-size:12px;padding:8px 6px;display:flex;align-items:center;justify-content:center;text-align:center;border-right:2px solid var(--rd)}
+#edf-prog .th.c0{position:sticky;left:0;z-index:3}
+#edf-prog .w{background:#fff;border:1px solid var(--ln);border-left:5px solid var(--k);border-radius:4px;padding:7px 8px;min-height:62px;display:flex;flex-direction:column;gap:4px}
+#edf-prog .w b{font-size:13px;font-weight:800;line-height:1.2}
+#edf-prog .w em{font-style:normal;font-size:11px;font-weight:600;opacity:.45}
+#edf-prog .w s{text-decoration:none;align-self:flex-start;font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.4px;padding:2px 6px;border-radius:3px;background:var(--k);color:var(--kt,#fff)}
+#edf-prog .e{border-radius:4px;padding:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:13px;line-height:1.25}
+#edf-prog .e small{display:block;font-weight:600;font-size:11px;margin-top:3px;opacity:.85}
+#edf-prog .e.arena{align-items:flex-start;text-align:left;justify-content:flex-start}
+#edf-prog .e.party{background:var(--nv);color:#fff}
+#edf-prog .e.redbull{background:#B3123A;color:#fff}
+#edf-prog .e.sunset{background:linear-gradient(160deg,var(--sa),var(--ye));color:var(--nv)}
+#edf-prog .e.free{background:repeating-linear-gradient(135deg,#F4F1EA 0 8px,#EEEAE1 8px 16px);color:#9A9386;font-weight:600;font-size:12px}
+#edf-prog .e.rehearsal{background:#DDE3EA;color:var(--nv)}
+#edf-prog .e.kids{background:#FF5994;color:#fff}
+#edf-prog .e.comp{background:#EDE3FA;color:var(--nv);border:2px solid #9B7BD4}
+#edf-prog .e.hh{background:#41B8A6;color:#fff}
+#edf-prog .e.kpop{background:#B04FD9;color:#fff}
+#edf-prog .k-beg{--k:#F0E559;--kt:#1B2E4A}#edf-prog .k-int{--k:#29649D}#edf-prog .k-all{--k:#EF6A64}#edf-prog .k-adv{--k:#E44351}
+#edf-prog .k-hh{--k:#41B8A6}#edf-prog .k-lindy{--k:#E9A97E}#edf-prog .k-zumba{--k:#3CB44B}#edf-prog .k-kpop{--k:#B04FD9}
+#edf-prog .k-kids{--k:#FF5994}#edf-prog .k-comp{--k:#9B7BD4}
+#edf-prog .ft{font-size:11px;font-weight:600;opacity:.7;margin-top:12px}
+@media(max-width:700px){#edf-prog{padding:20px 10px;border-right-width:8px}#edf-prog .w b{font-size:12px}}
+</style>
+<div class="hd"><div><h2>EDF 2027 <span>Workshop</span> Programı</h2><div class="meta">3–7 Şubat 2027 · Tasigo Hotel, Eskişehir</div></div><div class="draft">TASLAK · EĞİTMENLER AÇIKLANACAK</div></div>
+<input type="radio" name="edfday" id="edfd0">
+<input type="radio" name="edfday" id="edfd1" checked>
+<input type="radio" name="edfday" id="edfd2">
+<input type="radio" name="edfday" id="edfd3">
+<input type="radio" name="edfday" id="edfd4">
+<div class="tabs"><label for="edfd0">Çarşamba<small>3 Şubat</small></label><label for="edfd1">Perşembe<small>4 Şubat</small></label><label for="edfd2">Cuma<small>5 Şubat</small></label><label for="edfd3">Cumartesi<small>6 Şubat</small></label><label for="edfd4">Pazar<small>7 Şubat</small></label></div>
+<div class="leg"><span lang="en"><i style="background:var(--k)" class="k-beg"></i>Beginner</span><span lang="en"><i style="background:var(--k)" class="k-int"></i>Intermediate</span><span lang="en"><i style="background:var(--k)" class="k-all"></i>All Level</span><span lang="en"><i style="background:var(--k)" class="k-adv"></i>Advanced</span><span lang="en"><i style="background:var(--k)" class="k-hh"></i>Hip Hop & Free Style</span><span lang="en"><i style="background:var(--k)" class="k-lindy"></i>Lindy Hop / Jazz</span><span lang="en"><i style="background:var(--k)" class="k-zumba"></i>Zumba</span><span lang="en"><i style="background:var(--k)" class="k-kpop"></i>K-Pop</span><span lang="en"><i style="background:var(--k)" class="k-kids"></i>Kids</span><span lang="en"><i style="background:var(--k)" class="k-comp"></i>Competition</span></div>
+<div class="pns">
+<div class="pn pn0"><div class="sc"><div class="g" style="grid-template-columns:86px repeat(3,minmax(140px,1fr));min-width:518px">
+<div class="th c0" style="grid-row:1;grid-column:1">SAAT</div>
+<div class="th" style="grid-row:1;grid-column:2 / span 3">SALON 1</div>
+<div class="tm" style="grid-row:2 / span 1">22:00<br>23:00</div>
+<div class="tm" style="grid-row:3 / span 1">23:00<br>00:00</div>
+<div class="tm" style="grid-row:4 / span 2">00:00<br>…</div>
+<div class="e party" style="grid-row:2 / span 3;grid-column:2 / span 3">Wednesday Welcome Party<small>Dress Code: Elegance</small></div>
+<div class="e party" style="grid-row:5 / span 1;grid-column:2 / span 3">Club, Salsa, Bachata, Kizomba</div>
+</div></div></div>
+<div class="pn pn1"><div class="sc"><div class="g" style="grid-template-columns:86px repeat(4,minmax(140px,1fr));min-width:662px">
+<div class="th c0" style="grid-row:1;grid-column:1">SAAT</div>
+<div class="th" style="grid-row:1;grid-column:2 / span 1">SALON 1</div>
+<div class="th" style="grid-row:1;grid-column:3 / span 1">SALON 2</div>
+<div class="th" style="grid-row:1;grid-column:4 / span 1">SALON 3</div>
+<div class="th" style="grid-row:1;grid-column:5 / span 1">DIŞ ALAN</div>
+<div class="tm" style="grid-row:2 / span 1">14:00<br>14:50</div>
+<div class="tm" style="grid-row:3 / span 1">15:00<br>15:50</div>
+<div class="tm" style="grid-row:4 / span 1">16:00<br>16:50</div>
+<div class="tm" style="grid-row:5 / span 1">17:00<br>17:50</div>
+<div class="tm" style="grid-row:6 / span 1">18:00<br>18:50</div>
+<div class="tm" style="grid-row:7 / span 1">19:00<br>19:50</div>
+<div class="tm" style="grid-row:8 / span 1">20:00<br>20:50</div>
+<div class="tm" style="grid-row:9 / span 1">21:00<br>21:50</div>
+<div class="tm" style="grid-row:10 / span 1">22:00<br>23:00</div>
+<div class="tm" style="grid-row:11 / span 1">23:00<br>00:00</div>
+<div class="tm" style="grid-row:12 / span 2">00:00<br>…</div>
+<div class="e free" style="grid-row:2 / span 2;grid-column:2 / span 1">Free Time</div>
+<div class="e free" style="grid-row:2 / span 8;grid-column:3 / span 1">Free Time</div>
+<div class="e free" style="grid-row:2 / span 8;grid-column:4 / span 1">Free Time</div>
+<div class="e redbull" style="grid-row:2 / span 3;grid-column:5 / span 1">Red Bull Coat Party</div>
+<div class="w k-all" style="grid-row:4 / span 1;grid-column:2 / span 1"><s lang="en">All Level</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:5 / span 1;grid-column:2 / span 1"><s lang="en">Intermediate</s><b>Salsa On1 Shines</b><em>Eğitmen TBA</em></div>
+<div class="e free" style="grid-row:5 / span 7;grid-column:5 / span 1">Free Time</div>
+<div class="w k-all" style="grid-row:6 / span 1;grid-column:2 / span 1"><s lang="en">All Level</s><b>Dominic Style Bachata FW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:7 / span 1;grid-column:2 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 PW &amp; Shines</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:8 / span 1;grid-column:2 / span 1"><s lang="en">All Level</s><b>Bachata Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:9 / span 1;grid-column:2 / span 1"><s lang="en">Intermediate</s><b>Salsa On1 PW &amp; Shines</b><em>Eğitmen TBA</em></div>
+<div class="e party" style="grid-row:10 / span 3;grid-column:2 / span 3">Thursday Mega Party<small>Dress Code: High School</small></div>
+<div class="e redbull" style="grid-row:12 / span 2;grid-column:5 / span 1">Red Bull Coat Party</div>
+<div class="e party" style="grid-row:13 / span 1;grid-column:2 / span 1">Bachata</div>
+<div class="e party" style="grid-row:13 / span 1;grid-column:3 / span 1">Salsa</div>
+<div class="e party" style="grid-row:13 / span 1;grid-column:4 / span 1">Kizomba</div>
+</div></div></div>
+<div class="pn pn2"><div class="sc"><div class="g" style="grid-template-columns:86px repeat(7,minmax(140px,1fr));min-width:1094px">
+<div class="th c0" style="grid-row:1;grid-column:1">SAAT</div>
+<div class="th" style="grid-row:1;grid-column:2 / span 1">SALON 1</div>
+<div class="th" style="grid-row:1;grid-column:3 / span 1">SALON 2</div>
+<div class="th" style="grid-row:1;grid-column:4 / span 1">SALON 3</div>
+<div class="th" style="grid-row:1;grid-column:5 / span 1">SALON 4</div>
+<div class="th" style="grid-row:1;grid-column:6 / span 1">SALON 5</div>
+<div class="th" style="grid-row:1;grid-column:7 / span 1">SALON 6</div>
+<div class="th" style="grid-row:1;grid-column:8 / span 1">DIŞ ALAN</div>
+<div class="tm" style="grid-row:2 / span 1">13:00<br>13:50</div>
+<div class="tm" style="grid-row:3 / span 1">14:00<br>14:50</div>
+<div class="tm" style="grid-row:4 / span 1">15:00<br>15:50</div>
+<div class="tm" style="grid-row:5 / span 1">16:00<br>16:50</div>
+<div class="tm" style="grid-row:6 / span 1">17:00<br>17:50</div>
+<div class="tm" style="grid-row:7 / span 1">18:00<br>18:50</div>
+<div class="tm" style="grid-row:8 / span 1">19:00<br>19:50</div>
+<div class="tm" style="grid-row:9 / span 1">20:00<br>21:00</div>
+<div class="tm" style="grid-row:10 / span 1">21:00<br>22:00</div>
+<div class="tm" style="grid-row:11 / span 1">22:00<br>23:00</div>
+<div class="tm" style="grid-row:12 / span 1">23:00<br>00:00</div>
+<div class="tm" style="grid-row:13 / span 2">00:00<br>…</div>
+<div class="w k-int" style="grid-row:2 / span 1;grid-column:2 / span 1"><s lang="en">Intermediate</s><b>Bachatazouk</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:2 / span 1;grid-column:3 / span 1"><s lang="en">Intermediate</s><b>Salsa Fusion</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:2 / span 1;grid-column:4 / span 1"><s lang="en">All Level</s><b>Bachata Social PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:2 / span 1;grid-column:5 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:2 / span 1;grid-column:6 / span 1"><s lang="en">Advanced</s><b>Feminine Fusion Body Movement</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:2 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Modern Fusion</b><em>Eğitmen TBA</em></div>
+<div class="e free" style="grid-row:2 / span 1;grid-column:8 / span 1">Free Time</div>
+<div class="w k-all" style="grid-row:3 / span 1;grid-column:2 / span 1"><s lang="en">All Level</s><b>Salsa Special Class Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-zumba" style="grid-row:3 / span 1;grid-column:3 / span 1"><s lang="en">Zumba</s><b>Zumba</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:3 / span 1;grid-column:4 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:3 / span 1;grid-column:5 / span 1"><s lang="en">All Level</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:3 / span 1;grid-column:6 / span 1"><s lang="en">Intermediate</s><b>Salsa Jazz</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:3 / span 1;grid-column:7 / span 1"><s lang="en">All Level</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="e redbull" style="grid-row:3 / span 4;grid-column:8 / span 1">Red Bull Coat Party</div>
+<div class="w k-hh" style="grid-row:4 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Breaking Routine</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:4 / span 1;grid-column:3 / span 1"><s lang="en">Intermediate</s><b>Bachata Zouk</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:4 / span 1;grid-column:4 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 PW (inc. Hand Tricks) &amp; Shine</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:4 / span 1;grid-column:5 / span 1"><s lang="en">Advanced</s><b>Salsa On2 Shines Fusion Feeling</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:4 / span 1;grid-column:6 / span 1"><s lang="en">All Level</s><b>Bachata Moderna</b><em>Eğitmen TBA</em></div>
+<div class="e free" style="grid-row:4 / span 1;grid-column:7 / span 1">Free Time</div>
+<div class="w k-hh" style="grid-row:5 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Reggaeton</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:5 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Salsa On2 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-zumba" style="grid-row:5 / span 1;grid-column:4 / span 1"><s lang="en">Zumba</s><b>Zumba</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:5 / span 1;grid-column:5 / span 1"><s lang="en">Advanced</s><b>Bachata PW Sensual Techniques</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:5 / span 1;grid-column:6 / span 1"><s lang="en">Intermediate</s><b>Bachata Ladies Styling</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:5 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>High Heels</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:6 / span 1;grid-column:2 / span 1"><s lang="en">Intermediate</s><b>Salsa Shines</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:6 / span 1;grid-column:3 / span 1"><s lang="en">Intermediate</s><b>Bachata</b><em>Eğitmen TBA</em></div>
+<div class="w k-zumba" style="grid-row:6 / span 1;grid-column:4 / span 1"><s lang="en">Zumba</s><b>Zumba</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:6 / span 1;grid-column:5 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Hip Hop Choreography</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:6 / span 1;grid-column:6 / span 1"><s lang="en">Intermediate</s><b>Urban Kizomba Ladies Styling</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:6 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>High Heels (+16)</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:7 / span 1;grid-column:2 / span 1"><s lang="en">All Level</s><b>Bachata Fusion Musicality</b><em>Eğitmen TBA</em></div>
+<div class="e rehearsal" style="grid-row:7 / span 4;grid-column:3 / span 1">Show Rehearsals</div>
+<div class="w k-adv" style="grid-row:7 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Salsa On2 Shines &amp; Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:7 / span 1;grid-column:5 / span 1"><s lang="en">All Level</s><b>On2 Musicality FW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:7 / span 1;grid-column:6 / span 1"><s lang="en">Intermediate</s><b>Bachata Ladies Styling</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:7 / span 1;grid-column:7 / span 1"><s lang="en">Intermediate</s><b>Bachata</b><em>Eğitmen TBA</em></div>
+<div class="e sunset" style="grid-row:7 / span 2;grid-column:8 / span 1">Sunset +1 Party</div>
+<div class="w k-hh" style="grid-row:8 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Heels</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:8 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Salsa On1 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:8 / span 1;grid-column:5 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 Musicality in PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:8 / span 1;grid-column:6 / span 1"><s lang="en">All Level</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="e kids" style="grid-row:8 / span 2;grid-column:7 / span 1">Kids Party</div>
+<div class="w k-int" style="grid-row:9 / span 1;grid-column:2 / span 1"><s lang="en">Intermediate</s><b>Bachata Ladies Styling</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:9 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:9 / span 1;grid-column:5 / span 1"><s lang="en">All Level</s><b>Urban Kizomba</b><em>Eğitmen TBA</em></div>
+<div class="w k-beg" style="grid-row:9 / span 1;grid-column:6 / span 1"><s lang="en">Beginner</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="e free" style="grid-row:9 / span 4;grid-column:8 / span 1">Free Time</div>
+<div class="e free" style="grid-row:10 / span 1;grid-column:2 / span 1">Free Time</div>
+<div class="e free" style="grid-row:10 / span 1;grid-column:4 / span 1">Free Time</div>
+<div class="e party" style="grid-row:10 / span 5;grid-column:5 / span 1">Lindy Hop &amp; Swing Dance Party</div>
+<div class="e free" style="grid-row:10 / span 5;grid-column:6 / span 1">Free Time</div>
+<div class="e free" style="grid-row:10 / span 5;grid-column:7 / span 1">Free Time</div>
+<div class="e party" style="grid-row:11 / span 2;grid-column:2 / span 1">Friday Salsa - Bachata - Kizomba Party<small>Dress Code: Love in Burning Men</small></div>
+<div class="e party" style="grid-row:11 / span 2;grid-column:3 / span 2">Friday Show Program</div>
+<div class="e party" style="grid-row:13 / span 1;grid-column:2 / span 3">Friday Mega Party<small>Dress Code: Love in Burning Men</small></div>
+<div class="e redbull" style="grid-row:13 / span 2;grid-column:8 / span 1">Red Bull Coat Party</div>
+<div class="e party" style="grid-row:14 / span 1;grid-column:2 / span 1">Bachata</div>
+<div class="e party" style="grid-row:14 / span 1;grid-column:3 / span 1">Salsa</div>
+<div class="e party" style="grid-row:14 / span 1;grid-column:4 / span 1">Kizomba</div>
+</div></div></div>
+<div class="pn pn3"><div class="sc"><div class="g" style="grid-template-columns:86px repeat(8,minmax(140px,1fr));min-width:1238px">
+<div class="th c0" style="grid-row:1;grid-column:1">SAAT</div>
+<div class="th" style="grid-row:1;grid-column:2 / span 1">SALON 1</div>
+<div class="th" style="grid-row:1;grid-column:3 / span 1">SALON 2</div>
+<div class="th" style="grid-row:1;grid-column:4 / span 1">SALON 3</div>
+<div class="th" style="grid-row:1;grid-column:5 / span 1">SALON 4</div>
+<div class="th" style="grid-row:1;grid-column:6 / span 1">SALON 5</div>
+<div class="th" style="grid-row:1;grid-column:7 / span 1">SALON 6</div>
+<div class="th" style="grid-row:1;grid-column:8 / span 1">SALON 7</div>
+<div class="th" style="grid-row:1;grid-column:9 / span 1">DIŞ ALAN</div>
+<div class="tm" style="grid-row:2 / span 1">11:00<br>11:50</div>
+<div class="tm" style="grid-row:3 / span 1">12:00<br>12:50</div>
+<div class="tm" style="grid-row:4 / span 1">13:00<br>13:50</div>
+<div class="tm" style="grid-row:5 / span 1">14:00<br>14:50</div>
+<div class="tm" style="grid-row:6 / span 1">15:00<br>15:50</div>
+<div class="tm" style="grid-row:7 / span 1">16:00<br>16:50</div>
+<div class="tm" style="grid-row:8 / span 1">17:00<br>17:50</div>
+<div class="tm" style="grid-row:9 / span 1">18:00<br>18:50</div>
+<div class="tm" style="grid-row:10 / span 1">19:00<br>19:50</div>
+<div class="tm" style="grid-row:11 / span 1">20:00<br>21:00</div>
+<div class="tm" style="grid-row:12 / span 1">21:00<br>22:00</div>
+<div class="tm" style="grid-row:13 / span 1">22:00<br>23:00</div>
+<div class="tm" style="grid-row:14 / span 1">23:00<br>00:00</div>
+<div class="tm" style="grid-row:15 / span 2">00:00<br>…</div>
+<div class="w k-hh" style="grid-row:2 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Routine</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:2 / span 1;grid-column:3 / span 1"><s lang="en">All Level</s><b>Salsa Fusion Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:2 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Playing with the Guitar in Bachata</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:2 / span 1;grid-column:5 / span 1"><s lang="en">All Level</s><b>Bachata Lady Style</b><em>Eğitmen TBA</em></div>
+<div class="w k-beg" style="grid-row:2 / span 1;grid-column:6 / span 1"><s lang="en">Beginner</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:2 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>KPOP</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:2 / span 1;grid-column:8 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Breaking Form, Power Move Tech., FW Flow</b><em>Eğitmen TBA</em></div>
+<div class="e free" style="grid-row:2 / span 4;grid-column:9 / span 1">Free Time</div>
+<div class="w k-hh" style="grid-row:3 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>House</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:3 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Sensual Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:3 / span 1;grid-column:4 / span 1"><s lang="en">All Level</s><b>Movement Musicality Fusion</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:3 / span 1;grid-column:5 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Choreography</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:3 / span 1;grid-column:6 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:3 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Hip Hop Freestyle</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:3 / span 1;grid-column:8 / span 1"><s lang="en">All Level</s><b>Bachata Ladies Styling &amp; Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:4 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Hip Hop Choreography</b><em>Eğitmen TBA</em></div>
+<div class="w k-zumba" style="grid-row:4 / span 1;grid-column:3 / span 1"><s lang="en">Zumba</s><b>Zumba</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:4 / span 1;grid-column:4 / span 1"><s lang="en">Intermediate</s><b>Bachatazouk</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:4 / span 1;grid-column:5 / span 1"><s lang="en">Intermediate</s><b>Pachanga</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:4 / span 1;grid-column:6 / span 1"><s lang="en">All Level</s><b>Salsa On2 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:4 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Afro</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:4 / span 1;grid-column:8 / span 1"><s lang="en">Hip Hop & Free Style</s><b>KPOP</b><em>Eğitmen TBA</em></div>
+<div class="e comp arena" style="grid-row:5 / span 8;grid-column:2 / span 1">Underground Pro Arena<small>14.00-16.00 +1 Salsa Battle</small><small>16.00-17.00 Red Bull Dance Your Style</small><small>Show Battle</small><small>17.00-18.00 Hiphop Pro</small><small>18.00-19.00 Hiphop Kids + Hiphop Junior</small><small>19.00-20.00 Funk Battle</small><small>20.00-21.00 House Battle</small><small>21.00-22.00 Breaking Battle</small><small>*Kategoriler saatlerinden erken başlayabilir</small></div>
+<div class="w k-all" style="grid-row:5 / span 1;grid-column:3 / span 1"><s lang="en">All Level</s><b>Salserity</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:5 / span 1;grid-column:4 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Funk Style</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:5 / span 1;grid-column:5 / span 1"><s lang="en">Intermediate</s><b>Salsa Flamenco Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:5 / span 1;grid-column:6 / span 1"><s lang="en">All Level</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:5 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>KPOP</b><em>Eğitmen TBA</em></div>
+<div class="w k-lindy" style="grid-row:5 / span 1;grid-column:8 / span 1"><s lang="en">Lindy Hop / Jazz</s><b>Authentic Jazz</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:6 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Bachata Lead &amp; Follow Techniques</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:6 / span 1;grid-column:4 / span 1"><s lang="en">All Level</s><b>Musicality Mambo Fusion</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:6 / span 1;grid-column:5 / span 1"><s lang="en">Advanced</s><b>Kizomba Footwork &amp; Styling</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:6 / span 1;grid-column:6 / span 1"><s lang="en">All Level</s><b>Salsa On2 PW &amp; Shines</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:6 / span 1;grid-column:7 / span 1"><s lang="en">Intermediate</s><b>Salsa PW &amp; Connection</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:6 / span 1;grid-column:8 / span 1"><s lang="en">Intermediate</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="e redbull" style="grid-row:6 / span 3;grid-column:9 / span 1">Red Bull Coat Party</div>
+<div class="w k-adv" style="grid-row:7 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Salsa On2 Crazy Shines</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:7 / span 1;grid-column:4 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:7 / span 1;grid-column:5 / span 1"><s lang="en">Intermediate</s><b>Bachata Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-lindy" style="grid-row:7 / span 1;grid-column:6 / span 1"><s lang="en">Lindy Hop / Jazz</s><b>Lindy Hop</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:7 / span 1;grid-column:7 / span 1"><s lang="en">All Level</s><b>Salsa Flow</b><em>Eğitmen TBA</em></div>
+<div class="w k-beg" style="grid-row:7 / span 1;grid-column:8 / span 1"><s lang="en">Beginner</s><b>Bachata Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:8 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Quality of Connection in Bachata</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:8 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Salsa On2 Shines</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:8 / span 1;grid-column:5 / span 1"><s lang="en">Intermediate</s><b>Mambo Fusion</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:8 / span 1;grid-column:6 / span 1"><s lang="en">Intermediate</s><b>Bachata Lady Style Choreography</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:8 / span 1;grid-column:7 / span 1"><s lang="en">Intermediate</s><b>Tarraxo</b><em>Eğitmen TBA</em></div>
+<div class="w k-lindy" style="grid-row:8 / span 1;grid-column:8 / span 1"><s lang="en">Lindy Hop / Jazz</s><b>Lindy Hop Aerial</b><em>Eğitmen TBA</em></div>
+<div class="e rehearsal" style="grid-row:9 / span 4;grid-column:3 / span 1">Show Rehearsals</div>
+<div class="w k-int" style="grid-row:9 / span 1;grid-column:4 / span 1"><s lang="en">Intermediate</s><b>Salsa On1</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:9 / span 1;grid-column:5 / span 1"><s lang="en">Advanced</s><b>Salsa Ladies</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:9 / span 1;grid-column:6 / span 1"><s lang="en">Intermediate</s><b>Kizomba Fusion</b><em>Eğitmen TBA</em></div>
+<div class="e kids" style="grid-row:9 / span 2;grid-column:7 / span 1">Kids Party</div>
+<div class="w k-int" style="grid-row:9 / span 1;grid-column:8 / span 1"><s lang="en">Intermediate</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="e sunset" style="grid-row:9 / span 2;grid-column:9 / span 1">Sunset +1 Party</div>
+<div class="w k-int" style="grid-row:10 / span 1;grid-column:4 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 Musicality Footwork</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:10 / span 1;grid-column:5 / span 1"><s lang="en">Advanced</s><b>Urban Kizomba Techniques</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:10 / span 1;grid-column:6 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Street Jazz Fusion</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:10 / span 1;grid-column:8 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Heels</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:11 / span 1;grid-column:4 / span 1"><s lang="en">Intermediate</s><b>Bachata Ladies Styling</b><em>Eğitmen TBA</em></div>
+<div class="e kpop" style="grid-row:11 / span 1;grid-column:5 / span 1">Kpop Random Dance Play</div>
+<div class="w k-hh" style="grid-row:11 / span 1;grid-column:6 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Open Style</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:11 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>High Heels</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:11 / span 1;grid-column:8 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Hiphop Collab</b><em>Eğitmen TBA</em></div>
+<div class="e free" style="grid-row:11 / span 4;grid-column:9 / span 1">Free Time</div>
+<div class="e free" style="grid-row:12 / span 1;grid-column:4 / span 1">Free Time</div>
+<div class="e comp" style="grid-row:12 / span 2;grid-column:5 / span 1">Lindy Hop Mix &amp; Match<small>Prelim</small></div>
+<div class="e free" style="grid-row:12 / span 5;grid-column:6 / span 1">Free Time</div>
+<div class="e free" style="grid-row:12 / span 3;grid-column:7 / span 1">Free Time</div>
+<div class="e free" style="grid-row:12 / span 5;grid-column:8 / span 1">Free Time</div>
+<div class="e party" style="grid-row:13 / span 2;grid-column:2 / span 1">Saturday Salsa - Bachata - Kizomba Party<small>Dress Code: Valentine Elegance</small></div>
+<div class="e party" style="grid-row:13 / span 2;grid-column:3 / span 2">Saturday Show Program</div>
+<div class="e comp" style="grid-row:14 / span 2;grid-column:5 / span 1">Lindy Hop Mix &amp; Match</div>
+<div class="e party" style="grid-row:15 / span 1;grid-column:2 / span 3">Saturday Gala Party<small>Dress Code: Valentine Elegance</small></div>
+<div class="e hh" style="grid-row:15 / span 2;grid-column:7 / span 1">Hip Hop / R&amp;B Party</div>
+<div class="e redbull" style="grid-row:15 / span 2;grid-column:9 / span 1">Red Bull Coat Party</div>
+<div class="e party" style="grid-row:16 / span 1;grid-column:2 / span 1">Bachata</div>
+<div class="e party" style="grid-row:16 / span 1;grid-column:3 / span 1">Salsa</div>
+<div class="e comp" style="grid-row:16 / span 1;grid-column:4 / span 1">Kizomba Burn the Battle</div>
+<div class="e party" style="grid-row:16 / span 1;grid-column:5 / span 1">Lindy Hop &amp; Swing Party</div>
+</div></div></div>
+<div class="pn pn4"><div class="sc"><div class="g" style="grid-template-columns:86px repeat(8,minmax(140px,1fr));min-width:1238px">
+<div class="th c0" style="grid-row:1;grid-column:1">SAAT</div>
+<div class="th" style="grid-row:1;grid-column:2 / span 1">SALON 1</div>
+<div class="th" style="grid-row:1;grid-column:3 / span 1">SALON 2</div>
+<div class="th" style="grid-row:1;grid-column:4 / span 1">SALON 3</div>
+<div class="th" style="grid-row:1;grid-column:5 / span 1">SALON 4</div>
+<div class="th" style="grid-row:1;grid-column:6 / span 1">SALON 5</div>
+<div class="th" style="grid-row:1;grid-column:7 / span 1">SALON 6</div>
+<div class="th" style="grid-row:1;grid-column:8 / span 1">SALON 7</div>
+<div class="th" style="grid-row:1;grid-column:9 / span 1">DIŞ ALAN</div>
+<div class="tm" style="grid-row:2 / span 1">11:00<br>11:50</div>
+<div class="tm" style="grid-row:3 / span 1">12:00<br>12:50</div>
+<div class="tm" style="grid-row:4 / span 1">13:00<br>13:50</div>
+<div class="tm" style="grid-row:5 / span 1">14:00<br>14:50</div>
+<div class="tm" style="grid-row:6 / span 1">15:00<br>15:50</div>
+<div class="tm" style="grid-row:7 / span 1">16:00<br>16:50</div>
+<div class="tm" style="grid-row:8 / span 1">17:00<br>17:50</div>
+<div class="tm" style="grid-row:9 / span 1">18:00<br>18:50</div>
+<div class="tm" style="grid-row:10 / span 1">19:00<br>20:00</div>
+<div class="tm" style="grid-row:11 / span 1">20:00<br>21:00</div>
+<div class="tm" style="grid-row:12 / span 1">21:00<br>22:00</div>
+<div class="tm" style="grid-row:13 / span 1">22:00<br>23:00</div>
+<div class="tm" style="grid-row:14 / span 1">23:00<br>00:00</div>
+<div class="tm" style="grid-row:15 / span 2">00:00<br>…</div>
+<div class="w k-hh" style="grid-row:2 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Open Style Choreography</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:2 / span 1;grid-column:3 / span 1"><s lang="en">Intermediate</s><b>Mambo Shines</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:2 / span 1;grid-column:4 / span 1"><s lang="en">All Level</s><b>Oryantal</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:2 / span 1;grid-column:5 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 FW &amp; PW</b><em>Eğitmen TBA</em></div>
+<div class="e free" style="grid-row:2 / span 1;grid-column:6 / span 1">Free Time</div>
+<div class="e free" style="grid-row:2 / span 1;grid-column:7 / span 1">Free Time</div>
+<div class="e free" style="grid-row:2 / span 1;grid-column:8 / span 1">Free Time</div>
+<div class="e free" style="grid-row:2 / span 3;grid-column:9 / span 1">Free Time</div>
+<div class="w k-hh" style="grid-row:3 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Hip Hop</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:3 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Bachataboom</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:3 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Footwork with Afrocuban Elements</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:3 / span 1;grid-column:5 / span 1"><s lang="en">All Level</s><b>Ladies Styling Salsa On2</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:3 / span 1;grid-column:6 / span 1"><s lang="en">Hip Hop & Free Style</s><b>High Heels</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:3 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Hip Hop Freestyle</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:3 / span 1;grid-column:8 / span 1"><s lang="en">Intermediate</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:4 / span 1;grid-column:2 / span 1"><s lang="en">Advanced</s><b>Salsa On1 Partnerwork</b><em>Eğitmen TBA</em></div>
+<div class="w k-zumba" style="grid-row:4 / span 1;grid-column:3 / span 1"><s lang="en">Zumba</s><b>Zumba</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:4 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Bachata with Flavor</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:4 / span 1;grid-column:5 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Choreography</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:4 / span 1;grid-column:6 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Freestyle</b><em>Eğitmen TBA</em></div>
+<div class="w k-beg" style="grid-row:4 / span 1;grid-column:7 / span 1"><s lang="en">Beginner</s><b>Bachata</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:4 / span 1;grid-column:8 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:5 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Afro Beats</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:5 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Bachata Musicality in PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:5 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Salsa Movesense &amp; Body Movement</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:5 / span 1;grid-column:5 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Hip Hop Technique</b><em>Eğitmen TBA</em></div>
+<div class="w k-lindy" style="grid-row:5 / span 1;grid-column:6 / span 1"><s lang="en">Lindy Hop / Jazz</s><b>Solo Jazz</b><em>Eğitmen TBA</em></div>
+<div class="w k-hh" style="grid-row:5 / span 1;grid-column:7 / span 1"><s lang="en">Hip Hop & Free Style</s><b>Vogue</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:5 / span 1;grid-column:8 / span 1"><s lang="en">All Level</s><b>Urban Kizz Solo</b><em>Eğitmen TBA</em></div>
+<div class="e redbull" style="grid-row:5 / span 4;grid-column:9 / span 1">Red Bull Coat Party</div>
+<div class="w k-hh" style="grid-row:6 / span 1;grid-column:2 / span 1"><s lang="en">Hip Hop & Free Style</s><b>MJ Choreography</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:6 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Salsa Body Movement</b><em>Eğitmen TBA</em></div>
+<div class="w k-zumba" style="grid-row:6 / span 1;grid-column:4 / span 1"><s lang="en">Zumba</s><b>Zumba</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:6 / span 1;grid-column:5 / span 1"><s lang="en">Advanced</s><b>Kizomba Technical Steps</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:6 / span 1;grid-column:6 / span 1"><s lang="en">Intermediate</s><b>Bachata Sensual</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:6 / span 1;grid-column:7 / span 1"><s lang="en">Intermediate</s><b>Palladium Style Shine</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:6 / span 1;grid-column:8 / span 1"><s lang="en">Intermediate</s><b>Salsa On1 PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:7 / span 1;grid-column:2 / span 1"><s lang="en">Advanced</s><b>Afro Cuban Contemporary</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:7 / span 1;grid-column:3 / span 1"><s lang="en">Intermediate</s><b>Bachata Fusion</b><em>Eğitmen TBA</em></div>
+<div class="w k-zumba" style="grid-row:7 / span 1;grid-column:4 / span 1"><s lang="en">Zumba</s><b>Zumba</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:7 / span 1;grid-column:5 / span 1"><s lang="en">Intermediate</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-lindy" style="grid-row:7 / span 1;grid-column:6 / span 1"><s lang="en">Lindy Hop / Jazz</s><b>Lindy Hop</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:7 / span 1;grid-column:7 / span 1"><s lang="en">All Level</s><b>Salsa Footwork</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:7 / span 1;grid-column:8 / span 1"><s lang="en">All Level</s><b>Musicality</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:8 / span 1;grid-column:2 / span 1"><s lang="en">All Level</s><b>Rumba Columbia</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:8 / span 1;grid-column:3 / span 1"><s lang="en">Advanced</s><b>Pachanga</b><em>Eğitmen TBA</em></div>
+<div class="w k-adv" style="grid-row:8 / span 1;grid-column:4 / span 1"><s lang="en">Advanced</s><b>Salsa PW New York Style</b><em>Eğitmen TBA</em></div>
+<div class="e comp arena" style="grid-row:8 / span 5;grid-column:5 / span 1">Underground Pro Arena<small>Hiphop Kids Final</small><small>Hiphop Junior Final</small><small>Funk Final</small><small>House Final</small><small>Breaking Final</small></div>
+<div class="w k-lindy" style="grid-row:8 / span 1;grid-column:6 / span 1"><s lang="en">Lindy Hop / Jazz</s><b>Lindy Hop</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:8 / span 1;grid-column:7 / span 1"><s lang="en">All Level</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:8 / span 1;grid-column:8 / span 1"><s lang="en">Intermediate</s><b>Salsa On2 Musicality</b><em>Eğitmen TBA</em></div>
+<div class="e comp" style="grid-row:9 / span 4;grid-column:2 / span 1">Jack&#x27;n Jill Social Bachata Cup</div>
+<div class="e rehearsal" style="grid-row:9 / span 4;grid-column:3 / span 1">Show Rehearsals</div>
+<div class="w k-int" style="grid-row:9 / span 1;grid-column:4 / span 1"><s lang="en">Intermediate</s><b>Bachata Ladies Styling</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:9 / span 1;grid-column:6 / span 1"><s lang="en">All Level</s><b>Bachata Ladies Styling</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:9 / span 1;grid-column:7 / span 1"><s lang="en">Intermediate</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-int" style="grid-row:9 / span 1;grid-column:8 / span 1"><s lang="en">Intermediate</s><b>Musicality &amp; Feeling</b><em>Eğitmen TBA</em></div>
+<div class="e sunset" style="grid-row:9 / span 2;grid-column:9 / span 1">Sunset +1 Party</div>
+<div class="e free" style="grid-row:10 / span 3;grid-column:4 / span 1">Free Time</div>
+<div class="w k-all" style="grid-row:10 / span 1;grid-column:6 / span 1"><s lang="en">All Level</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:10 / span 1;grid-column:7 / span 1"><s lang="en">All Level</s><b>Bachata PW</b><em>Eğitmen TBA</em></div>
+<div class="w k-all" style="grid-row:10 / span 1;grid-column:8 / span 1"><s lang="en">All Level</s><b>Modern Dans Doğaçlama</b><em>Eğitmen TBA</em></div>
+<div class="e free" style="grid-row:11 / span 2;grid-column:6 / span 3">Free Time</div>
+<div class="e free" style="grid-row:11 / span 4;grid-column:9 / span 1">Free Time</div>
+<div class="e party" style="grid-row:13 / span 2;grid-column:2 / span 1">Sunday Salsa-Bachata-Kizomba Pyjama Party</div>
+<div class="e party" style="grid-row:13 / span 2;grid-column:3 / span 2">Sunday Show Program<small>Hiphop VS Salsa Battle Grand Final</small></div>
+<div class="e free" style="grid-row:13 / span 4;grid-column:5 / span 4">Free Time</div>
+<div class="e party" style="grid-row:15 / span 1;grid-column:2 / span 3">Sunday Pyjama Party</div>
+<div class="e redbull" style="grid-row:15 / span 2;grid-column:9 / span 1">Red Bull Coat Party</div>
+<div class="e party" style="grid-row:16 / span 1;grid-column:2 / span 1">Bachata</div>
+<div class="e party" style="grid-row:16 / span 1;grid-column:3 / span 1">Salsa</div>
+<div class="e party" style="grid-row:16 / span 1;grid-column:4 / span 1">Kizomba</div>
+</div></div></div>
+</div><div class="ft">* Program taslaktır; salon, saat ve eğitmen bilgileri değişebilir. Yarışma kategorileri belirtilen saatten erken başlayabilir.</div></div>

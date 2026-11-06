@@ -19,6 +19,8 @@ for f in files:
     ad = re.sub(r'\s*-\s*\d+$', '', ad.replace('✅', '').strip())
     brans = f['klasor'][0] if f['klasor'] else ''
     yeni[f['id']] = dict(id=f['id'], ad=ad, brans=brans, one_cikan=one, boyut=f['boyut'], dosya=f['dosya'])
+def kucuk(i):
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{MEDIA}/{i}.jpg', '-vf', 'scale=270:480:flags=lanczos', '-q:v', '5', f'{MEDIA}/{i}_k.jpg'], check=True)
 def islem(a):
     i = a['id']; mp4 = f'{MEDIA}/{i}.mp4'; jpg = f'{MEDIA}/{i}.jpg'; raw = f'{TMP}/{i}.mp4'
     subprocess.run(['curl', '-sS', '-L', '--max-time', '300', '-o', raw,
@@ -26,13 +28,15 @@ def islem(a):
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', raw, '-vf', 'scale=540:960:flags=lanczos,fps=30', '-c:v', 'libx264',
                     '-preset', 'veryfast', '-crf', '30', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-an', mp4], check=True)
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', '3', '-i', raw, '-frames:v', '1', '-vf', 'scale=540:960', '-q:v', '4', jpg], check=True)
-    os.remove(raw); return a['ad']
+    os.remove(raw); kucuk(i); return a['ad']
 lazim = [a for i, a in yeni.items() if i not in eski and not (os.path.exists(f'{MEDIA}/{i}.mp4') and os.path.exists(f'{MEDIA}/{i}.jpg'))
          or (i in eski and eski[i].get('boyut') != a['boyut'])]
 with cf.ThreadPoolExecutor(4) as ex: islenen = list(ex.map(islem, lazim))
+for i in yeni:
+    if os.path.exists(f'{MEDIA}/{i}.jpg') and not os.path.exists(f'{MEDIA}/{i}_k.jpg'): kucuk(i)
 silinen = []
 for fn in os.listdir(MEDIA):
-    i = fn.rsplit('.', 1)[0]
+    i = fn.rsplit('.', 1)[0].removesuffix('_k')
     if i not in yeni: os.remove(os.path.join(MEDIA, fn)); silinen.append(i)
 silinen_ad = sorted({eski[i]['ad'] if i in eski else i for i in silinen})
 degisen = [(eski[i]['ad'], k, eski[i].get(k), a[k]) for i, a in yeni.items() if i in eski for k in ('ad', 'brans', 'one_cikan') if eski[i].get(k) != a[k]]
