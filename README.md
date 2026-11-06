@@ -4,12 +4,12 @@ edfturkey.com'daki EDF sayfalarının kaynağı. ikas'ta sadece sabit bir yükle
 
 ## ikas'taki sabit kod
 ```html
-<div data-edf="artistler"><script src="https://cdn.jsdelivr.net/gh/ersinaltas/edf-medya@main/web/yukle.js"></script><img alt="" style="display:none" src="data:,x" onerror="if(!window.__edfYukle){window.__edfYukle=1;var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/ersinaltas/edf-medya@main/web/yukle.js';document.body.appendChild(s)}"></div>
+<div data-edf="artistler"><script src="https://ersinaltas.github.io/edf-medya/web/yukle.js"></script><img alt="" style="display:none" src="data:,x" onerror="if(!window.__edfYukle){window.__edfYukle=1;var s=document.createElement('script');s.src='https://ersinaltas.github.io/edf-medya/web/yukle.js';document.body.appendChild(s)}"></div>
 ```
 Program sayfası için `data-edf="program"`.
 
 ## Dosyalar
-- `web/yukle.js`: Yükleyici. Hangi sürümün yayında olduğunu tutar (`V`). `@main`'den çekilir, her yayında önbelleği temizlenir.
+- `web/yukle.js`: Yükleyici. Hangi sürümün yayında olduğunu tutar (`V`). GitHub Pages'ten çekilir (10 dk önbellek), her push'tan ~1 dk sonra güncellenir.
 - `sayfalar/*.html`: Sayfa parçaları. `{{KOK}}` yerine sürüm kökü yazılır.
 - `web/artist.css`, `web/artist.js`: Artist sayfasının stili ve davranışı.
 - `media/`: `<id>.mp4` (540×960), `<id>.jpg` (afiş), `<id>_k.jpg` (270×480 küçük görsel).
