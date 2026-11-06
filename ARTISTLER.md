@@ -1,6 +1,6 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **73** afiş, **30** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **77** afiş, **30** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
@@ -25,18 +25,22 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **73** afiş, **
 | Bachata | STEPHANIE LUCERO | ☑️ | `1pjYlEjTUwgK9pBOCkB2iLlgX2o1-i3Xt` |
 | Bachata | TONIO KAN | ☑️ | `13-ZI7NpisI2Lwu61lmg8oKDbSgf6WGv7` |
 | Bachata | UTKU & GÖZDE |  | `1t4QI2lqILBRAxdEkOXSbAsBHT5b5rBTY` |
+| DJ | DJ KAYA |  | `19spoSzfSTG8uDslZJ2KOv1S-gbtECr3f` |
 | DJ | DJ MERT YILDIRIM |  | `12jU7Tf7Sgl4npoSZa9g5DWKPj2rttPZH` |
 | DJ | MURAT ÇOLAKEL |  | `14aefmfXNGNakWmyfPvrLXBEevlMQjuOJ` |
 | Heels | ABRAHEELS |  | `1ZQSjbzt0M3_LAzSnuC1DVY4PVcXSJYMv` |
 | Hip Hop | ATAKAN YAR |  | `1bRtqdjVUH5uvke44zWF36sJGWgsXE_c-` |
 | Hip Hop | BİSER MUTLU | ☑️ | `1t7SAUewXRL_XWq4iisSKwwYex9WjlAXg` |
+| Hip Hop | DESEN SARAÇOĞLU |  | `1-O_E5BXzRVOMXY5fLF89XR5_u6-HA4C_` |
 | Hip Hop | EKİNSU ÖZCAN | ☑️ | `1p03X_LC4AfySee-nOq5IAzjvmTqQlW3R` |
 | Hip Hop | FURKAN COŞKUN (SİNCAP) |  | `1QpW9yAkHOen-O_5To-k2igZDLS9IwRJL` |
 | Hip Hop | GUMPOP | ☑️ | `170cFZ-JvH1VKdbrWtv0D1qjIT2LBM1Cg` |
 | Hip Hop | HAYAT |  | `1hVOasrlp4gkBZ-GEURuAA2tv88s2N26J` |
 | Hip Hop | KÜBRA BACINOĞLU | ☑️ | `1ve87Qlwjvb-mqDAjj9xYW7VIvp38Df5a` |
 | Hip Hop | MESUT GÜNEŞ |  | `1m03sTmiHTYCNLWqCLShU-j2ZlcTPfZ7g` |
+| Hip Hop | MUSTAFA ÖZTÜRK |  | `1qIDF5Lver8THx1F9afqPQtucedj-WPbT` |
 | Hip Hop | REDNA |  | `11f-QTG1JNSmwM3lAFwwfdKYsfl1g2o7B` |
+| Hip Hop | TALHA BATDAL |  | `1_V4n9dRCp6gH7qES1GPmVowaGYSb5NhZ` |
 | Kizomba | ALEX KARO | ☑️ | `1HUd6eW9sEwU4J9PbPJCCpH9whq0zfjIA` |
 | Kizomba | DADIE | ☑️ | `1-P1fahKiaEcJ4xPGlc-jjU65-05LEblp` |
 | Kizomba | İRFAN AYIK |  | `1lvhJ68Zl_HnubaQqUgvECGFeyTuSkVJZ` |
