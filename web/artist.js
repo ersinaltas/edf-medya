@@ -11,6 +11,8 @@
   function vid(a) { return B + a.dataset.id + '.mp4'; }
   function big(a) { return B + a.dataset.id + '.jpg'; }
   function play(v) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+  /* Durdur, başa sar, afiş görseline geri dön */
+  function stop(v) { if (!v) return; v.pause(); try { v.currentTime = 0; } catch (e) {} v.classList.remove('ok'); }
   function fv(e) {
     var v = e.querySelector('video');
     if (!v) {
@@ -42,7 +44,7 @@
     var m = t.scrollLeft + t.clientWidth / 2, b = 0, bd = 1e9;
     c.forEach(function (e, k) { var x = Math.abs(e.offsetLeft + e.offsetWidth / 2 - m); if (x < bd) { bd = x; b = k; } });
     if (b === i) return; i = b;
-    c.forEach(function (e, k) { e.classList.toggle('on', k === b); if (k === b) play(fv(e)); else { var v = e.querySelector('video'); if (v) v.pause(); } });
+    c.forEach(function (e, k) { e.classList.toggle('on', k === b); if (k === b) play(fv(e)); else stop(e.querySelector('video')); });
     d.forEach(function (e, k) { e.classList.toggle('on', k === b); });
   }
   function go(k) { if (!c.length) return; k = (k + c.length) % c.length; var e = c[k]; t.scrollTo({ left: e.offsetLeft - (t.clientWidth - e.offsetWidth) / 2, behavior: 'smooth' }); }
@@ -64,8 +66,8 @@
 
   /* Izgara: masaüstünde üstüne gelince video oynar, telefonda veri harcamaz */
   if (hover) G.forEach(function (a) {
-    a.addEventListener('mouseenter', function () { play(fv(a)); });
-    a.addEventListener('mouseleave', function () { var v = a.querySelector('video'); if (v) v.pause(); });
+    a.addEventListener('mouseenter', function () { var v = fv(a); try { v.currentTime = 0; } catch (e) {} play(v); });
+    a.addEventListener('mouseleave', function () { stop(a.querySelector('video')); });
   });
 
   /* Story penceresi */
