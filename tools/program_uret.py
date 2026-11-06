@@ -18,7 +18,7 @@ json.dump(days,open(sys.argv[1].replace('.json','_isimsiz.json'),'w'),ensure_asc
 css=r'''
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
 #edf-prog{--nv:#1B2E4A;--rd:#E44351;--bl:#29649D;--ye:#F0E559;--sa:#EF6A64;--bg:#F6F4EF;--ln:#E3DED4;
- font-family:'Montserrat',sans-serif;color:var(--nv);background:var(--bg);padding:28px 24px 32px;box-sizing:border-box;max-width:1400px;margin:0 auto;border-right:14px solid var(--rd)}
+ font-family:'Montserrat',sans-serif;color:var(--nv);background:var(--bg);padding:28px 24px 32px;box-sizing:border-box;border-right:14px solid var(--rd)}
 #edf-prog *{box-sizing:border-box}
 #edf-prog .hd{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px}
 #edf-prog h2{font-size:clamp(26px,4vw,44px);font-weight:900;line-height:1;margin:0;letter-spacing:-.5px;text-transform:uppercase}
