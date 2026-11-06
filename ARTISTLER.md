@@ -1,6 +1,6 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **56** afiş, **0** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **57** afiş, **10** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
@@ -28,28 +28,29 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **56** afiş, **
 | Hip Hop | ATAKAN YAR |  | `1bRtqdjVUH5uvke44zWF36sJGWgsXE_c-` |
 | Hip Hop | FURKAN COŞKUN (SİNCAP) |  | `1QpW9yAkHOen-O_5To-k2igZDLS9IwRJL` |
 | Hip Hop | HAYAT |  | `1hVOasrlp4gkBZ-GEURuAA2tv88s2N26J` |
-| Hip Hop | KÜBRA BACINOĞLU |  | `1ve87Qlwjvb-mqDAjj9xYW7VIvp38Df5a` |
+| Hip Hop | KÜBRA BACINOĞLU | ☑️ | `1ve87Qlwjvb-mqDAjj9xYW7VIvp38Df5a` |
 | Hip Hop | MESUT GÜNEŞ |  | `1m03sTmiHTYCNLWqCLShU-j2ZlcTPfZ7g` |
 | Kizomba | İRFAN AYIK |  | `1lvhJ68Zl_HnubaQqUgvECGFeyTuSkVJZ` |
 | Organizer Promoter | DOĞUŞ ÜSTÜNER |  | `1U9_x46KivehVJ-1AMc8KjWBX5g2Zm8FP` |
 | Oryantal | DİLEK TURAN |  | `177XZ1ywkZqi26aPdzTshfQ2uzY1zgv-m` |
-| Salsa | AHMET & EKATERINA |  | `1_Ndz8MJguE5KgtHpHT5RWSjW49WBpckp` |
-| Salsa | ALP YOMRALIOĞLU |  | `1vFJjFbTE47wUjK0XI3MYxoBIEKMkXAb1` |
-| Salsa | ARDA KAŞ |  | `1oWN2_GSvyr9w2mGjaeJMYUvrP5yXAsXK` |
+| Salsa | AHMET & EKATERINA | ☑️ | `1_Ndz8MJguE5KgtHpHT5RWSjW49WBpckp` |
+| Salsa | ALP YOMRALIOĞLU | ☑️ | `1vFJjFbTE47wUjK0XI3MYxoBIEKMkXAb1` |
+| Salsa | ARDA KAŞ | ☑️ | `1oWN2_GSvyr9w2mGjaeJMYUvrP5yXAsXK` |
 | Salsa | BAHADIR SEVGİN |  | `1NhtxrieDBR5sS1FoRjn8ggpf88Id4lVF` |
 | Salsa | BARTUĞ & DİLEK |  | `1wwlilLNyOdiT9pwS1Hpvb92ZO86EfzUl` |
-| Salsa | CAN & BETÜL |  | `15lkt8Zg6-C1n1_BAoIYEphdUDD_G4kUJ` |
-| Salsa | CUBAN MAMBO |  | `1wEZhn_LswukuMVMaZlBPL757b5H5UZos` |
+| Salsa | CAN & BETÜL | ☑️ | `15lkt8Zg6-C1n1_BAoIYEphdUDD_G4kUJ` |
+| Salsa | CUBAN MAMBO | ☑️ | `1wEZhn_LswukuMVMaZlBPL757b5H5UZos` |
 | Salsa | DİLAY & KORAY |  | `1PJ8yDsThS7V5fjopmA3vxP1ZuxOzpWze` |
-| Salsa | EMEK & BÜŞRA |  | `1ESWPzKTCuNTH4dYCj45uoXCWl77BDr3z` |
+| Salsa | EMEK & BÜŞRA | ☑️ | `1ESWPzKTCuNTH4dYCj45uoXCWl77BDr3z` |
 | Salsa | GÖRKEM ÇİTİM |  | `1vdXfNIQQyXu_dv16B4F61Yy_i5MhKl86` |
-| Salsa | GÜLDEN MELEK |  | `1kvg-04Wj3XeTvow98SAjhjQAkVXw37UT` |
+| Salsa | GÜLDEN MELEK | ☑️ | `1kvg-04Wj3XeTvow98SAjhjQAkVXw37UT` |
 | Salsa | HANDE & ERSİN |  | `1BHt6HyAAViWqD5kqHuQrC_XSa5613qSo` |
+| Salsa | JACOPO & LINDA | ☑️ | `1w_A7Lz7OcF32xxG--nL9Qnb_vHGAELES` |
 | Salsa | LARA & KAAN |  | `1q8VHTDZNrATkHfkRFFFWxKjzCIDTfOfx` |
 | Salsa | MAMBO WORLD DANCERS |  | `1nNeTFK9KSc7MOZEav5GdN39_-vqhHZj6` |
 | Salsa | SAMET & DİLARA |  | `1dzcK1QjJg2D3OrhnbKBbyCEJP1f1Ijvw` |
 | Salsa | TİMUÇİN ÇAKIROĞLU |  | `1LfJjpwZl1sF-TY_RlV3jQEBO4PBTFrXH` |
-| Salsa | TOLGA & BERFİN |  | `1k-FutZvx9yAjEYuQODRuCGWyasyQs4jF` |
+| Salsa | TOLGA & BERFİN | ☑️ | `1k-FutZvx9yAjEYuQODRuCGWyasyQs4jF` |
 | Salsa | TUĞÇE & CENK |  | `1mQTn45cNebEMmdSJhZQAytBsXZHRSOSD` |
 | Zumba | CANER MASAK |  | `1N2SYCwdi64gDBvlHfp6YUBChd8sMwIjr` |
 | Zumba | CRISA NAE |  | `1OD0n-pTRthSpeIFaReIq-GFTfQ5LTPuv` |
