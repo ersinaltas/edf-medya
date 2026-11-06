@@ -61,7 +61,7 @@ H.append('<div class="pad"><div class="st">Tüm artistler <small>izlemek için a
 H.append('<input type="radio" name="edfaf" id="af-all" checked>' + ''.join(f'<input type="radio" name="edfaf" id="af-{slug(b)}">' for b in brs))
 H.append(f'<div class="fl"><label for="af-all">TÜMÜ<small>{len(grid)}</small></label>' + ''.join(f'<label for="af-{slug(b)}">{BR[b][0]}<small>{sum(a["b"] == b for a in grid)}</small></label>' for b in brs) + '</div>')
 H.append('<div class="gr">' + ''.join(card(a) for a in grid) + '</div>')
-H.append('<div class="more"><b>Daha fazla isim<br>çok yakında açıklanacak</b><a href="#">Pass al →</a></div></div>')
+H.append('<div class="more"><b>Daha fazla isim<br>çok yakında açıklanacak</b><a href="/pages/biletler">Pass al →</a></div></div>')
 if mode == 'artifact':
     H.append(f'<script>{js}</script></div>')
 elif mode == 'parca':
