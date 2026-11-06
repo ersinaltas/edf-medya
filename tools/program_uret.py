@@ -18,7 +18,7 @@ json.dump(days,open(sys.argv[1].replace('.json','_isimsiz.json'),'w'),ensure_asc
 css=r'''
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
 #edf-prog{--nv:#1B2E4A;--rd:#E44351;--bl:#29649D;--ye:#F0E559;--sa:#EF6A64;--bg:#F6F4EF;--ln:#E3DED4;
- font-family:'Montserrat',sans-serif;color:var(--nv);background:var(--bg);padding:28px 24px 32px;box-sizing:border-box;border-right:14px solid var(--rd)}
+ font-family:'Montserrat',sans-serif;color:var(--nv);background:#fff;padding:8px 0 16px;box-sizing:border-box}
 #edf-prog *{box-sizing:border-box}
 #edf-prog .hd{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px}
 #edf-prog h2{font-size:clamp(26px,4vw,44px);font-weight:900;line-height:1;margin:0;letter-spacing:-.5px;text-transform:uppercase}
@@ -61,7 +61,7 @@ css+=r'''
 #edf-prog .k-hh{--k:#41B8A6}#edf-prog .k-lindy{--k:#E9A97E}#edf-prog .k-zumba{--k:#3CB44B}#edf-prog .k-kpop{--k:#B04FD9}
 #edf-prog .k-kids{--k:#FF5994}#edf-prog .k-comp{--k:#9B7BD4}
 #edf-prog .ft{font-size:11px;font-weight:600;opacity:.7;margin-top:12px}
-@media(max-width:700px){#edf-prog{padding:20px 10px;border-right-width:8px}#edf-prog .w b{font-size:12px}}
+@media(max-width:700px){#edf-prog{padding:4px 0 12px}#edf-prog .w b{font-size:12px}}
 '''
 h=[f'<div id="edf-prog"><style>{css}</style>']
 h.append('<div class="hd"><div><h2>EDF 2027 <span>Workshop</span> Programı</h2><div class="meta">3–7 Şubat 2027 · Tasigo Hotel, Eskişehir</div></div><div class="draft">TASLAK · EĞİTMENLER AÇIKLANACAK</div></div>')
