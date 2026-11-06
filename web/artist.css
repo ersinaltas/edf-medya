@@ -7,7 +7,7 @@
 #edf-art h1 span{color:var(--rd);display:block}
 #edf-art .hero p{margin:0;max-width:390px;font-weight:600;font-size:14px;line-height:1.5}
 #edf-art .hero p b{display:block;font-weight:900;font-size:clamp(16px,1.8vw,22px);color:var(--rd);margin-bottom:6px;text-transform:uppercase}
-#edf-art .band{background:var(--nv);color:#fff;overflow:hidden;white-space:nowrap;padding:12px 0;transform:rotate(-1.2deg);margin:14px -10px 8px}
+#edf-art .band{background:var(--nv);color:#fff;overflow:hidden;white-space:nowrap;padding:12px 0;margin:14px 0 8px}
 #edf-art .band div{display:inline-block;animation:edfMq 30s linear infinite;font-weight:900;font-size:clamp(14px,1.6vw,20px);letter-spacing:.06em}
 #edf-art .band i{font-style:normal;color:var(--ye);margin:0 18px}
 @keyframes edfMq{to{transform:translateX(-50%)}}
