@@ -69,4 +69,4 @@
 #edf-sv .nb{flex:0 0 auto;width:52px;height:52px;margin:0 18px;border-radius:50%;border:0;background:#fff;color:#1B2E4A;font:900 24px/1 'Montserrat',sans-serif;cursor:pointer}
 #edf-sv .nb:hover{background:#F0E559}
 @media(max-width:700px){#edf-art .hero{padding-block:28px 10px}#edf-art .gr{grid-template-columns:repeat(2,1fr);gap:12px}#edf-art .ft{padding-left:calc(50% - 31vw);padding-right:calc(50% - 31vw)}#edf-art .ft .cd{flex-basis:62vw}#edf-art .ar,#edf-sv .nb{display:none}#edf-sv .box{height:auto;width:100%;max-height:100%}}
-@media (prefers-reduced-motion:reduce){#edf-art *,#edf-sv{animation:none!important;transition:none!important}}
+@media (prefers-reduced-motion:reduce){#edf-art *:not(.band div):not(.rw),#edf-sv{animation:none!important;transition:none!important}#edf-art .band div{animation-duration:60s}#edf-art .mq .rw{animation-duration:200s}}
