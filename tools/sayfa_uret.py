@@ -25,7 +25,7 @@ def card(a,cls='',video=False):
     return (f'<a class="cd b-{slug(b)} {cls}" href="{base}{a["id"]}.mp4" data-id="{a["id"]}" data-n="{E(a["n"])}"{st}>'
             f'<img src="{base}{a["id"]}.jpg" alt="{E(a["n"])} – EDF 2027 artist afişi" loading="lazy" decoding="async">{v}{tag}<span class="pl">▶</span></a>')
 brs=[b for b in SIRA if any(a['b']==b for a in A)]
-wrap = "width:100vw;max-width:100vw;position:relative;left:50%;margin-left:-50vw;" if mode=='embed' else ''
+wrap = "max-width:1200px;margin:24px auto;border-radius:16px;"
 css=f'''
 #edf-art{{--nv:#1B2E4A;--rd:#E44351;--bl:#29649D;--ye:#F0E559;--sa:#EF6A64;--bg:#F6F4EF;--ink:#1B2E4A;--g:max(16px,env(safe-area-inset-left,0px));
  font-family:'Montserrat',system-ui,sans-serif;color:var(--ink);background:var(--bg);box-sizing:border-box;{wrap}overflow:hidden;border-right:14px solid var(--rd)}}
@@ -34,7 +34,7 @@ css=f'''
 #edf-art a{color:inherit;text-decoration:none}
 #edf-art .pad{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
 #edf-art .hero{padding-block:44px 18px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px}
-#edf-art h1{margin:0;font-weight:900;font-size:clamp(38px,7vw,96px);line-height:.9;letter-spacing:-.02em;text-transform:uppercase;text-wrap:balance}
+#edf-art h1{margin:0;font-weight:900;font-size:clamp(36px,5.5vw,72px);line-height:.9;letter-spacing:-.02em;text-transform:uppercase;text-wrap:balance}
 #edf-art h1 span{color:var(--rd);display:block}
 #edf-art .hero p{margin:0;max-width:390px;font-weight:600;font-size:14px;line-height:1.5}
 #edf-art .hero p b{display:block;font-weight:900;font-size:clamp(16px,1.8vw,22px);color:var(--rd);margin-bottom:6px;text-transform:uppercase;letter-spacing:.01em}
@@ -60,9 +60,9 @@ css=f'''
 #edf-art .cd:focus-visible{outline:3px solid var(--rd);outline-offset:3px}
 /* featured */
 #edf-art .fw{position:relative}
-#edf-art .ft{display:flex;gap:clamp(12px,2vw,28px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:26px calc(50% - clamp(220px,25vw,330px)/2) 38px}
+#edf-art .ft{display:flex;gap:clamp(12px,2vw,28px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:26px calc(50% - clamp(200px,21vw,280px)/2) 38px}
 #edf-art .ft::-webkit-scrollbar{display:none}
-#edf-art .ft .cd{flex:0 0 clamp(220px,25vw,330px);scroll-snap-align:center;transform:scale(.84);opacity:.5;filter:saturate(.6)}
+#edf-art .ft .cd{flex:0 0 clamp(200px,21vw,280px);scroll-snap-align:center;transform:scale(.84);opacity:.5;filter:saturate(.6)}
 #edf-art .ft .cd.on{transform:scale(1);opacity:1;filter:none;box-shadow:0 26px 54px rgba(27,46,74,.38)}
 #edf-art .ft .cd.on:after{content:"ÖNE ÇIKAN";position:absolute;top:14px;right:-36px;transform:rotate(35deg);background:var(--ye);color:var(--nv);font-weight:900;font-size:11px;padding:5px 42px;letter-spacing:.08em;z-index:3}
 #edf-art .ar{position:absolute;top:50%;transform:translateY(-50%);z-index:4;width:50px;height:50px;border-radius:50%;border:0;background:var(--nv);color:#fff;font:900 24px/1 'Montserrat',sans-serif;cursor:pointer;display:none;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.2)}
@@ -77,14 +77,14 @@ css=f'''
 #edf-art .mq .rw{display:flex;gap:14px;width:max-content;animation:edfMq 110s linear infinite}
 #edf-art .mq.rv .rw{animation-direction:reverse;animation-duration:125s}
 #edf-art .mq:hover .rw{animation-play-state:paused}
-#edf-art .mq .cd{width:clamp(120px,11vw,170px);flex:0 0 auto}
+#edf-art .mq .cd{width:clamp(110px,9vw,145px);flex:0 0 auto}
 /* filter + grid */
 #edf-art input[type=radio]{position:absolute;opacity:0;pointer-events:none}
 #edf-art .fl{display:flex;gap:8px;flex-wrap:wrap;padding-block:14px 0}
 #edf-art .fl label{cursor:pointer;border:2px solid var(--nv);border-radius:40px;padding:8px 16px;font-weight:800;font-size:12px;letter-spacing:.04em;background:#fff;transition:background .2s}
 #edf-art .fl label small{opacity:.55;margin-left:4px}
 #edf-art .fl label:hover{background:var(--ye)}
-#edf-art .gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:18px;padding-block:22px 10px}
+#edf-art .gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px;padding-block:22px 10px}
 #edf-art .gr .cd{animation:edfPop .45s cubic-bezier(.2,.7,.2,1) both}
 @keyframes edfPop{from{opacity:.001;transform:scale(.94) translateY(12px)}}
 #edf-art .more{margin-block:26px 48px;padding:26px;border-radius:14px;background:var(--rd);color:#fff;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
