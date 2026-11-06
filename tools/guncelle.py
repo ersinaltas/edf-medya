@@ -15,8 +15,9 @@ with cf.ThreadPoolExecutor(10) as ex:
 yeni = {}
 for f in files:
     ad = re.sub(r'\.mp4$', '', f['dosya'], flags=re.I)
-    one = '✅' in ad
-    ad = re.sub(r'\s*-\s*\d+$', '', ad.replace('✅', '').strip())
+    one = '\u2611' in ad  # ☑️ = sitede öne çıkan (✅ = Instagram'da paylaşıldı, sitede anlamı yok)
+    ad = re.sub(r'[\u2611\u2705\ufe0f]', '', ad).strip()
+    ad = re.sub(r'\s*-\s*\d+$', '', ad)
     brans = f['klasor'][0] if f['klasor'] else ''
     yeni[f['id']] = dict(id=f['id'], ad=ad, brans=brans, one_cikan=one, boyut=f['boyut'], dosya=f['dosya'])
 def kucuk(i):
@@ -45,5 +46,5 @@ liste = sorted(yeni.values(), key=lambda a: (a['brans'].translate(TR), a['ad'].t
 json.dump(liste, open(MAN, 'w'), ensure_ascii=False, indent=1)
 with open(os.path.join(REPO, 'ARTISTLER.md'), 'w') as md:
     md.write(f'# EDF 2027 Artist Listesi\n\nDrive kaynağından otomatik üretilir, elle düzenleme. Toplam **{len(liste)}** afiş, **{sum(a["one_cikan"] for a in liste)}** öne çıkan.\n\n| Branş | Artist | Öne çıkan | Drive ID |\n|---|---|---|---|\n')
-    for a in liste: md.write(f'| {a["brans"] or "—"} | {a["ad"]} | {"✅" if a["one_cikan"] else ""} | `{a["id"]}` |\n')
+    for a in liste: md.write(f'| {a["brans"] or "—"} | {a["ad"]} | {"☑️" if a["one_cikan"] else ""} | `{a["id"]}` |\n')
 print(json.dumps(dict(toplam=len(liste), indirilen=islenen, silinen=silinen_ad, degisen=degisen), ensure_ascii=False, indent=1))

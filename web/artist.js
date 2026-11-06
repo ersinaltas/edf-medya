@@ -32,16 +32,20 @@
   var t = R.querySelector('.ft'), dw = R.querySelector('.dots');
   G.filter(function (a) { return a.hasAttribute('data-f'); }).forEach(function (a) { t.appendChild(clone(a, true)); });
   var c = [].slice.call(t.children), i = -1, tm;
+  if (!c.length) { /* öne çıkan yoksa bölümü gizle */
+    [t.closest('.fw'), dw, R.querySelector('.jso .st')].forEach(function (e) { if (e) e.style.display = 'none'; });
+  }
   dw.innerHTML = c.map(function () { return '<b></b>'; }).join('');
   var d = [].slice.call(dw.children);
   function mark() {
+    if (!c.length) return;
     var m = t.scrollLeft + t.clientWidth / 2, b = 0, bd = 1e9;
     c.forEach(function (e, k) { var x = Math.abs(e.offsetLeft + e.offsetWidth / 2 - m); if (x < bd) { bd = x; b = k; } });
     if (b === i) return; i = b;
     c.forEach(function (e, k) { e.classList.toggle('on', k === b); if (k === b) play(fv(e)); else { var v = e.querySelector('video'); if (v) v.pause(); } });
     d.forEach(function (e, k) { e.classList.toggle('on', k === b); });
   }
-  function go(k) { k = (k + c.length) % c.length; var e = c[k]; t.scrollTo({ left: e.offsetLeft - (t.clientWidth - e.offsetWidth) / 2, behavior: 'smooth' }); }
+  function go(k) { if (!c.length) return; k = (k + c.length) % c.length; var e = c[k]; t.scrollTo({ left: e.offsetLeft - (t.clientWidth - e.offsetWidth) / 2, behavior: 'smooth' }); }
   function auto() { clearInterval(tm); tm = setInterval(function () { if (!sv.classList.contains('op')) go(i + 1); }, 5000); }
   t.addEventListener('scroll', function () { requestAnimationFrame(mark); }, { passive: true });
   R.querySelector('.ar.n').onclick = function () { go(i + 1); auto(); };
