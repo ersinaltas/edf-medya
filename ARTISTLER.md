@@ -1,25 +1,25 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **57** afiş, **10** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **58** afiş, **17** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
 | Bachata | ALİ FIRAT & ECEM NUR |  | `1WIWeWewpFsYTGoKJs11fhuxwNL2R3kIh` |
-| Bachata | AYŞE TEKİN |  | `1JRphCflxGjC0je423NEZkyDBfca0iI93` |
+| Bachata | AYŞE TEKİN | ☑️ | `1JRphCflxGjC0je423NEZkyDBfca0iI93` |
 | Bachata | BERKAY & HİLAL |  | `1KQbOkiGvOU0GrU38HXI0_H3Jv4627qvz` |
 | Bachata | BESTE ERDAŞ |  | `1trRUyyOfBGkheOwk_4y7Nxdi-2-kXHbj` |
-| Bachata | BURAK & BEGÜM |  | `1iOniWJ0iWP525zmkndbEadmeuURi5XWw` |
+| Bachata | BURAK & BEGÜM | ☑️ | `1iOniWJ0iWP525zmkndbEadmeuURi5XWw` |
 | Bachata | BUSE DUYAR |  | `1oRkW5vgseG21Oy22HYaTKKs8BOhroHpR` |
 | Bachata | ELİF & ERKAN |  | `1kAC8WPUey5GbVCb0ryhHqthl6KMMt3R8` |
 | Bachata | GÜRKAN KAYRA |  | `1f1nTwKbUEhXCeVXSZTa6SGVtTODieXWv` |
 | Bachata | HÜSEYİN & BAŞAK |  | `1UMvwiyK14TbSeG60mZP2w8sHIaWx3FZh` |
-| Bachata | KEREM & SUDE |  | `19O1-9XiKyfnQt1UBeYkohasP3T0IDSep` |
-| Bachata | MERT GENÇOĞUZ |  | `1YzbyBSslTXXV99ZiIo-qhmMQthouBPcX` |
-| Bachata | MERTCAN & BÜŞRA |  | `1XDE7LdUAu1Stmcv4xx3T9_wpwWa63ZbM` |
-| Bachata | ONURCAN & YAĞMUR |  | `1xoi7sQtW0syamnaDofV0nEgR1Y8gdlcQ` |
+| Bachata | KEREM & SUDE | ☑️ | `19O1-9XiKyfnQt1UBeYkohasP3T0IDSep` |
+| Bachata | MERT GENÇOĞUZ | ☑️ | `1YzbyBSslTXXV99ZiIo-qhmMQthouBPcX` |
+| Bachata | MERTCAN & BÜŞRA | ☑️ | `1XDE7LdUAu1Stmcv4xx3T9_wpwWa63ZbM` |
+| Bachata | ONURCAN & YAĞMUR | ☑️ | `1xoi7sQtW0syamnaDofV0nEgR1Y8gdlcQ` |
 | Bachata | OZAN & DİLAN |  | `11vk-u7P44t_R5fKMbc1f33iYPb2jWTce` |
 | Bachata | PINAR & AYKUTALP |  | `1qkZe-LapQ39H0fayE01w0Heyy5outl6c` |
-| Bachata | SHEYDA MARDANİ |  | `1Zuy5I4KqJL95sl2IBhRQH7W2aXMjhCgA` |
+| Bachata | SHEYDA MARDANİ | ☑️ | `1Zuy5I4KqJL95sl2IBhRQH7W2aXMjhCgA` |
 | Bachata | SİMGE METİN |  | `1vY53RQXwu65jhvZTbIaWJdrSx7Tr0772` |
 | Bachata | UTKU & GÖZDE |  | `1t4QI2lqILBRAxdEkOXSbAsBHT5b5rBTY` |
 | DJ | DJ MERT YILDIRIM |  | `12jU7Tf7Sgl4npoSZa9g5DWKPj2rttPZH` |
@@ -60,4 +60,5 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **57** afiş, **
 | Zumba | OANA MARICA |  | `1WBJpNCBrjjo8rN0yi9COwQbqLh5V5Dei` |
 | Zumba | REMZİ ÖZTOSUN |  | `1IkcXfInw9h5YmpDtcTEvY0itEWvOKdBI` |
 | Zumba | RUNA |  | `1dCbJqUm2NAsEJZxp8yrzczY_wBplWlEE` |
+| Zumba | SERKAN ALKAN |  | `1wR2S9j9ic66nnatihk4mqYWMuRIzST7L` |
 | Zumba | STEVEN BOURIAT |  | `1ZIOZgc1bvWfkdZwQeCqL_SfMc4KnnMrw` |
