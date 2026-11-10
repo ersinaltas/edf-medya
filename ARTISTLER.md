@@ -1,6 +1,6 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **77** afiş, **30** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **83** afiş, **31** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
@@ -25,14 +25,19 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **77** afiş, **
 | Bachata | STEPHANIE LUCERO | ☑️ | `1pjYlEjTUwgK9pBOCkB2iLlgX2o1-i3Xt` |
 | Bachata | TONIO KAN | ☑️ | `13-ZI7NpisI2Lwu61lmg8oKDbSgf6WGv7` |
 | Bachata | UTKU & GÖZDE |  | `1t4QI2lqILBRAxdEkOXSbAsBHT5b5rBTY` |
+| DJ | DJ ARZU |  | `1sX-XS9Jf_4iuFDHPqPZoygBldBXGH5g4` |
+| DJ | DJ ATA TÜRKAY |  | `1WtwtaMjfRU0GRQs1G_2P1l3BTTqOR7yy` |
+| DJ | DJ GÜRKAN SÜRMELİ |  | `1tsRVB6Zx2fIwPgjqQCTZrCed2wJHnOlC` |
 | DJ | DJ KAYA |  | `19spoSzfSTG8uDslZJ2KOv1S-gbtECr3f` |
 | DJ | DJ MERT YILDIRIM |  | `12jU7Tf7Sgl4npoSZa9g5DWKPj2rttPZH` |
-| DJ | MURAT ÇOLAKEL |  | `14aefmfXNGNakWmyfPvrLXBEevlMQjuOJ` |
+| DJ | DJ MURAT ÇOLAKEL |  | `14aefmfXNGNakWmyfPvrLXBEevlMQjuOJ` |
+| DJ | DJ THE ESER |  | `1B5dIOtFZc66T9WySsX1wqQro3EqEF9w_` |
 | Heels | ABRAHEELS |  | `1ZQSjbzt0M3_LAzSnuC1DVY4PVcXSJYMv` |
+| Heels | EKİNSU ÖZCAN | ☑️ | `1p03X_LC4AfySee-nOq5IAzjvmTqQlW3R` |
+| Hip Hop | ARİFE AKKUŞ |  | `1Rd1CIPSsVyBzCGdxx_PpgTTwSWC3vWfy` |
 | Hip Hop | ATAKAN YAR |  | `1bRtqdjVUH5uvke44zWF36sJGWgsXE_c-` |
 | Hip Hop | BİSER MUTLU | ☑️ | `1t7SAUewXRL_XWq4iisSKwwYex9WjlAXg` |
 | Hip Hop | DESEN SARAÇOĞLU |  | `1-O_E5BXzRVOMXY5fLF89XR5_u6-HA4C_` |
-| Hip Hop | EKİNSU ÖZCAN | ☑️ | `1p03X_LC4AfySee-nOq5IAzjvmTqQlW3R` |
 | Hip Hop | FURKAN COŞKUN (SİNCAP) |  | `1QpW9yAkHOen-O_5To-k2igZDLS9IwRJL` |
 | Hip Hop | GUMPOP | ☑️ | `170cFZ-JvH1VKdbrWtv0D1qjIT2LBM1Cg` |
 | Hip Hop | HAYAT |  | `1hVOasrlp4gkBZ-GEURuAA2tv88s2N26J` |
@@ -73,7 +78,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **77** afiş, **
 | Salsa | TUĞÇE & CENK |  | `1mQTn45cNebEMmdSJhZQAytBsXZHRSOSD` |
 | Zumba | CANER MASAK |  | `1N2SYCwdi64gDBvlHfp6YUBChd8sMwIjr` |
 | Zumba | CRISA NAE |  | `1OD0n-pTRthSpeIFaReIq-GFTfQ5LTPuv` |
-| Zumba | DİDEM ZEYBEK |  | `1L9fD3YF64H0sBgvulxQW7us-19rSaagO` |
+| Zumba | DİDEM ZEYBEK | ☑️ | `1L9fD3YF64H0sBgvulxQW7us-19rSaagO` |
 | Zumba | EVREN BÜYÜKSARIOĞLU |  | `1pGT7IIKB6GWuvPqKp85IsIP4SkEFcHNW` |
 | Zumba | KANO MELEZ |  | `1ZO7kc4zCJpJP_GBKCXN5qohKuO3jpuWJ` |
 | Zumba | OANA MARICA |  | `1WBJpNCBrjjo8rN0yi9COwQbqLh5V5Dei` |
@@ -81,3 +86,4 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **77** afiş, **
 | Zumba | RUNA |  | `1dCbJqUm2NAsEJZxp8yrzczY_wBplWlEE` |
 | Zumba | SERKAN ALKAN |  | `1wR2S9j9ic66nnatihk4mqYWMuRIzST7L` |
 | Zumba | STEVEN BOURIAT |  | `1ZIOZgc1bvWfkdZwQeCqL_SfMc4KnnMrw` |
+| Zumba | YEŞİM ASTİ |  | `1e4GAk_rKASMsMx6lL_g9Ir02ycjc7Oj7` |
