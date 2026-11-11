@@ -22,10 +22,19 @@
 #edf-hk .num span{display:block;font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin-top:8px}
 #edf-hk .two{display:grid;grid-template-columns:1fr 1fr;gap:32px}
 #edf-hk .two p+p{margin-top:12px}
-#edf-hk .quote{background:var(--nv);color:#fff;border-radius:14px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px}
+#edf-hk .quote{position:relative;overflow:hidden;background:var(--nv);color:#fff;border-radius:14px;padding:28px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:stretch;min-height:240px;
+ background-image:repeating-linear-gradient(115deg,transparent 0 26px,rgba(255,255,255,.035) 26px 52px)}
+#edf-hk .quote .qt{display:flex;flex-direction:column;justify-content:space-between;gap:20px;position:relative;z-index:2}
 #edf-hk .quote b{font-weight:900;font-size:clamp(22px,2.6vw,32px);line-height:1.1;text-transform:uppercase}
 #edf-hk .quote b em{font-style:normal;color:var(--ye)}
 #edf-hk .quote small{font-weight:700;font-size:13px;opacity:.75}
+#edf-hk .yil{position:relative;isolation:isolate;display:flex;align-items:center;justify-content:flex-end;padding-right:6px}
+#edf-hk .yil .n{font-weight:900;font-size:clamp(120px,15vw,200px);line-height:.8;letter-spacing:-.06em;color:transparent;-webkit-text-stroke:3px var(--ye);position:relative}
+#edf-hk .yil .n:after{content:"14";position:absolute;left:10px;top:10px;color:var(--rd);-webkit-text-stroke:0;z-index:-1;opacity:.9}
+#edf-hk .yil .k{writing-mode:vertical-rl;transform:rotate(180deg);font-weight:900;font-size:13px;letter-spacing:.3em;text-transform:uppercase;color:var(--ye);margin-left:10px}
+#edf-hk .yil .s{position:absolute;left:-6px;bottom:-8px;font-weight:800;font-size:11px;letter-spacing:.12em;opacity:.7}
+#edf-hk .yil .d{position:absolute;top:-6px;right:0;display:flex;gap:6px}
+#edf-hk .yil .d i{width:10px;height:10px;border-radius:50%;background:var(--c)}
 #edf-hk .chips{display:flex;flex-wrap:wrap;gap:8px}
 #edf-hk .chips span{border:2px solid var(--nv);border-radius:40px;padding:8px 16px;font-weight:800;font-size:13px;letter-spacing:.04em}
 #edf-hk .chips span:nth-child(5n+1){background:var(--rd);border-color:var(--rd);color:#fff}
@@ -48,7 +57,7 @@
 #edf-hk .ct{font-weight:700;font-size:14px;margin:6px 0 32px}
 #edf-hk .ct span{user-select:all;color:var(--rd);font-weight:800}
 @media(max-width:860px){#edf-hk .hero,#edf-hk .two,#edf-hk .venue{grid-template-columns:1fr;gap:18px}#edf-hk .num{grid-template-columns:repeat(3,1fr);row-gap:22px}#edf-hk .cards{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){#edf-hk .num{grid-template-columns:1fr 1fr}#edf-hk .num div:last-child{grid-column:span 2}#edf-hk .cards{grid-template-columns:1fr}#edf-hk .cta,#edf-hk .quote,#edf-hk .venue{padding:22px}}
+@media(max-width:480px){#edf-hk .quote{grid-template-columns:1fr}#edf-hk .yil{justify-content:flex-start;margin-top:14px}#edf-hk .yil .n{font-size:120px}#edf-hk .yil .s{bottom:-18px}#edf-hk .num{grid-template-columns:1fr 1fr}#edf-hk .num div:last-child{grid-column:span 2}#edf-hk .cards{grid-template-columns:1fr}#edf-hk .cta,#edf-hk .quote,#edf-hk .venue{padding:22px}}
 @media (prefers-reduced-motion:reduce){#edf-hk .band div{animation-duration:60s}}
 </style>
 
@@ -74,7 +83,8 @@
   <p>Amacımız basit: her seviyeden dansçının yeni şeyler öğrenebileceği, sahnede kendini gösterebileceği ve sabaha kadar dans edebileceği bir ortam kurmak. Türkiye'nin ve dünyanın dört bir yanından eğitmenler, beş gün boyunca workshoplarda ve partilerde bizimle.</p>
   <p>Salsa ile başlayan hikâye bugün on dans stiline uzanıyor; ama ruh hep aynı.</p>
  </div>
- <div class="quote"><b>14 yıldır<br>aynı ruh,<br><em>aynı pist.</em></b><small>Eskişehir Dans Festivali · EDF Turkey</small></div>
+ <div class="quote"><div class="qt"><b>14 yıldır<br>aynı ruh,<br><em>aynı pist.</em></b><small>Eskişehir Dans Festivali · EDF Turkey</small></div>
+  <div class="yil" aria-hidden="true"><span class="d"><i style="--c:#E44351"></i><i style="--c:#29649D"></i><i style="--c:#F0E559"></i><i style="--c:#EF6A64"></i></span><span class="n">14</span><span class="k">Yıl</span><span class="s">2012 → 2027</span></div></div>
 </div>
 
 <h2 class="st">Dans stilleri</h2>
@@ -95,5 +105,5 @@
 </div>
 
 <div class="cta"><b>Sen de gel,<br>pistte görüşelim.</b><div><a class="btn w" href="/pages/biletler">Pass al →</a><a class="btn o" href="/pages/egitmenler">Artistleri gör</a></div></div>
-<p class="ct">Sorular için: <span>edffestivals@gmail.com</span></p>
+<p class="ct">Sorular için: <span>info@edfturkey.com</span></p>
 </div>
