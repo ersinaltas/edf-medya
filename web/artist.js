@@ -8,8 +8,9 @@
   var G = [].slice.call(R.querySelectorAll('.gr .cd'));
   var hover = window.matchMedia && matchMedia('(hover:hover) and (pointer:fine)').matches;
 
-  function vid(a) { return B + a.dataset.id + '.mp4'; }
-  function big(a) { return B + a.dataset.id + '.jpg'; }
+  /* Her kart kendi medya deposunu data-b ile taşıyabilir */
+  function vid(a) { return (a.dataset.b || B) + a.dataset.id + '.mp4'; }
+  function big(a) { return (a.dataset.b || B) + a.dataset.id + '.jpg'; }
   function play(v) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
   /* Durdur, başa sar, afiş görseline geri dön */
   function stop(v) { if (!v) return; v.pause(); try { v.currentTime = 0; } catch (e) {} v.classList.remove('ok'); }

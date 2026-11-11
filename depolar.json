@@ -1,0 +1,14 @@
+{
+ "aktif": 2,
+ "depolar": {
+  "1": {
+   "ad": "edf-medya",
+   "yol": "."
+  },
+  "2": {
+   "ad": "edf-medya-2",
+   "yol": "../edf-medya-2",
+   "surum": "95d8d3bc2491f80475f4ec486b292a6c9d28fa7a"
+  }
+ }
+}

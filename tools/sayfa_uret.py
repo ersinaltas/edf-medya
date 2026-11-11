@@ -14,7 +14,13 @@ BR = {'Salsa': ('SALSA', '#E44351', '#fff'), 'Bachata': ('BACHATA', '#29649D', '
       'Zumba': ('ZUMBA', '#3CB44B', '#fff'), 'DJ': ('DJ', '#F0E559', '#1B2E4A'), 'Organizer Promoter': ('ORGANİZATÖR', '#DDE3EA', '#1B2E4A')}
 SIRA = list(BR)
 def slug(b): return re.sub(r'[^a-z0-9]+', '-', b.lower()).strip('-') or 'x'
-A = [dict(id=a['id'], n=a['ad'], b=a['brans'], f=a['one_cikan']) for a in json.load(open(os.path.join(ROOT, 'artistler.json')))]
+A = [dict(id=a['id'], n=a['ad'], b=a['brans'], f=a['one_cikan'], d=a.get('depo', 1)) for a in json.load(open(os.path.join(ROOT, 'artistler.json')))]
+# Medya depoları: 1 = bu repo (sayfayla aynı sürüm), diğerleri kendi sabit commit'inden
+DEP = json.load(open(os.path.join(ROOT, 'depolar.json')))['depolar']
+def mbase(d):
+    if d == 1 or mode == 'artifact': return base
+    x = DEP[str(d)]
+    return f"https://cdn.jsdelivr.net/gh/ersinaltas/{x['ad']}@{x['surum']}/media/"
 for a in A:
     if a['b'] and a['b'] not in BR: BR[a['b']] = (a['b'].upper(), '#9B7BD4', '#fff'); SIRA.append(a['b'])
 TR = str.maketrans('ÇĞİIÖŞÜ', 'CGIIOSU')
@@ -26,8 +32,9 @@ def card(a):
     lab = BR.get(a['b'], ('',))[0]
     tag = f'<span class="tg">{lab}</span>' if lab else ''
     f = ' data-f' if a['f'] else ''
-    return (f'<a class="cd b-{slug(a["b"])}" href="{base}{a["id"]}.mp4" data-id="{a["id"]}"{f}>'
-            f'<img src="{base}{a["id"]}_k.jpg" width="270" height="480" alt="{E(a["n"])}" loading="lazy" decoding="async">{tag}</a>')
+    mb = mbase(a['d']); db = f' data-b="{mb}"' if mb != base else ''
+    return (f'<a class="cd b-{slug(a["b"])}" href="{mb}{a["id"]}.mp4" data-id="{a["id"]}"{db}{f}>'
+            f'<img src="{mb}{a["id"]}_k.jpg" width="270" height="480" alt="{E(a["n"])}" loading="lazy" decoding="async">{tag}</a>')
 
 # Veriye bağlı küçük stil: branş renkleri + filtre kuralları
 dyn = ''.join(f'#edf-art .b-{slug(b)}{{--c:{BR[b][1]};--cf:{BR[b][2]}}}' for b in brs)

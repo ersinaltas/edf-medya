@@ -1,6 +1,6 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **83** afiş, **31** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **86** afiş, **31** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
@@ -13,6 +13,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **83** afiş, **
 | Bachata | BUSE DUYAR |  | `1oRkW5vgseG21Oy22HYaTKKs8BOhroHpR` |
 | Bachata | ELİF & ERKAN |  | `1kAC8WPUey5GbVCb0ryhHqthl6KMMt3R8` |
 | Bachata | GÜRKAN KAYRA |  | `1f1nTwKbUEhXCeVXSZTa6SGVtTODieXWv` |
+| Bachata | HILLGATO |  | `1lIxfm9GVZkOPejgkLcEmi9BlDtiLeNZq` |
 | Bachata | HÜSEYİN & BAŞAK |  | `1UMvwiyK14TbSeG60mZP2w8sHIaWx3FZh` |
 | Bachata | KEREM & SUDE | ☑️ | `19O1-9XiKyfnQt1UBeYkohasP3T0IDSep` |
 | Bachata | MERT GENÇOĞUZ | ☑️ | `1YzbyBSslTXXV99ZiIo-qhmMQthouBPcX` |
@@ -58,8 +59,10 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **83** afiş, **
 | Salsa | ARDA KAŞ | ☑️ | `1oWN2_GSvyr9w2mGjaeJMYUvrP5yXAsXK` |
 | Salsa | BAHADIR SEVGİN |  | `1NhtxrieDBR5sS1FoRjn8ggpf88Id4lVF` |
 | Salsa | BARTUĞ & DİLEK |  | `1wwlilLNyOdiT9pwS1Hpvb92ZO86EfzUl` |
+| Salsa | BÜŞRA YAŞLI |  | `1ObedLdOR3KoDDX7B4EkDlzBvJxEcVhZd` |
 | Salsa | CAMILLE & KAREN | ☑️ | `1urDHArhesOgdFF2LBXGC8ZAusd6IW5dl` |
 | Salsa | CAN & BETÜL | ☑️ | `15lkt8Zg6-C1n1_BAoIYEphdUDD_G4kUJ` |
+| Salsa | CHICAS DE STELLA BY TUĞÇE ERDOĞAN |  | `1-4-1qjNJ5xGottwjBti6tl6gZUzeWqqH` |
 | Salsa | CUBAN MAMBO | ☑️ | `1wEZhn_LswukuMVMaZlBPL757b5H5UZos` |
 | Salsa | DİLAY & KORAY |  | `1PJ8yDsThS7V5fjopmA3vxP1ZuxOzpWze` |
 | Salsa | EMEK & BÜŞRA | ☑️ | `1ESWPzKTCuNTH4dYCj45uoXCWl77BDr3z` |
