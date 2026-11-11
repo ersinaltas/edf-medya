@@ -62,7 +62,7 @@ H = ['<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mont
      f'<div id="edf-ek"><style>{css}</style>',
      '<section class="hero"><div><p class="ey">EDF Turkey · Ekip</p><h1>Ekibimiz<span>.</span></h1></div>',
      '<p class="lead">Beş günlük festivalin arkasında aylar süren bir hazırlık ve bu işi tutkuyla yapan bir ekip var. EDF\'yi her yıl birlikte kuranlarla tanışın.</p></section>',
-     '<h2 class="st">Kurucu ve ortak</h2><div class="kur">']
+     '<h2 class="st">Yönetim</h2><div class="kur">']
 for i, k in enumerate(D['kurucular']):
     H.append(f'<div class="kk">{foto(k, i)}<div><h3>{E(k["ad"])}</h3><span class="gv">{E(k["gorev"])}</span><p>{E(k.get("aciklama", ""))}</p>{ig(k)}</div></div>')
 H.append('</div><h2 class="st">Ekip</h2><div class="gr">')
