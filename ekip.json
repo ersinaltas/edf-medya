@@ -1,16 +1,68 @@
 {
  "kurucular": [
-  {"ad": "Aykan", "gorev": "Kurucu · Sanat Yönetmeni", "aciklama": "2013'ten beri EDF'nin kurucusu. Sanatsal yön, artist ilişkileri ve festival operasyonu.", "instagram": "", "foto": ""},
-  {"ad": "Ersin Altaş", "gorev": "Ortak · Genel Koordinatör", "aciklama": "İlk EDF'den beri sahnede. Finans, sponsorluklar, ticari ilişkiler ve okul iş birlikleri.", "instagram": "", "foto": ""}
+  {
+   "ad": "Aykan Gümüşcan",
+   "gorev": "Kurucu",
+   "aciklama": "EDF'yi 2013'te Eskişehir'de kurdu. Festivalin vizyonu, programı ve operasyonu onun elinden geçiyor.",
+   "instagram": "",
+   "foto": ""
+  },
+  {
+   "ad": "Ersin Altaş",
+   "gorev": "Genel Koordinatör",
+   "aciklama": "İlk EDF'den beri sahnede. Finans, sponsorluklar, ticari ilişkiler ve okul iş birlikleri.",
+   "instagram": "",
+   "foto": ""
+  }
  ],
  "ekip": [
-  {"ad": "Ad Soyad", "gorev": "Organizasyon Koordinatörü", "instagram": "", "foto": ""},
-  {"ad": "Ad Soyad", "gorev": "Artist İlişkileri", "instagram": "", "foto": ""},
-  {"ad": "Ad Soyad", "gorev": "Program ve Salon Yönetimi", "instagram": "", "foto": ""},
-  {"ad": "Ad Soyad", "gorev": "Yarışma Koordinatörü", "instagram": "", "foto": ""},
-  {"ad": "Ad Soyad", "gorev": "Sosyal Medya ve İçerik", "instagram": "", "foto": ""},
-  {"ad": "Ad Soyad", "gorev": "Kayıt ve Bilet Masası", "instagram": "", "foto": ""},
-  {"ad": "Ad Soyad", "gorev": "Teknik ve Ses", "instagram": "", "foto": ""},
-  {"ad": "Ad Soyad", "gorev": "Fotoğraf ve Video", "instagram": "", "foto": ""}
+  {
+   "ad": "Hande Atalay",
+   "gorev": "Artist Director",
+   "instagram": "",
+   "foto": ""
+  },
+  {
+   "ad": "Ad Soyad",
+   "gorev": "Organizasyon Koordinatörü",
+   "instagram": "",
+   "foto": ""
+  },
+  {
+   "ad": "Ad Soyad",
+   "gorev": "Program ve Salon Yönetimi",
+   "instagram": "",
+   "foto": ""
+  },
+  {
+   "ad": "Ad Soyad",
+   "gorev": "Yarışma Koordinatörü",
+   "instagram": "",
+   "foto": ""
+  },
+  {
+   "ad": "Ad Soyad",
+   "gorev": "Sosyal Medya ve İçerik",
+   "instagram": "",
+   "foto": ""
+  },
+  {
+   "ad": "Ad Soyad",
+   "gorev": "Kayıt ve Bilet Masası",
+   "instagram": "",
+   "foto": ""
+  },
+  {
+   "ad": "Ad Soyad",
+   "gorev": "Teknik ve Ses",
+   "instagram": "",
+   "foto": ""
+  },
+  {
+   "ad": "Ad Soyad",
+   "gorev": "Fotoğraf ve Video",
+   "instagram": "",
+   "foto": ""
+  }
  ]
 }
