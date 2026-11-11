@@ -59,7 +59,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **86** afiş, **
 | Salsa | ARDA KAŞ | ☑️ | `1oWN2_GSvyr9w2mGjaeJMYUvrP5yXAsXK` |
 | Salsa | BAHADIR SEVGİN |  | `1NhtxrieDBR5sS1FoRjn8ggpf88Id4lVF` |
 | Salsa | BARTUĞ & DİLEK |  | `1wwlilLNyOdiT9pwS1Hpvb92ZO86EfzUl` |
-| Salsa | BÜŞRA YAŞLI |  | `1ObedLdOR3KoDDX7B4EkDlzBvJxEcVhZd` |
+| Salsa | BÜŞRA YAŞLI |  | `1a7DuFI0kUvlUc0xHITJaahTSv-sKVgPF` |
 | Salsa | CAMILLE & KAREN | ☑️ | `1urDHArhesOgdFF2LBXGC8ZAusd6IW5dl` |
 | Salsa | CAN & BETÜL | ☑️ | `15lkt8Zg6-C1n1_BAoIYEphdUDD_G4kUJ` |
 | Salsa | CHICAS DE STELLA BY TUĞÇE ERDOĞAN |  | `1-4-1qjNJ5xGottwjBti6tl6gZUzeWqqH` |
