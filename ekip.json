@@ -1,68 +1,12 @@
 {
  "kurucular": [
-  {
-   "ad": "Aykan Gümüşcan",
-   "gorev": "Kurucu",
-   "aciklama": "EDF'yi 2013'te Eskişehir'de kurdu. Festivalin vizyonu, programı ve operasyonu onun elinden geçiyor.",
-   "instagram": "",
-   "foto": ""
-  },
-  {
-   "ad": "Ersin Altaş",
-   "gorev": "Genel Koordinatör",
-   "aciklama": "İlk EDF'den beri sahnede. Finans, sponsorluklar, ticari ilişkiler ve okul iş birlikleri.",
-   "instagram": "",
-   "foto": ""
-  }
+  {"ad": "Aykan Gümüşcan", "gorev": "Kurucu", "aciklama": "2013'te EDF'yi kurdu ve o günden beri festivalin sanatsal yönünü, artist ilişkilerini ve operasyonunu yönetiyor.", "cinsiyet": "e", "instagram": "", "foto": ""},
+  {"ad": "Ersin Altaş", "gorev": "Festival Ortağı · Genel Koordinatör", "aciklama": "İlk EDF'den beri sahnede. Finans, sponsorluklar, ticari ilişkiler ve okul iş birliklerinden sorumlu.", "cinsiyet": "e", "instagram": "", "foto": ""}
  ],
  "ekip": [
-  {
-   "ad": "Hande Atalay",
-   "gorev": "Artist Director",
-   "instagram": "",
-   "foto": ""
-  },
-  {
-   "ad": "Ad Soyad",
-   "gorev": "Organizasyon Koordinatörü",
-   "instagram": "",
-   "foto": ""
-  },
-  {
-   "ad": "Ad Soyad",
-   "gorev": "Program ve Salon Yönetimi",
-   "instagram": "",
-   "foto": ""
-  },
-  {
-   "ad": "Ad Soyad",
-   "gorev": "Yarışma Koordinatörü",
-   "instagram": "",
-   "foto": ""
-  },
-  {
-   "ad": "Ad Soyad",
-   "gorev": "Sosyal Medya ve İçerik",
-   "instagram": "",
-   "foto": ""
-  },
-  {
-   "ad": "Ad Soyad",
-   "gorev": "Kayıt ve Bilet Masası",
-   "instagram": "",
-   "foto": ""
-  },
-  {
-   "ad": "Ad Soyad",
-   "gorev": "Teknik ve Ses",
-   "instagram": "",
-   "foto": ""
-  },
-  {
-   "ad": "Ad Soyad",
-   "gorev": "Fotoğraf ve Video",
-   "instagram": "",
-   "foto": ""
-  }
+  {"ad": "Hande Atalay", "gorev": "Artist Director", "cinsiyet": "k", "instagram": "", "foto": ""},
+  {"ad": "Ozan Balaban", "lakap": "DJ Poeta", "gorev": "Music Director", "cinsiyet": "e", "instagram": "", "foto": ""},
+  {"ad": "İsmail Üstündağ", "gorev": "Photo & Video Director", "cinsiyet": "e", "instagram": "", "foto": ""},
+  {"ad": "Zeynep Koçak", "gorev": "Social Media", "cinsiyet": "k", "instagram": "", "foto": ""}
  ]
 }

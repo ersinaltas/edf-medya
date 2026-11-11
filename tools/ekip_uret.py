@@ -9,13 +9,16 @@ RENK = ['#E44351', '#29649D', '#EF6A64', '#1B2E4A', '#F0E559']
 def bas(ad):
     p = [x for x in ad.replace('&', ' ').split() if x[:1].isalpha()]
     return (p[0][0] + (p[-1][0] if len(p) > 1 else '')).upper() if p else '?'
+SIL = {
+ 'e': '<svg viewBox="0 0 200 250" aria-hidden="true"><path d="M58 92c0-30 18-50 42-50s42 20 42 50c-6-14-20-20-42-20s-36 6-42 20z" style="fill:var(--hc)"/><circle cx="100" cy="98" r="40" fill="rgba(255,255,255,.92)"/><path d="M58 92c2-26 20-44 42-44s40 18 42 44c-10-12-24-18-42-18s-32 6-42 18z" style="fill:var(--hc)"/><path d="M18 250c0-62 38-96 82-96s82 34 82 96z" fill="rgba(255,255,255,.92)"/></svg>',
+ 'k': '<svg viewBox="0 0 200 250" aria-hidden="true"><path d="M50 104c0-40 22-62 50-62s50 22 50 62l8 86c-18-10-40-16-58-16s-40 6-58 16z" style="fill:var(--hc)"/><circle cx="100" cy="100" r="38" fill="rgba(255,255,255,.92)"/><path d="M60 98c4-28 20-44 40-44s36 16 40 44c-14-6-26-22-30-34-10 18-28 30-50 34z" style="fill:var(--hc)"/><path d="M22 250c0-58 36-88 78-88s78 30 78 88z" fill="rgba(255,255,255,.92)"/></svg>'}
 def foto(k, i):
     f = k.get('foto', '')
     c = RENK[i % len(RENK)]; fg = '#1B2E4A' if c == '#F0E559' else '#fff'
     if f:
         src = f if f.startswith('http') else '{{KOK}}ekip/' + f
         return f'<div class="ft"><img src="{E(src)}" alt="{E(k["ad"])}" loading="lazy" decoding="async"></div>'
-    return f'<div class="ft bos" style="--c:{c};--fg:{fg}"><span>{E(bas(k["ad"]))}</span></div>'
+    return f'<div class="ft bos" style="--c:{c};--fg:{fg}">{SIL.get(k.get("cinsiyet", "e"), SIL["e"])}</div>'
 def ig(k):
     h = k.get('instagram', '').lstrip('@')
     return f'<a class="ig" href="https://instagram.com/{E(h)}" target="_blank" rel="noopener">@{E(h)}</a>' if h else ''
@@ -33,8 +36,9 @@ css = r'''
 #edf-ek .st:after{content:"";flex:1;height:3px;background:var(--nv);opacity:.12}
 #edf-ek .ft{position:relative;aspect-ratio:4/5;border-radius:14px;overflow:hidden;background:#EEE}
 #edf-ek .ft img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(.15);transition:transform .4s,filter .4s}
-#edf-ek .ft.bos{background:var(--c);display:grid;place-items:center;background-image:repeating-linear-gradient(115deg,transparent 0 22px,rgba(255,255,255,.07) 22px 44px)}
-#edf-ek .ft.bos span{font-weight:900;font-size:clamp(44px,6vw,84px);letter-spacing:-.03em;color:var(--fg);opacity:.95}
+#edf-ek .ft.bos{--hc:color-mix(in srgb,var(--c) 45%,#0d1626);background:var(--c);background-image:repeating-linear-gradient(115deg,transparent 0 22px,rgba(255,255,255,.07) 22px 44px)}
+#edf-ek .ft.bos svg{position:absolute;left:8%;right:8%;bottom:0;width:84%;height:auto;display:block}
+#edf-ek .lk{display:block;font-weight:800;font-size:13px;color:var(--rd);margin-top:2px;text-transform:uppercase;letter-spacing:.04em}
 #edf-ek .kur{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 #edf-ek .kk{display:grid;grid-template-columns:minmax(150px,220px) 1fr;gap:22px;align-items:end;border:1px solid #E6E2DA;border-radius:16px;padding:18px}
 #edf-ek .kk h3{font-weight:900;font-size:clamp(22px,2.4vw,30px);line-height:1.05;text-transform:uppercase}
@@ -58,12 +62,13 @@ H = ['<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mont
      f'<div id="edf-ek"><style>{css}</style>',
      '<section class="hero"><div><p class="ey">EDF Turkey · Ekip</p><h1>Ekibimiz<span>.</span></h1></div>',
      '<p class="lead">Beş günlük festivalin arkasında aylar süren bir hazırlık ve bu işi tutkuyla yapan bir ekip var. EDF\'yi her yıl birlikte kuranlarla tanışın.</p></section>',
-     '<h2 class="st">Kurucular</h2><div class="kur">']
+     '<h2 class="st">Kurucu ve ortak</h2><div class="kur">']
 for i, k in enumerate(D['kurucular']):
     H.append(f'<div class="kk">{foto(k, i)}<div><h3>{E(k["ad"])}</h3><span class="gv">{E(k["gorev"])}</span><p>{E(k.get("aciklama", ""))}</p>{ig(k)}</div></div>')
 H.append('</div><h2 class="st">Ekip</h2><div class="gr">')
 for i, k in enumerate(D['ekip']):
-    H.append(f'<div class="uy">{foto(k, i + 1)}<h3>{E(k["ad"])}</h3><p class="rl">{E(k["gorev"])}</p>{ig(k)}</div>')
+    lk = f'<span class="lk">{E(k["lakap"])}</span>' if k.get('lakap') else ''
+    H.append(f'<div class="uy">{foto(k, i + 2)}<h3>{E(k["ad"])}</h3>{lk}<p class="rl">{E(k["gorev"])}</p>{ig(k)}</div>')
 H.append('</div><div class="cta"><div><b>Ekibe <em>katıl.</em></b><p>Festival haftasında gönüllü olmak ya da ekibimizde yer almak istersen bize yaz.</p></div><span class="ml">info@edfturkey.com</span></div></div>')
 open(sys.argv[1], 'w').write(''.join(H))
 print('ekip:', len(D['kurucular']), 'kurucu,', len(D['ekip']), 'üye')
