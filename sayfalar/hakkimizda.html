@@ -34,9 +34,12 @@
 #edf-hk .yil .s{position:absolute;left:-6px;bottom:-8px;font-weight:800;font-size:11px;letter-spacing:.12em;opacity:.7}
 #edf-hk .yil .d{position:absolute;top:-6px;right:0;display:flex;gap:6px}
 #edf-hk .yil .d i{width:10px;height:10px;border-radius:50%;background:var(--c)}
-#edf-hk .stl{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 0;font-weight:900;font-size:clamp(20px,2.6vw,34px);line-height:1.25;letter-spacing:-.01em;cursor:default;user-select:text}
-#edf-hk .stl span:nth-child(3n+1){color:var(--nv)}#edf-hk .stl span:nth-child(3n+2){color:var(--rd)}#edf-hk .stl span:nth-child(3n){color:var(--bl)}
+#edf-hk .stw{container-type:inline-size;overflow:hidden}
+#edf-hk .stl{display:flex;flex-wrap:nowrap;white-space:nowrap;width:max-content;align-items:baseline;font-weight:900;font-size:1.9cqw;line-height:1.25;letter-spacing:-.01em;cursor:default;margin:0}
+#edf-hk .stl span:nth-of-type(3n+1){color:var(--nv)}#edf-hk .stl span:nth-of-type(3n+2){color:var(--rd)}#edf-hk .stl span:nth-of-type(3n){color:var(--bl)}
 #edf-hk .stl i{font-style:normal;color:var(--ye);font-size:.6em;margin:0 .55em;transform:translateY(-.15em);display:inline-block;-webkit-text-stroke:1px #d9cd3c}
+#edf-hk .stl .dp{display:none}
+@container (max-width:699px){#edf-hk .stl{font-size:22px;animation:edfHkMq 26s linear infinite}#edf-hk .stl .dp{display:contents}}
 #edf-hk .stn{font-weight:600;font-size:14px;opacity:.75;margin-top:14px}
 #edf-hk .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 #edf-hk .card{border:1px solid #E6E2DA;border-radius:14px;padding:22px 20px;position:relative;overflow:hidden}
@@ -87,7 +90,7 @@
 </div>
 
 <h2 class="st">Dans stilleri</h2>
-<p class="stl" lang="en"><span>Salsa</span><i>✦</i><span>Bachata</span><i>✦</i><span>Kizomba</span><i>✦</i><span>Hip Hop</span><i>✦</i><span>Heels</span><i>✦</i><span>Jazz</span><i>✦</i><span>Breaking</span><i>✦</i><span>Swing</span><i>✦</i><span>K-Pop</span><i>✦</i><span>Modern</span><i>✦</i><span>Zumba</span></p><p class="stn">On dans stili ve gündüz programında Zumba: her stilin kendi workshopları, gösterileri ve parti alanı var.</p>
+<div class="stw"><p class="stl" lang="en"><span>Salsa</span><i>✦</i><span>Bachata</span><i>✦</i><span>Kizomba</span><i>✦</i><span>Hip Hop</span><i>✦</i><span>Heels</span><i>✦</i><span>Jazz</span><i>✦</i><span>Breaking</span><i>✦</i><span>Swing</span><i>✦</i><span>K-Pop</span><i>✦</i><span>Modern</span><i>✦</i><span>Zumba</span><span class="dp" aria-hidden="true"><i>✦</i><span>Salsa</span><i>✦</i><span>Bachata</span><i>✦</i><span>Kizomba</span><i>✦</i><span>Hip Hop</span><i>✦</i><span>Heels</span><i>✦</i><span>Jazz</span><i>✦</i><span>Breaking</span><i>✦</i><span>Swing</span><i>✦</i><span>K-Pop</span><i>✦</i><span>Modern</span><i>✦</i><span>Zumba</span><i>✦</i></span></p></div><p class="stn">On dans stili ve gündüz programında Zumba: her stilin kendi workshopları, gösterileri ve parti alanı var.</p>
 
 <h2 class="st">Festivalde neler var</h2>
 <div class="cards">
