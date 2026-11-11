@@ -14,7 +14,7 @@ Program sayfası için `data-edf="program"`, Hakkımızda için `data-edf="hakki
 - `web/artist.css`, `web/artist.js`: Artist sayfasının stili ve davranışı.
 - `media/`: `<id>.mp4` (540×960), `<id>.jpg` (afiş), `<id>_k.jpg` (270×480 küçük görsel).
 - `artistler.json` / `ARTISTLER.md`: Drive'ın son hâli (manifest).
-- `program_veri.json`: Workshop programı verisi.
+- `program_tablo.csv`: Programın gömülü kopyası (Google E-Tablo'dan `tools/program_cek.py` ile çekilir). `program_ayar.json`: tablo ID'si, rozet, dipnot. `web/program.js` + `web/program.css`: ızgarayı çizer, tabloyu canlı okur. (`program_veri.json` eski ızgara verisi, arşiv.)
 - `ekip.json`: Ekibimiz sayfası (kurucular + ekip). Fotoğraflar `ekip/` klasörüne, `foto` alanına dosya adı.
 
 ## Akış
