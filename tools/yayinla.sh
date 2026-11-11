@@ -7,7 +7,8 @@ gitc() { git -c user.name="Ersin Altaş" -c user.email="ersinaltas87@gmail.com" 
 python3 tools/depo_yayinla.py "$1"
 python3 tools/sayfa_uret.py parca sayfalar/artistler.html
 python3 tools/ekip_uret.py sayfalar/ekip.html
-python3 tools/program_uret.py program_veri.json sayfalar/program.html /dev/null && rm -f program_veri_isimsiz.json
+python3 tools/program_cek.py
+python3 tools/program_sayfa.py sayfalar/program.html
 git add -A
 gitc "$1" || true
 git push -q origin main

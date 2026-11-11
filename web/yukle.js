@@ -18,7 +18,7 @@
           document.head.appendChild(l);
         } else l.parentNode.removeChild(l);
       });
-      var js = [].slice.call(f.querySelectorAll('script'));
+      var js = [].slice.call(f.querySelectorAll('script')).filter(function (s) { return !s.type || /javascript/i.test(s.type); });
       js.forEach(function (s) { s.parentNode.removeChild(s); });
       Promise.all(bekle).then(function () {
         el.innerHTML = ''; el.appendChild(f);

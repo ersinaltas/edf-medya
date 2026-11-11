@@ -1,0 +1,45 @@
+#edf-prog{--nv:#1B2E4A;--rd:#E44351;--bl:#29649D;--ye:#F0E559;--sa:#EF6A64;--bg:#F6F4EF;--ln:#E3DED4;
+ font-family:'Montserrat',sans-serif;color:var(--nv);background:#fff;padding:8px 0 16px;box-sizing:border-box;line-height:1.3;text-align:left}
+#edf-prog *{line-height:inherit}
+#edf-prog .w s,#edf-prog .tabs button,#edf-prog .th{line-height:1.2}
+#edf-prog *{box-sizing:border-box}
+#edf-prog .hd{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px}
+#edf-prog h2{font-size:clamp(26px,4vw,44px);font-weight:900;line-height:1;margin:0;letter-spacing:-.5px;text-transform:uppercase}
+#edf-prog h2 span{color:var(--rd)}
+#edf-prog .meta{font-weight:700;font-size:14px;margin-top:8px;opacity:.8}
+#edf-prog .draft{background:var(--ye);font-weight:800;font-size:12px;padding:6px 10px;border-radius:4px;letter-spacing:.5px}
+#edf-prog .tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-bottom:14px}
+#edf-prog .tabs button{font-family:inherit;color:var(--nv);flex:0 0 auto;cursor:pointer;border:2px solid var(--nv);border-radius:6px;padding:8px 14px;font-weight:800;font-size:13px;text-transform:uppercase;line-height:1.15;text-align:center;background:#fff}
+#edf-prog .tabs button small{display:block;font-weight:600;font-size:11px;opacity:.7}
+#edf-prog .tabs button.on{background:var(--nv);color:#fff}
+#edf-prog .tabs button:focus-visible{outline:3px solid var(--rd);outline-offset:2px}
+#edf-prog .bos{padding:40px 16px;text-align:center;font-weight:700;opacity:.6}
+
+#edf-prog .leg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:11px;font-weight:700;margin:0 0 14px}
+#edf-prog .leg i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:5px}
+#edf-prog .sc{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--ln);border-radius:8px;background:#fff}
+#edf-prog .g{display:grid;gap:4px;padding:4px;width:100%}
+#edf-prog .th{background:var(--nv);color:#fff;font-weight:800;font-size:12px;letter-spacing:.5px;padding:10px 8px;text-align:center;border-radius:4px}
+#edf-prog .tm{position:sticky;left:0;z-index:2;background:#fff;font-weight:800;font-size:12px;padding:8px 6px;display:flex;align-items:center;justify-content:center;text-align:center;border-right:2px solid var(--rd)}
+#edf-prog .th.c0{position:sticky;left:0;z-index:3}
+#edf-prog .w{background:#fff;border:1px solid var(--ln);border-left:5px solid var(--k);border-radius:4px;padding:7px 8px;min-height:62px;display:flex;flex-direction:column;gap:4px}
+#edf-prog .w b{font-size:13px;font-weight:800;line-height:1.2}
+#edf-prog .w em{font-style:normal;font-size:11px;font-weight:600;opacity:.45}
+#edf-prog .w s{text-decoration:none;align-self:flex-start;font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.4px;padding:2px 6px;border-radius:3px;background:var(--k);color:var(--kt,#fff)}
+#edf-prog .e{border-radius:4px;padding:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:13px;line-height:1.25}
+#edf-prog .e small{display:block;font-weight:600;font-size:11px;margin-top:3px;opacity:.85}
+#edf-prog .e.arena{align-items:flex-start;text-align:left;justify-content:flex-start}
+#edf-prog .e.party{background:var(--nv);color:#fff}
+#edf-prog .e.redbull{background:#B3123A;color:#fff}
+#edf-prog .e.sunset{background:linear-gradient(160deg,var(--sa),var(--ye));color:var(--nv)}
+#edf-prog .e.free{background:repeating-linear-gradient(135deg,#F4F1EA 0 8px,#EEEAE1 8px 16px);color:#9A9386;font-weight:600;font-size:12px}
+#edf-prog .e.rehearsal{background:#DDE3EA;color:var(--nv)}
+#edf-prog .e.kids{background:#FF5994;color:#fff}
+#edf-prog .e.comp{background:#EDE3FA;color:var(--nv);border:2px solid #9B7BD4}
+#edf-prog .e.hh{background:#41B8A6;color:#fff}
+#edf-prog .e.kpop{background:#B04FD9;color:#fff}
+#edf-prog .k-beg{--k:#F0E559;--kt:#1B2E4A}#edf-prog .k-int{--k:#29649D}#edf-prog .k-all{--k:#EF6A64}#edf-prog .k-adv{--k:#E44351}
+#edf-prog .k-hh{--k:#41B8A6}#edf-prog .k-lindy{--k:#E9A97E}#edf-prog .k-zumba{--k:#3CB44B}#edf-prog .k-kpop{--k:#B04FD9}
+#edf-prog .k-kids{--k:#FF5994}#edf-prog .k-comp{--k:#9B7BD4}
+#edf-prog .ft{font-size:11px;font-weight:600;opacity:.7;margin-top:12px}
+@media(max-width:700px){#edf-prog{padding:4px 0 12px}#edf-prog .w b{font-size:12px}}
