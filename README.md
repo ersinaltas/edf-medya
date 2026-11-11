@@ -21,4 +21,11 @@ Program sayfası için `data-edf="program"`.
 2. `sh tools/yayinla.sh "mesaj"`: Üretir, gönderir, yükleyiciyi yeni sürüme çevirir, önbelleği temizler.
 
 Sürüm adresleri sabit olduğu için içerik tarayıcıda ve CDN'de kalıcı önbellekte durur. Sadece küçük yükleyici kısa önbellekli.
-jsDelivr sınırı: repo 50 MB, dosya 20 MB.
+## Medya depoları
+jsDelivr bir repoyu en fazla 50 MB sunuyor, bu yüzden medya birden fazla repoya bölünür (`depolar.json`):
+- `edf-medya` (1): İlk 83 artist.
+- `edf-medya-2` (2): Sonra eklenenler. Şu an **aktif** depo.
+
+Her artistin hangi depoda olduğu `artistler.json`'daki `depo` alanında. Mevcut artist kendi deposunda kalır, yeni artist aktif depoya gider. Aktif depo ~45 MB'a gelince yeni repo açılır (`edf-medya-3`), `depolar.json`'a eklenip `aktif` güncellenir. `tools/depo_yayinla.py` ek depoları gönderip sürümlerini yazar, `yayinla.sh` bunu kendisi çağırır.
+
+jsDelivr sınırı: repo 50 MB, dosya 20 MB. Kalite ayarı (540×960, CRF 30) Ersin'in onayıyla sabit, daha fazla sıkıştırılmayacak.
