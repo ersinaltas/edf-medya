@@ -1,7 +1,7 @@
 /* EDF sayfa yükleyici. ikas'taki sabit kod bunu çağırır; içerik GitHub'daki sabit bir sürümden gelir.
    Kullanım: <div data-edf="artistler"></div> veya <div data-edf="program"></div> */
 (function () {
-  var V = 'bc8f66eb40951e0a8f12edd00a3845f48f93b8e1';
+  var V = '586f119b646ec92686e461b496f11e1e64bed6e0';
   var KOK = 'https://cdn.jsdelivr.net/gh/ersinaltas/edf-medya@' + V + '/';
   function kur(el) {
     if (el.getAttribute('data-edf-ok')) return;
