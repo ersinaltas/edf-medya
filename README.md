@@ -6,7 +6,7 @@ edfturkey.com'daki EDF sayfalarının kaynağı. ikas'ta sadece sabit bir yükle
 ```html
 <div data-edf="artistler"><script src="https://ersinaltas.github.io/edf-medya/web/yukle.js"></script><img alt="" style="display:none" src="data:,x" onerror="if(!window.__edfYukle){window.__edfYukle=1;var s=document.createElement('script');s.src='https://ersinaltas.github.io/edf-medya/web/yukle.js';document.body.appendChild(s)}"></div>
 ```
-Program sayfası için `data-edf="program"`, Hakkımızda için `data-edf="hakkimizda"`.
+Program sayfası için `data-edf="program"`, Hakkımızda için `data-edf="hakkimizda"`, Ekibimiz için `data-edf="ekip"`.
 
 ## Dosyalar
 - `web/yukle.js`: Yükleyici. Hangi sürümün yayında olduğunu tutar (`V`). GitHub Pages'ten çekilir (10 dk önbellek), her push'tan ~1 dk sonra güncellenir.
@@ -15,6 +15,7 @@ Program sayfası için `data-edf="program"`, Hakkımızda için `data-edf="hakki
 - `media/`: `<id>.mp4` (540×960), `<id>.jpg` (afiş), `<id>_k.jpg` (270×480 küçük görsel).
 - `artistler.json` / `ARTISTLER.md`: Drive'ın son hâli (manifest).
 - `program_veri.json`: Workshop programı verisi.
+- `ekip.json`: Ekibimiz sayfası (kurucular + ekip). Fotoğraflar `ekip/` klasörüne, `foto` alanına dosya adı.
 
 ## Akış
 1. `python3 tools/guncelle.py <drive_kok_id> . <gecici_dizin>`: Drive farklarını işler.
