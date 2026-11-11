@@ -59,7 +59,7 @@ css = r'''
 @media(max-width:480px){#edf-ek .kk{grid-template-columns:1fr;padding:14px}#edf-ek .kk .ft{max-width:240px}#edf-ek .cta{padding:22px}}
 '''
 H = ['<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap">',
-     f'<div id="edf-ek"><style>{css}</style>',
+     f'<div id="edf-ek" lang="tr"><style>{css}</style>',
      '<section class="hero"><div><p class="ey">EDF Turkey · Ekip</p><h1>Ekibimiz<span>.</span></h1></div>',
      '<p class="lead">Beş günlük festivalin arkasında aylar süren bir hazırlık ve bu işi tutkuyla yapan bir ekip var. EDF\'yi her yıl birlikte kuranlarla tanışın.</p></section>',
      '<h2 class="st">Yönetim</h2><div class="kur">']

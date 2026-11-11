@@ -65,7 +65,7 @@ css+=r'''
 #edf-prog .ft{font-size:11px;font-weight:600;opacity:.7;margin-top:12px}
 @media(max-width:700px){#edf-prog{padding:4px 0 12px}#edf-prog .w b{font-size:12px}}
 '''
-h=[f'<div id="edf-prog"><style>{css}</style>']
+h=[f'<div id="edf-prog" lang="tr"><style>{css}</style>']
 h.append('<div class="hd"><div><h2>EDF 2027 <span>Workshop</span> Programı</h2><div class="meta">3–7 Şubat 2027 · Tasigo Hotel, Eskişehir</div></div><div class="draft">TASLAK · EĞİTMENLER AÇIKLANACAK</div></div>')
 for i,_ in enumerate(days):
     h.append(f'<input type="radio" name="edfday" id="edfd{i}"{" checked" if i==1 else ""}>')

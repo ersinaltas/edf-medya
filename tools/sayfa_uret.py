@@ -58,12 +58,12 @@ else:
     H.append('<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>')
     H.append(f'<link rel="stylesheet" href="{cdn}web/artist.css">')
 H.append('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap">')
-H.append(f'<div id="edf-art" data-base="{base}"><style>{dyn}</style>')
+H.append(f'<div id="edf-art" lang="tr" data-base="{base}"><style>{dyn}</style>')
 H.append(f'<div class="hero pad"><h1>EDF 2027<span>Artistler</span></h1><p><b>Tüm artistleri afişe sığdıramadık</b>3–7 Şubat 2027 · Tasigo Hotel, Eskişehir. Şu ana kadar açıklanan {len(A)} artist; liste her hafta büyüyor.</p></div>')
 H.append(f'<div class="band"><div>{band * 4}{band * 4}</div></div>')
 H.append('<div class="jso"><div class="st pad">Öne çıkanlar</div>'
          '<div class="fw"><button class="ar p" type="button" aria-label="Önceki">‹</button><div class="ft"></div><button class="ar n" type="button" aria-label="Sonraki">›</button></div><div class="dots"></div>'
-         '<div class="st pad">Line-up <small>durdurmak için üstüne gel</small></div><div class="mq"><div class="rw"></div></div><div class="mq rv"><div class="rw"></div></div></div>')
+         '<div class="st pad"><span lang="en">Line-up</span> <small>durdurmak için üstüne gel</small></div><div class="mq"><div class="rw"></div></div><div class="mq rv"><div class="rw"></div></div></div>')
 H.append('<div class="pad"><div class="st">Tüm artistler <small>izlemek için afişe dokun</small></div>')
 H.append('<input type="radio" name="edfaf" id="af-all" checked>' + ''.join(f'<input type="radio" name="edfaf" id="af-{slug(b)}">' for b in brs))
 H.append(f'<div class="fl"><label for="af-all">TÜMÜ<small>{len(grid)}</small></label>' + ''.join(f'<label for="af-{slug(b)}">{BR[b][0]}<small>{sum(a["b"] == b for a in grid)}</small></label>' for b in brs) + '</div>')
