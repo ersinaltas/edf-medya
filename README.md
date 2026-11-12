@@ -14,7 +14,8 @@ Program sayfası için `data-edf="program"`, Hakkımızda için `data-edf="hakki
 - `web/artist.css`, `web/artist.js`: Artist sayfasının stili ve davranışı.
 - `media/`: `<id>.mp4` (540×960), `<id>.jpg` (afiş), `<id>_k.jpg` (270×480 küçük görsel).
 - `artistler.json` / `ARTISTLER.md`: Drive'ın son hâli (manifest).
-- `program_tablo.csv`: Programın gömülü kopyası (Google E-Tablo'dan `tools/program_cek.py` ile çekilir). `program_ayar.json`: tablo ID'si, rozet, dipnot. `web/program.js` + `web/program.css`: ızgarayı çizer, tabloyu canlı okur. (`program_veri.json` eski ızgara verisi, arşiv.)
+- `program_tablo.csv` + `program_listeler.json`: Programın gömülü kopyası (Google E-Tablo'dan `tools/program_cek.py` ile çekilir). `program_ayar.json`: tablo ID'si, rozet, dipnot. `web/program.js` + `web/program.css`: ızgarayı/listeyi çizer, tabloyu canlı okur. (`program_veri.json` eski ızgara verisi, arşiv.)
+- Program tablosu (v3): her gün sekmesinde `Başlangıç | Bitiş | Salon | Bitiş Salonu | Stil | Konu | Seviye | Eğitmen | Not`. **Listeler** sekmesi stilleri (Ders/Etkinlik + renk), seviyeleri (Ders/Etkinlik + renk; iki renk = geçiş), salonları ve günleri tutar; sitedeki filtreler, renkler ve gün sekmeleri buradan gelir. Sütunlar başlık adıyla okunur. Stil türü "Etkinlik" olan satırlar (Party, Show, Competition, Free Time) ya da seviye türü "Etkinlik" olanlar (Red Bull, Sunset, Kids, Rehearsal, Event) renkli blok olarak çizilir.
 - `ekip.json`: Ekibimiz sayfası (kurucular + ekip). Fotoğraflar `ekip/` klasörüne, `foto` alanına dosya adı.
 
 ## Sürümler ve geri alma

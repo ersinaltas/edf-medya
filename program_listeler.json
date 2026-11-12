@@ -1,0 +1,168 @@
+{
+ "stil": [
+  [
+   "Salsa",
+   "Ders",
+   "#E44351"
+  ],
+  [
+   "Bachata",
+   "Ders",
+   "#29649D"
+  ],
+  [
+   "Kizomba",
+   "Ders",
+   "#EF6A64"
+  ],
+  [
+   "Hip Hop",
+   "Ders",
+   "#41B8A6"
+  ],
+  [
+   "Heels",
+   "Ders",
+   "#FF5994"
+  ],
+  [
+   "Jazz",
+   "Ders",
+   "#E9A97E"
+  ],
+  [
+   "Swing",
+   "Ders",
+   "#C98B2B"
+  ],
+  [
+   "Breaking",
+   "Ders",
+   "#4A5568"
+  ],
+  [
+   "K-Pop",
+   "Ders",
+   "#7B61FF"
+  ],
+  [
+   "Modern",
+   "Ders",
+   "#5E8CA6"
+  ],
+  [
+   "Zumba",
+   "Ders",
+   "#3CB44B"
+  ],
+  [
+   "Oryantal",
+   "Ders",
+   "#B04FD9"
+  ],
+  [
+   "Party",
+   "Etkinlik",
+   "#1B2E4A"
+  ],
+  [
+   "Show",
+   "Etkinlik",
+   "#F0E559"
+  ],
+  [
+   "Competition",
+   "Etkinlik",
+   "#9B7BD4"
+  ],
+  [
+   "Free Time",
+   "Etkinlik",
+   "#F1EEE7"
+  ]
+ ],
+ "seviye": [
+  [
+   "Beginner",
+   "Ders",
+   "#F0E559"
+  ],
+  [
+   "Intermediate",
+   "Ders",
+   "#29649D"
+  ],
+  [
+   "Advanced",
+   "Ders",
+   "#E44351"
+  ],
+  [
+   "All Level",
+   "Ders",
+   "#EF6A64"
+  ],
+  [
+   "Free Style",
+   "Ders",
+   "#41B8A6"
+  ],
+  [
+   "Red Bull",
+   "Etkinlik",
+   "#B3123A"
+  ],
+  [
+   "Sunset",
+   "Etkinlik",
+   "#EF6A64 #F0E559"
+  ],
+  [
+   "Kids",
+   "Etkinlik",
+   "#FF5994"
+  ],
+  [
+   "Rehearsal",
+   "Etkinlik",
+   "#DDE3EA"
+  ],
+  [
+   "Event",
+   "Etkinlik",
+   ""
+  ]
+ ],
+ "salon": [
+  "SALON 1",
+  "SALON 2",
+  "SALON 3",
+  "SALON 4",
+  "SALON 5",
+  "SALON 6",
+  "SALON 7",
+  "DIŞ ALAN"
+ ],
+ "gun": [
+  [
+   "Çarşamba",
+   "3 Şubat"
+  ],
+  [
+   "Perşembe",
+   "4 Şubat"
+  ],
+  [
+   "Cuma",
+   "5 Şubat"
+  ],
+  [
+   "Cumartesi",
+   "6 Şubat"
+  ],
+  [
+   "Pazar",
+   "7 Şubat"
+  ]
+ ]
+}
