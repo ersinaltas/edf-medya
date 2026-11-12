@@ -1,5 +1,5 @@
 {
- "aktif": 2,
+ "aktif": 3,
  "surumler": [
   {
    "no": 1,
@@ -12,6 +12,12 @@
    "tarih": "2026-11-12 03:15",
    "commit": "0228649000a1d9263f9e8ee2e3541bd60cd030f5",
    "mesaj": "Program: stile göre vurgulama; sürüm kaydı ve geri alma"
+  },
+  {
+   "no": 3,
+   "tarih": "2026-11-12 03:43",
+   "commit": "d4093e089892e0440ac9f355e2ea16c0b8d202c4",
+   "mesaj": "Program v3: Stil · Konu · Seviye; Listeler sekmesi; stil+seviye filtreleri; liste görünümü"
   }
  ]
 }
