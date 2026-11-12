@@ -17,6 +17,12 @@ Program sayfası için `data-edf="program"`, Hakkımızda için `data-edf="hakki
 - `program_tablo.csv`: Programın gömülü kopyası (Google E-Tablo'dan `tools/program_cek.py` ile çekilir). `program_ayar.json`: tablo ID'si, rozet, dipnot. `web/program.js` + `web/program.css`: ızgarayı çizer, tabloyu canlı okur. (`program_veri.json` eski ızgara verisi, arşiv.)
 - `ekip.json`: Ekibimiz sayfası (kurucular + ekip). Fotoğraflar `ekip/` klasörüne, `foto` alanına dosya adı.
 
+## Sürümler ve geri alma
+Her yayın `SURUMLER.md` / `surumler.json`'a numaralı (v1, v2…) eklenir; içerik commit'e sabit olduğu için eski sürümler jsDelivr'da kalıcı.
+- Liste: `python3 tools/surum.py liste`
+- Geri dön: `sh tools/geri_al.sh <no>` → yükleyici o sürüme çevrilir, site ~1-10 dk içinde döner (ikas'a dokunulmaz).
+- Not: Google E-Tablo'daki program canlı okunduğu için tablo içeriği sürümden bağımsız; sürüm sayfa kodunu ve gömülü yedeği geri alır.
+
 ## Akış
 1. `python3 tools/guncelle.py <drive_kok_id> . <gecici_dizin>`: Drive farklarını işler.
 2. `sh tools/yayinla.sh "mesaj"`: Üretir, gönderir, yükleyiciyi yeni sürüme çevirir, önbelleği temizler.
