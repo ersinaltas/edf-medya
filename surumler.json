@@ -1,11 +1,17 @@
 {
- "aktif": 1,
+ "aktif": 2,
  "surumler": [
   {
    "no": 1,
    "tarih": "2026-11-12 03:14",
    "commit": "4c7c6b0b3ff39dd99dc2a1a1aae34a441d68d48a",
    "mesaj": "Başlangıç: program arama + Google E-Tablo canlı okuma (bu sistemden önceki son yayın)"
+  },
+  {
+   "no": 2,
+   "tarih": "2026-11-12 03:15",
+   "commit": "0228649000a1d9263f9e8ee2e3541bd60cd030f5",
+   "mesaj": "Program: stile göre vurgulama; sürüm kaydı ve geri alma"
   }
  ]
 }
