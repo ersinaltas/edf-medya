@@ -13,8 +13,8 @@ git add -A
 gitc "$1" || true
 git push -q origin main
 H=$(git rev-parse HEAD)
-sed -i "s/var V = '[^']*'/var V = '$H'/" web/yukle.js
-git add web/yukle.js
-gitc "Yükleyici: sürüm $(echo $H | cut -c1-7)"
+SN=$(python3 tools/surum.py ekle "$H" "$1")
+git add web/yukle.js surumler.json SURUMLER.md
+gitc "Yayın $SN: $1"
 git push -q origin main
-echo "Yayında: $H"
+echo "Yayında: $SN ($H)"

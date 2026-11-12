@@ -60,3 +60,9 @@
 #edf-prog.arama .w.hit,#edf-prog.arama .e.hit{opacity:1;box-shadow:0 0 0 3px var(--rd);z-index:1}
 #edf-prog .flas{animation:edfFlas 1.4s ease 2}
 @keyframes edfFlas{50%{box-shadow:0 0 0 6px var(--ye)}}
+#edf-prog .leg{align-items:center}
+#edf-prog .leg b{font-weight:800;font-size:11px;opacity:.6;margin-right:2px}
+#edf-prog .leg button{font:700 11px 'Montserrat',sans-serif;color:var(--nv);background:#fff;border:1.5px solid var(--ln);border-radius:20px;padding:5px 10px;cursor:pointer;transition:border-color .15s,background .15s}
+#edf-prog .leg button:hover{border-color:var(--nv)}
+#edf-prog .leg button.on{background:var(--nv);color:#fff;border-color:var(--nv)}
+#edf-prog .leg button:focus-visible{outline:3px solid var(--rd);outline-offset:2px}

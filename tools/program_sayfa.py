@@ -15,7 +15,7 @@ H = ['<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mont
      + (f'<div class="draft">{html.escape(AYAR["rozet"])}</div>' if AYAR.get('rozet') else '') + '</div>',
      '<div class="ara"><input type="search" placeholder="Eğitmen ya da workshop ara…" aria-label="Eğitmen ya da workshop ara" autocomplete="off"><div class="sonuc" aria-live="polite"></div></div>',
      '<div class="tabs" role="tablist"></div>',
-     '<div class="leg">' + ''.join(f'<span lang="en"><i style="background:var(--k)" class="k-{k}"></i>{v}</span>' for k, v in LEG) + '</div>',
+     '<div class="leg" role="group" aria-label="Stile göre vurgula"><b>Stile göre vurgula:</b>' + ''.join(f'<button type="button" lang="en" data-k="{k}" aria-pressed="false"><i style="background:var(--k)" class="k-{k}"></i>{v}</button>' for k, v in LEG) + '</div>',
      '<div class="pns"></div>',
      f'<div class="ft">{html.escape(AYAR["dipnot"])}</div>',
      f'<script type="application/json" class="veri">{veri}</script>',
