@@ -13,6 +13,7 @@ H = ['<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mont
      f'<div id="edf-prog" lang="tr" data-sheet="{html.escape(AYAR["sheet_id"])}"><style>{css}</style>',
      '<div class="hd"><div><h2>EDF 2027 <span>Workshop</span> Programı</h2><div class="meta">3–7 Şubat 2027 · Tasigo Hotel, Eskişehir</div></div>'
      + (f'<div class="draft">{html.escape(AYAR["rozet"])}</div>' if AYAR.get('rozet') else '') + '</div>',
+     '<div class="ara"><input type="search" placeholder="Eğitmen ya da workshop ara…" aria-label="Eğitmen ya da workshop ara" autocomplete="off"><div class="sonuc" aria-live="polite"></div></div>',
      '<div class="tabs" role="tablist"></div>',
      '<div class="leg">' + ''.join(f'<span lang="en"><i style="background:var(--k)" class="k-{k}"></i>{v}</span>' for k, v in LEG) + '</div>',
      '<div class="pns"></div>',

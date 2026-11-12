@@ -19,6 +19,8 @@
   function saat(t) { var m = String(t || '').match(/(\d{1,2})[:.](\d{2})/); return m ? ('0' + m[1]).slice(-2) + ':' + m[2] : ''; }
   function dk(t) { var p = t.split(':'), h = +p[0]; return (h < 6 ? h + 24 : h) * 60 + (+p[1]); }
   function bas(s) { return String(s || '').trim().toLocaleLowerCase('tr'); }
+  /* Arama için: küçük harf + Türkçe karakterleri sadeleştir ("altas" → "Altaş" bulunur) */
+  function sade(s) { return bas(s).replace(/[çğıöşü]/g, function (c) { return { 'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u' }[c]; }).replace(/[\u0300-\u036f]/g, ''); }
 
   function temizle(rows) {
     return rows.map(function (r) {
@@ -61,9 +63,9 @@
       if (etk) {
         var cls = k + (/arena/i.test(x.t) ? ' arena' : '');
         var alt = x.n ? x.n.split(/\s*·\s*|\n/).map(function (s) { return '<small>' + esc(s) + '</small>'; }).join('') : '';
-        h += '<div class="e ' + cls + '" style="' + pos + '">' + esc(x.t) + alt + '</div>';
+        h += '<div class="e ' + cls + '" data-q="' + esc(sade(x.t + ' ' + x.n)) + '" data-s="' + esc(x.b + '|' + x.s1 + '|' + x.t + '|') + '" style="' + pos + '">' + esc(x.t) + alt + '</div>';
       } else {
-        h += '<div class="w k-' + k + '" style="' + pos + '"><s lang="en">' + esc(x.k) + '</s><b>' + esc(x.t) + '</b><em>' + (x.eg ? esc(x.eg) : 'Eğitmen TBA') + '</em>' +
+        h += '<div class="w k-' + k + '" data-q="' + esc(sade(x.eg + ' ' + x.t)) + '" data-s="' + esc(x.b + '|' + x.s1 + '|' + x.t + '|' + x.eg) + '" style="' + pos + '"><s lang="en">' + esc(x.k) + '</s><b>' + esc(x.t) + '</b><em>' + (x.eg ? esc(x.eg) : 'Eğitmen TBA') + '</em>' +
           (x.n ? '<em>' + esc(x.n) + '</em>' : '') + '</div>';
       }
     });
@@ -81,13 +83,47 @@
     pns.innerHTML = GUN.map(function (g, i) {
       return '<div class="pn"' + (i === aktif ? '' : ' hidden') + '>' + gunCiz(v.filter(function (x) { return bas(x.gun) === bas(g[0]); })) + '</div>';
     }).join('');
+    if (typeof ara === 'function') ara();
+  }
+  function gec(i) {
+    aktif = i;
+    [].forEach.call(tabs.children, function (x, k) { x.classList.toggle('on', k === aktif); });
+    [].forEach.call(pns.children, function (x, k) { x.hidden = k !== aktif; });
   }
   tabs.addEventListener('click', function (e) {
     var b = e.target.closest('button'); if (!b) return;
-    aktif = +b.getAttribute('data-i');
-    [].forEach.call(tabs.children, function (x, i) { x.classList.toggle('on', i === aktif); });
-    [].forEach.call(pns.children, function (x, i) { x.hidden = i !== aktif; });
+    gec(+b.getAttribute('data-i'));
   });
+
+  /* Eğitmen / workshop arama */
+  var kutu = R.querySelector('.ara input'), sonuc = R.querySelector('.ara .sonuc');
+  function ara() {
+    if (!kutu) return;
+    var q = sade(kutu.value).replace(/\s+/g, ' ').trim(), liste = [];
+    R.classList.toggle('arama', q.length > 1);
+    [].forEach.call(pns.children, function (pn, gi) {
+      var say = 0;
+      [].forEach.call(pn.querySelectorAll('.w,.e'), function (c) {
+        var ok = q.length > 1 && q.split(' ').every(function (p) { return (c.getAttribute('data-q') || '').indexOf(p) >= 0; });
+        c.classList.toggle('hit', ok);
+        if (ok) { say++; var d = c.getAttribute('data-s').split('|'); liste.push({ g: gi, el: c, b: d[0], s: d[1], t: d[2], eg: d[3] }); }
+      });
+      var tb = tabs.children[gi];
+      if (tb) { var i = tb.querySelector('i'); if (i) tb.removeChild(i); if (say) { i = document.createElement('i'); i.textContent = say; tb.appendChild(i); } }
+    });
+    if (q.length < 2) { sonuc.innerHTML = ''; return; }
+    if (!liste.length) { sonuc.innerHTML = '<p>Sonuç yok. İsmi farklı yazmayı dene; eğitmenler açıklandıkça program güncelleniyor.</p>'; return; }
+    sonuc.innerHTML = '<p>' + liste.length + ' sonuç</p>' + liste.slice(0, 40).map(function (x, i) {
+      return '<button type="button" data-k="' + i + '"><b>' + GUN[x.g][0] + ' ' + x.b + '</b><span>' + esc(x.s) + '</span><strong>' + esc(x.t) + '</strong>' + (x.eg ? '<em>' + esc(x.eg) + '</em>' : '') + '</button>';
+    }).join('');
+    sonuc.onclick = function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      var x = liste[+b.getAttribute('data-k')]; gec(x.g);
+      x.el.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+      x.el.classList.remove('flas'); void x.el.offsetWidth; x.el.classList.add('flas');
+    };
+  }
+  if (kutu) kutu.addEventListener('input', ara);
 
   /* 1) Gömülü kopya: anında */
   try { ciz(JSON.parse(R.querySelector('.veri').textContent)); } catch (e) {}
