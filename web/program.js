@@ -1,4 +1,4 @@
-/* EDF workshop programı. Satır listesinden (Gün, Başlangıç, Bitiş, Salon, Bitiş Salonu, Başlık, Eğitmen, Kategori, Not)
+/* EDF workshop programı. Google E-Tablo'da her gün ayrı sekme; satırlar (Başlangıç, Bitiş, Salon, Bitiş Salonu, Başlık, Eğitmen, Kategori, Not) gün adıyla birleştirilip (Gün, Başlangıç, Bitiş, Salon, Bitiş Salonu, Başlık, Eğitmen, Kategori, Not)
    gün sekmeli ızgara çizer. Önce sayfaya gömülü kopyayı çizer, sonra Google E-Tablo'yu canlı okur; fark varsa yeniden çizer. */
 (function () {
   var hepsi = document.querySelectorAll('#edf-prog');
@@ -92,18 +92,22 @@
   /* 1) Gömülü kopya: anında */
   try { ciz(JSON.parse(R.querySelector('.veri').textContent)); } catch (e) {}
 
-  /* 2) Canlı tablo: Google E-Tablo (link ile görüntülenebilir olmalı) */
+  /* 2) Canlı tablo: Google E-Tablo, her gün kendi sekmesinde (tablo link ile görüntülenebilir olmalı) */
   var id = R.getAttribute('data-sheet');
-  if (id && window.fetch) {
-    fetch('https://docs.google.com/spreadsheets/d/' + id + '/gviz/tq?tqx=out:json&headers=1&sheet=Program')
-      .then(function (r) { return r.text(); })
-      .then(function (t) {
-        var j = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1));
-        var rows = (j.table.rows || []).map(function (r) {
-          return (r.c || []).map(function (c) { return c ? (c.f != null ? c.f : (c.v != null ? String(c.v) : '')) : ''; });
+  if (id && window.fetch && window.Promise) {
+    Promise.all(GUN.map(function (g) {
+      return fetch('https://docs.google.com/spreadsheets/d/' + id + '/gviz/tq?tqx=out:json&headers=1&sheet=' + encodeURIComponent(g[0]))
+        .then(function (r) { return r.text(); })
+        .then(function (t) {
+          var j = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1));
+          if (j.status === 'error') throw new Error('sekme');
+          return (j.table.rows || []).map(function (r) {
+            return [g[0]].concat((r.c || []).map(function (c) { return c ? (c.f != null ? c.f : (c.v != null ? String(c.v) : '')) : ''; }));
+          });
         });
-        if (rows.length) ciz(rows);
-      })
-      .catch(function () {});
+    })).then(function (gunler) {
+      var rows = [].concat.apply([], gunler);
+      if (rows.length) ciz(rows);
+    }).catch(function () {});
   }
 })();
