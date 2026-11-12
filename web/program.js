@@ -107,7 +107,8 @@
   function gunListe(liste) {
     var S = L.salon, q = sorgu(), fv = filtreVar();
     if (!liste.length) return '<div class="bos">Bu günün programı yakında açıklanacak.</div>';
-    var l = liste.filter(function (x) { return !fv || eslesir(x, q); }).sort(function (a, b) { return dk(a.b) - dk(b.b) || S.indexOf(a.s1) - S.indexOf(b.s1); });
+    /* listede içi boş bloklar (ör. Free Time: konu = stil, not yok) gizlenir; o stil seçilirse görünür */
+    var l = liste.filter(function (x) { return fv ? eslesir(x, q) : !(etkinlikMi(x) && bas(x.konu || x.stil) === bas(x.stil) && !x.n); }).sort(function (a, b) { return dk(a.b) - dk(b.b) || S.indexOf(a.s1) - S.indexOf(b.s1); });
     if (!l.length) return '<div class="bos">Bu günde seçimine uyan program yok. Diğer günlere bak ya da filtreyi değiştir.</div>';
     var h = '<div class="li">', son = '';
     l.forEach(function (x) {

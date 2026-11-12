@@ -101,4 +101,4 @@
 #edf-prog .tabs{padding-top:9px}
 #edf-prog .tabs button{position:relative}
 #edf-prog .tabs button i{position:absolute;top:-9px;right:-7px;margin:0;box-shadow:0 0 0 2px #fff}
-@media(max-width:560px){#edf-prog .cp{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-16px;padding-right:16px;-webkit-mask:linear-gradient(90deg,#000 85%,transparent)}#edf-prog .cp::-webkit-scrollbar{display:none}#edf-prog .fl button{flex:0 0 auto}}
+@media(max-width:560px){#edf-prog .fr{align-items:stretch}#edf-prog .cp{min-width:0;max-width:calc(100% + 16px);flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-16px;padding-right:16px;-webkit-mask:linear-gradient(90deg,#000 85%,transparent)}#edf-prog .cp::-webkit-scrollbar{display:none}#edf-prog .fl button{flex:0 0 auto}}
