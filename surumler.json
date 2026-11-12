@@ -1,5 +1,5 @@
 {
- "aktif": 3,
+ "aktif": 4,
  "surumler": [
   {
    "no": 1,
@@ -18,6 +18,12 @@
    "tarih": "2026-11-12 03:43",
    "commit": "d4093e089892e0440ac9f355e2ea16c0b8d202c4",
    "mesaj": "Program v3: Stil · Konu · Seviye; Listeler sekmesi; stil+seviye filtreleri; liste görünümü"
+  },
+  {
+   "no": 4,
+   "tarih": "2026-11-12 03:47",
+   "commit": "5601f0956e5aab20bca986de4648e56ff77242d7",
+   "mesaj": "Program: telefonda filtre satırı taşması düzeltildi; liste görünümünde boş Free Time blokları gizlendi"
   }
  ]
 }
