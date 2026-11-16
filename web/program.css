@@ -102,3 +102,20 @@
 #edf-prog .tabs button{position:relative}
 #edf-prog .tabs button i{position:absolute;top:-9px;right:-7px;margin:0;box-shadow:0 0 0 2px #fff}
 @media(max-width:560px){#edf-prog .fr{align-items:stretch}#edf-prog .cp{min-width:0;max-width:calc(100% + 16px);flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-16px;padding-right:16px;-webkit-mask:linear-gradient(90deg,#000 85%,transparent)}#edf-prog .cp::-webkit-scrollbar{display:none}#edf-prog .fl button{flex:0 0 auto}}
+/* zaman: biten / süren */
+#edf-prog .w,#edf-prog .e,#edf-prog .lr{position:relative}
+#edf-prog .bt{filter:grayscale(.85);opacity:.45}
+#edf-prog .bt:hover{opacity:.8}
+#edf-prog .bt:after,#edf-prog .sm:after{position:absolute;top:5px;right:5px;font:800 9px/1 'Montserrat',sans-serif;letter-spacing:.5px;padding:3px 6px;border-radius:3px;z-index:1}
+#edf-prog .bt:after{content:"BİTTİ";background:#1B2E4A;color:#fff}
+#edf-prog .sm{box-shadow:0 0 0 2px var(--rd),0 6px 16px rgba(228,67,81,.25);z-index:2}
+#edf-prog .sm:after{content:"● ŞİMDİ";background:var(--rd);color:#fff;animation:edfNabiz 1.6s ease-in-out infinite}
+@keyframes edfNabiz{50%{opacity:.55}}
+#edf-prog .tabs button.bt:not(.on){opacity:.5}
+#edf-prog .tabs button.bt small:after{content:" · bitti"}
+@media(prefers-reduced-motion:reduce){#edf-prog .sm:after{animation:none}}
+#edf-prog .w.bt:after,#edf-prog .w.sm:after{top:auto;bottom:5px}
+#edf-prog .li:not(.acik) .bt{display:none}
+#edf-prog .lt.bt{opacity:.45}
+#edf-prog .bk{font:800 12px 'Montserrat',sans-serif;color:var(--nv);background:#F1EEE7;border:0;border-radius:6px;padding:10px 12px;width:100%;text-align:left;cursor:pointer;margin:0 0 10px}
+#edf-prog .bk:hover{background:#E8E3D8}

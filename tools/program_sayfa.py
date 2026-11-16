@@ -11,7 +11,7 @@ veri = json.dumps({'listeler': L, 'rows': rows}, ensure_ascii=False, separators=
 IK_T = '<svg viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="2"/><path d="M1.5 6h13M6 6v8.5"/></svg>'
 IK_L = '<svg viewBox="0 0 16 16"><path d="M5 3.5h9.5M5 8h9.5M5 12.5h9.5M1.5 3.5h.5M1.5 8h.5M1.5 12.5h.5"/></svg>'
 H = ['<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap">',
-     f'<div id="edf-prog" lang="tr" data-sheet="{html.escape(AYAR["sheet_id"])}"><style>{css}</style>',
+     f'<div id="edf-prog" lang="tr" data-sheet="{html.escape(AYAR["sheet_id"])}" data-yil="{AYAR.get("yil", 2027)}"><style>{css}</style>',
      '<div class="hd"><div><h2>EDF 2027 <span>Workshop</span> Programı</h2><div class="meta">3–7 Şubat 2027 · Tasigo Hotel, Eskişehir</div></div>'
      + (f'<div class="draft">{html.escape(AYAR["rozet"])}</div>' if AYAR.get('rozet') else '') + '</div>',
      '<div class="tb"><div class="ara"><input type="search" placeholder="Eğitmen, stil ya da workshop ara…" aria-label="Eğitmen, stil ya da workshop ara" autocomplete="off"></div>'

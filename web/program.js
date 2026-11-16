@@ -10,7 +10,7 @@
 
   var GRI = '#8C96A3';
   var L = { stil: [], seviye: [], salon: [], gun: [] }, IDX = { stil: {}, sev: {} };
-  var rows = [], aktif = 1, gorunum = '', fStil = {}, fSev = {}, imza = '';
+  var rows = [], aktif = -1, gorunum = '', fStil = {}, fSev = {}, imza = '';
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function saat(t) { var m = String(t || '').match(/(\d{1,2})[:.](\d{2})/); return m ? ('0' + m[1]).slice(-2) + ':' + m[2] : ''; }
@@ -110,7 +110,7 @@
     /* listede içi boş bloklar (ör. Free Time: konu = stil, not yok) gizlenir; o stil seçilirse görünür */
     var l = liste.filter(function (x) { return fv ? eslesir(x, q) : !(etkinlikMi(x) && bas(x.konu || x.stil) === bas(x.stil) && !x.n); }).sort(function (a, b) { return dk(a.b) - dk(b.b) || S.indexOf(a.s1) - S.indexOf(b.s1); });
     if (!l.length) return '<div class="bos">Bu günde seçimine uyan program yok. Diğer günlere bak ya da filtreyi değiştir.</div>';
-    var h = '<div class="li">', son = '';
+    var h = '<button type="button" class="bk" hidden></button><div class="li">', son = '';
     l.forEach(function (x) {
       var st = stilBil(x.stil), sv = sevBil(x.sev), etk = etkinlikMi(x);
       var z = etk ? (zemin(sv.renk) || zemin(st.renk) || zemin('#1B2E4A')) : (zemin(st.renk) || zemin(GRI)), sz = zemin(sv.renk);
@@ -154,10 +154,66 @@
 
   /* ---------- Çizim ---------- */
   function gunSatir(gi) { var g = L.gun[gi]; return g ? rows.filter(function (x) { return bas(x.gun) === bas(g[0]); }) : []; }
+  /* ---------- Zaman: bugünün sekmesi, biten / süren workshoplar (İstanbul saatiyle) ---------- */
+  var AY = { 'ocak': 0, 'şubat': 1, 'mart': 2, 'nisan': 3, 'mayıs': 4, 'haziran': 5, 'temmuz': 6, 'ağustos': 7, 'eylül': 8, 'ekim': 9, 'kasım': 10, 'aralık': 11 };
+  var YIL = +(R.getAttribute('data-yil') || 2027), SA = 3600000;
+  function simdi() {
+    /* deneme için adres çubuğuna ?edf-saat=2027-02-06T15:30 eklenebilir */
+    var m = location.search.match(/edf-saat=(\d{4})-(\d\d)-(\d\d)T(\d\d):(\d\d)/);
+    if (m) return Date.UTC(+m[1], m[2] - 1, +m[3], +m[4], +m[5]);
+    try {
+      var p = {}; new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Istanbul', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
+        .formatToParts(new Date()).forEach(function (x) { p[x.type] = +x.value; });
+      return Date.UTC(p.year, p.month - 1, p.day, p.hour % 24, p.minute);
+    } catch (e) { return Date.now() + 3 * SA; }
+  }
+  function gunBas(gi) { /* o günün 00:00'ı (İstanbul) */
+    var g = L.gun[gi], m = g && String(g[1] || '').match(/(\d{1,2})\s+(\S+)/);
+    if (!m || AY[bas(m[2])] == null) return null;
+    return Date.UTC(YIL, AY[bas(m[2])], +m[1]);
+  }
+  function gunIdx(x) { return L.gun.map(function (g) { return bas(g[0]); }).indexOf(bas(x.gun)); }
+  function durum(x, an) { /* 'bt' bitti, 'sm' şimdi, '' sonra */
+    var t = gunBas(gunIdx(x)); if (t == null) return '';
+    var b = t + dk(x.b) * 60000, e = x.e ? t + dk(x.e) * 60000 : t + 30 * SA;
+    if (e <= b) e = b + 60 * 60000;
+    return an >= e ? 'bt' : (an >= b ? 'sm' : '');
+  }
+  function bugun() { /* festival günüyse o gün (gece 06:00'ya kadar önceki gün sayılır), değilse ilk gün */
+    var an = simdi();
+    for (var i = 0; i < L.gun.length; i++) { var t = gunBas(i); if (t != null && an >= t + 6 * SA && an < t + 30 * SA) return i; }
+    return 0;
+  }
+  function durumlar() {
+    var an = simdi();
+    [].forEach.call(pns.querySelectorAll('[data-i]'), function (c) {
+      var x = rows[+c.getAttribute('data-i')]; if (!x) return;
+      var d = durum(x, an);
+      c.classList.toggle('bt', d === 'bt'); c.classList.toggle('sm', d === 'sm');
+    });
+    /* liste görünümü: biten saat başlıkları + "biten programı göster" düğmesi */
+    [].forEach.call(pns.querySelectorAll('.li'), function (li) {
+      var lt = null, hep = true, n = 0;
+      [].forEach.call(li.children, function (c) {
+        if (c.classList.contains('lt')) { if (lt) lt.classList.toggle('bt', hep); lt = c; hep = true; }
+        else { if (c.classList.contains('bt')) n++; else hep = false; }
+      });
+      if (lt) lt.classList.toggle('bt', hep);
+      var bk = li.parentNode.querySelector('.bk');
+      if (bk) { bk.hidden = !n; bk.textContent = (acik ? '▾ Biten ' + n + ' programı gizle' : '▸ Biten ' + n + ' programı göster'); }
+      li.classList.toggle('acik', acik);
+    });
+    [].forEach.call(tabs.children, function (b, i) { var t = gunBas(i); b.classList.toggle('bt', t != null && an >= t + 30 * SA); });
+  }
+  var acik = false;
+  pns.addEventListener('click', function (e) { if (e.target.classList.contains('bk')) { acik = !acik; durumlar(); } });
+  setInterval(durumlar, 60000);
+
   function panelCiz(gi) {
     var pn = pns.children[gi]; if (!pn) return;
     pn.innerHTML = gorunum === 'liste' ? gunListe(gunSatir(gi)) : gunTablo(gunSatir(gi));
     pn.setAttribute('data-v', gorunum);
+    durumlar();
   }
   function ciz(veri) {
     var yeni = JSON.stringify(veri);
@@ -165,7 +221,7 @@
     imza = yeni;
     hazirla(veri.listeler || {});
     rows = temizle(veri.rows || []); rows.forEach(function (x, i) { x.id = i; });
-    if (aktif >= L.gun.length) aktif = 0;
+    if (aktif < 0 || aktif >= L.gun.length) aktif = bugun();
     tabs.innerHTML = L.gun.map(function (g, i) {
       return '<button type="button" role="tab" aria-selected="' + (i === aktif) + '" class="' + (i === aktif ? 'on' : '') + '" data-i="' + i + '">' + esc(g[0]) + '<small>' + esc(g[1] || '') + '</small></button>';
     }).join('');
