@@ -1,6 +1,6 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **86** afiş, **31** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **88** afiş, **32** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
@@ -12,6 +12,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **86** afiş, **
 | Bachata | BURAK & BEGÜM | ☑️ | `1iOniWJ0iWP525zmkndbEadmeuURi5XWw` |
 | Bachata | BUSE DUYAR |  | `1oRkW5vgseG21Oy22HYaTKKs8BOhroHpR` |
 | Bachata | ELİF & ERKAN |  | `1kAC8WPUey5GbVCb0ryhHqthl6KMMt3R8` |
+| Bachata | GÖRKEM & ZEYNEP | ☑️ | `1VH1Rk56bc6B_C2rSdNrAq4tn39s9RWr7` |
 | Bachata | GÜRKAN KAYRA |  | `1f1nTwKbUEhXCeVXSZTa6SGVtTODieXWv` |
 | Bachata | HILLGATO |  | `1lIxfm9GVZkOPejgkLcEmi9BlDtiLeNZq` |
 | Bachata | HÜSEYİN & BAŞAK |  | `1UMvwiyK14TbSeG60mZP2w8sHIaWx3FZh` |
@@ -32,6 +33,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **86** afiş, **
 | DJ | DJ KAYA |  | `19spoSzfSTG8uDslZJ2KOv1S-gbtECr3f` |
 | DJ | DJ MERT YILDIRIM |  | `12jU7Tf7Sgl4npoSZa9g5DWKPj2rttPZH` |
 | DJ | DJ MURAT ÇOLAKEL |  | `14aefmfXNGNakWmyfPvrLXBEevlMQjuOJ` |
+| DJ | DJ POETA |  | `1dTsQzGgdCd4wdBp1kGcYNGt3H7e8fpeb` |
 | DJ | DJ THE ESER |  | `1B5dIOtFZc66T9WySsX1wqQro3EqEF9w_` |
 | Heels | ABRAHEELS |  | `1ZQSjbzt0M3_LAzSnuC1DVY4PVcXSJYMv` |
 | Heels | EKİNSU ÖZCAN | ☑️ | `1p03X_LC4AfySee-nOq5IAzjvmTqQlW3R` |
