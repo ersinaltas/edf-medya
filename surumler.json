@@ -1,5 +1,5 @@
 {
- "aktif": 5,
+ "aktif": 6,
  "surumler": [
   {
    "no": 1,
@@ -30,6 +30,12 @@
    "tarih": "2026-11-16 15:21",
    "commit": "d4836e4c3968adb1da562f7f88ca022ae5cf1f3b",
    "mesaj": "Güncelle: 2 yeni artist (Görkem & Zeynep, DJ Poeta) + program tablosu"
+  },
+  {
+   "no": 6,
+   "tarih": "2026-11-16 17:06",
+   "commit": "80b7128e661c9d8805eb6d7e2c3574f19f3600cb",
+   "mesaj": "Güncelle: 4 yeni artist (Anıl & Eda, DJ Anıl, Cem Eren Sevinçer, Eşref Eröz)"
   }
  ]
 }
