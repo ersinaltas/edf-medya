@@ -1,5 +1,5 @@
 {
- "aktif": 7,
+ "aktif": 8,
  "surumler": [
   {
    "no": 1,
@@ -42,6 +42,12 @@
    "tarih": "2026-11-16 17:51",
    "commit": "85a58bff47ab885b6c1c5473e6e1837613a16d33",
    "mesaj": "Güncelle: 3 yeni artist (Pelinsu Küçükçeşme, Lara Özer, Tartaross) + K-Pop branşı"
+  },
+  {
+   "no": 8,
+   "tarih": "2026-11-16 18:48",
+   "commit": "1e5641b5098e4c3fd7035ad04763ed794053cc39",
+   "mesaj": "Program: açılışta bugünün günü (festival öncesi Çarşamba); biten workshoplar BİTTİ, sürenler ŞİMDİ; listede biten programlar katlanır"
   }
  ]
 }

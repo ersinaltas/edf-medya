@@ -4,7 +4,8 @@ En yeni üstte. **Aktif** sürüm sitede görünen. Geri dönmek için: `sh tool
 
 | No | Tarih | Commit | Açıklama |
 |---|---|---|---|
-| **v7 (aktif)** | 2026-11-16 17:51 | `85a58bf` | Güncelle: 3 yeni artist (Pelinsu Küçükçeşme, Lara Özer, Tartaross) + K-Pop branşı |
+| **v8 (aktif)** | 2026-11-16 18:48 | `1e5641b` | Program: açılışta bugünün günü (festival öncesi Çarşamba); biten workshoplar BİTTİ, sürenler ŞİMDİ; listede biten programlar katlanır |
+| v7 | 2026-11-16 17:51 | `85a58bf` | Güncelle: 3 yeni artist (Pelinsu Küçükçeşme, Lara Özer, Tartaross) + K-Pop branşı |
 | v6 | 2026-11-16 17:06 | `80b7128` | Güncelle: 4 yeni artist (Anıl & Eda, DJ Anıl, Cem Eren Sevinçer, Eşref Eröz) |
 | v5 | 2026-11-16 15:21 | `d4836e4` | Güncelle: 2 yeni artist (Görkem & Zeynep, DJ Poeta) + program tablosu |
 | v4 | 2026-11-12 03:47 | `5601f09` | Program: telefonda filtre satırı taşması düzeltildi; liste görünümünde boş Free Time blokları gizlendi |
