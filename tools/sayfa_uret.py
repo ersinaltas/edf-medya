@@ -11,7 +11,7 @@ base = cdn + 'media/'
 # Branş: Drive klasör adı -> (etiket, çerçeve rengi, etiket yazı rengi)
 BR = {'Salsa': ('SALSA', '#E44351', '#fff'), 'Bachata': ('BACHATA', '#29649D', '#fff'), 'Kizomba': ('KIZOMBA', '#EF6A64', '#fff'),
       'Hip Hop': ('HIP HOP', '#41B8A6', '#fff'), 'Heels': ('HEELS', '#FF5994', '#fff'), 'Oryantal': ('ORYANTAL', '#B04FD9', '#fff'),
-      'Zumba': ('ZUMBA', '#3CB44B', '#fff'), 'DJ': ('DJ', '#F0E559', '#1B2E4A'), 'Organizer Promoter': ('ORGANİZATÖR', '#DDE3EA', '#1B2E4A')}
+      'Zumba': ('ZUMBA', '#3CB44B', '#fff'), 'K-Pop': ('K-POP', '#7B61FF', '#fff'), 'DJ': ('DJ', '#F0E559', '#1B2E4A'), 'Organizer Promoter': ('ORGANİZATÖR', '#DDE3EA', '#1B2E4A')}
 SIRA = list(BR)
 def slug(b): return re.sub(r'[^a-z0-9]+', '-', b.lower()).strip('-') or 'x'
 A = [dict(id=a['id'], n=a['ad'], b=a['brans'], f=a['one_cikan'], d=a.get('depo', 1)) for a in json.load(open(os.path.join(ROOT, 'artistler.json')))]

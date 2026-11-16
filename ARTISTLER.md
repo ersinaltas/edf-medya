@@ -1,6 +1,6 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **92** afiş, **32** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **95** afiş, **32** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
@@ -39,6 +39,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **92** afiş, **
 | DJ | DJ THE ESER |  | `1B5dIOtFZc66T9WySsX1wqQro3EqEF9w_` |
 | Heels | ABRAHEELS |  | `1ZQSjbzt0M3_LAzSnuC1DVY4PVcXSJYMv` |
 | Heels | EKİNSU ÖZCAN | ☑️ | `1p03X_LC4AfySee-nOq5IAzjvmTqQlW3R` |
+| Heels | PELİNSU KÜÇÜKÇEŞME |  | `1fG-4KQUxUsOHpm3ebwrKTtIhLVth8lVU` |
 | Hip Hop | ARİFE AKKUŞ |  | `1Rd1CIPSsVyBzCGdxx_PpgTTwSWC3vWfy` |
 | Hip Hop | ATAKAN YAR |  | `1bRtqdjVUH5uvke44zWF36sJGWgsXE_c-` |
 | Hip Hop | BİSER MUTLU | ☑️ | `1t7SAUewXRL_XWq4iisSKwwYex9WjlAXg` |
@@ -51,6 +52,8 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **92** afiş, **
 | Hip Hop | MUSTAFA ÖZTÜRK |  | `1qIDF5Lver8THx1F9afqPQtucedj-WPbT` |
 | Hip Hop | REDNA |  | `11f-QTG1JNSmwM3lAFwwfdKYsfl1g2o7B` |
 | Hip Hop | TALHA BATDAL |  | `1_V4n9dRCp6gH7qES1GPmVowaGYSb5NhZ` |
+| K-Pop | LARA ÖZER |  | `1PqcTxxze_HE9zYXuniPTg0ghs77TGVcz` |
+| K-Pop | TARTAROSS |  | `16rSxMKSWd_8-4f4pJvzLkwawQNjCPyua` |
 | Kizomba | ALEX KARO | ☑️ | `1HUd6eW9sEwU4J9PbPJCCpH9whq0zfjIA` |
 | Kizomba | DADIE | ☑️ | `1-P1fahKiaEcJ4xPGlc-jjU65-05LEblp` |
 | Kizomba | İRFAN AYIK |  | `1lvhJ68Zl_HnubaQqUgvECGFeyTuSkVJZ` |
