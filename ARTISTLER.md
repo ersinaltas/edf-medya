@@ -1,11 +1,12 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **88** afiş, **32** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **92** afiş, **32** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
 | Bachata | ABDEL & LETY | ☑️ | `1Y4lGNwAlwZSMlg0jtmViYxZ9G071WA31` |
 | Bachata | ALİ FIRAT & ECEM NUR |  | `1WIWeWewpFsYTGoKJs11fhuxwNL2R3kIh` |
+| Bachata | ANIL & EDA |  | `10f09HZJXKreWNHcoW09424Dllv7oCMHu` |
 | Bachata | AYŞE TEKİN | ☑️ | `1JRphCflxGjC0je423NEZkyDBfca0iI93` |
 | Bachata | BERKAY & HİLAL |  | `1KQbOkiGvOU0GrU38HXI0_H3Jv4627qvz` |
 | Bachata | BESTE ERDAŞ |  | `1trRUyyOfBGkheOwk_4y7Nxdi-2-kXHbj` |
@@ -27,6 +28,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **88** afiş, **
 | Bachata | STEPHANIE LUCERO | ☑️ | `1pjYlEjTUwgK9pBOCkB2iLlgX2o1-i3Xt` |
 | Bachata | TONIO KAN | ☑️ | `13-ZI7NpisI2Lwu61lmg8oKDbSgf6WGv7` |
 | Bachata | UTKU & GÖZDE |  | `1t4QI2lqILBRAxdEkOXSbAsBHT5b5rBTY` |
+| DJ | DJ ANIL |  | `1x7jOITufszyfxfLOdqp0WuY2Fp08dtGY` |
 | DJ | DJ ARZU |  | `1sX-XS9Jf_4iuFDHPqPZoygBldBXGH5g4` |
 | DJ | DJ ATA TÜRKAY |  | `1WtwtaMjfRU0GRQs1G_2P1l3BTTqOR7yy` |
 | DJ | DJ GÜRKAN SÜRMELİ |  | `1tsRVB6Zx2fIwPgjqQCTZrCed2wJHnOlC` |
@@ -82,8 +84,10 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **88** afiş, **
 | Salsa | TOLGA & BERFİN | ☑️ | `1k-FutZvx9yAjEYuQODRuCGWyasyQs4jF` |
 | Salsa | TUĞÇE & CENK |  | `1mQTn45cNebEMmdSJhZQAytBsXZHRSOSD` |
 | Zumba | CANER MASAK |  | `1N2SYCwdi64gDBvlHfp6YUBChd8sMwIjr` |
+| Zumba | CEM EREN SEVİNÇER |  | `11Vyt67ZJWg3Rj4vLbPYLJo9uvBOnxuv4` |
 | Zumba | CRISA NAE |  | `1OD0n-pTRthSpeIFaReIq-GFTfQ5LTPuv` |
 | Zumba | DİDEM ZEYBEK | ☑️ | `1L9fD3YF64H0sBgvulxQW7us-19rSaagO` |
+| Zumba | EŞREF ERÖZ |  | `1Pn45Gi8i1MGzBtccsazHUIHnp3aT5akt` |
 | Zumba | EVREN BÜYÜKSARIOĞLU |  | `1pGT7IIKB6GWuvPqKp85IsIP4SkEFcHNW` |
 | Zumba | KANO MELEZ |  | `1ZO7kc4zCJpJP_GBKCXN5qohKuO3jpuWJ` |
 | Zumba | OANA MARICA |  | `1WBJpNCBrjjo8rN0yi9COwQbqLh5V5Dei` |
