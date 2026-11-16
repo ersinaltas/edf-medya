@@ -1,5 +1,5 @@
 {
- "aktif": 4,
+ "aktif": 5,
  "surumler": [
   {
    "no": 1,
@@ -24,6 +24,12 @@
    "tarih": "2026-11-12 03:47",
    "commit": "5601f0956e5aab20bca986de4648e56ff77242d7",
    "mesaj": "Program: telefonda filtre satırı taşması düzeltildi; liste görünümünde boş Free Time blokları gizlendi"
+  },
+  {
+   "no": 5,
+   "tarih": "2026-11-16 15:21",
+   "commit": "d4836e4c3968adb1da562f7f88ca022ae5cf1f3b",
+   "mesaj": "Güncelle: 2 yeni artist (Görkem & Zeynep, DJ Poeta) + program tablosu"
   }
  ]
 }
