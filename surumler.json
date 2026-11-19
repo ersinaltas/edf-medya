@@ -1,5 +1,5 @@
 {
- "aktif": 8,
+ "aktif": 9,
  "surumler": [
   {
    "no": 1,
@@ -48,6 +48,12 @@
    "tarih": "2026-11-16 18:48",
    "commit": "1e5641b5098e4c3fd7035ad04763ed794053cc39",
    "mesaj": "Program: açılışta bugünün günü (festival öncesi Çarşamba); biten workshoplar BİTTİ, sürenler ŞİMDİ; listede biten programlar katlanır"
+  },
+  {
+   "no": 9,
+   "tarih": "2026-11-20 02:17",
+   "commit": "9750a9354a604cbb5db88bc19b04494f8ee10bc5",
+   "mesaj": "Güncelle: 6 yeni artist (Aleyna Kahyaoğlu, Mert Erkul, Murathan Çelik, Engin Orhan, Melisa Sahra Katılmış, Sezgin Özaslan); Promoter branşı"
   }
  ]
 }
