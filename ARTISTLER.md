@@ -1,10 +1,11 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **95** afiş, **32** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **101** afiş, **32** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
 | Bachata | ABDEL & LETY | ☑️ | `1Y4lGNwAlwZSMlg0jtmViYxZ9G071WA31` |
+| Bachata | ALEYNA KAHYAOĞLU |  | `1SAWkgKlKjcCKUlovB9X4SgvFqszGZngY` |
 | Bachata | ALİ FIRAT & ECEM NUR |  | `1WIWeWewpFsYTGoKJs11fhuxwNL2R3kIh` |
 | Bachata | ANIL & EDA |  | `10f09HZJXKreWNHcoW09424Dllv7oCMHu` |
 | Bachata | AYŞE TEKİN | ☑️ | `1JRphCflxGjC0je423NEZkyDBfca0iI93` |
@@ -18,8 +19,10 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **95** afiş, **
 | Bachata | HILLGATO |  | `1lIxfm9GVZkOPejgkLcEmi9BlDtiLeNZq` |
 | Bachata | HÜSEYİN & BAŞAK |  | `1UMvwiyK14TbSeG60mZP2w8sHIaWx3FZh` |
 | Bachata | KEREM & SUDE | ☑️ | `19O1-9XiKyfnQt1UBeYkohasP3T0IDSep` |
+| Bachata | MERT ERKUL |  | `1oKURx81hReH6Y0a1XHfkMGIN-31J5zSj` |
 | Bachata | MERT GENÇOĞUZ | ☑️ | `1YzbyBSslTXXV99ZiIo-qhmMQthouBPcX` |
 | Bachata | MERTCAN & BÜŞRA | ☑️ | `1XDE7LdUAu1Stmcv4xx3T9_wpwWa63ZbM` |
+| Bachata | MURATHAN ÇELİK |  | `1NvTfl0uUyxkj42a9eivjmz9o_1gCgr-p` |
 | Bachata | ONURCAN & YAĞMUR | ☑️ | `1xoi7sQtW0syamnaDofV0nEgR1Y8gdlcQ` |
 | Bachata | OZAN & DİLAN |  | `11vk-u7P44t_R5fKMbc1f33iYPb2jWTce` |
 | Bachata | PINAR & AYKUTALP |  | `1qkZe-LapQ39H0fayE01w0Heyy5outl6c` |
@@ -59,8 +62,8 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **95** afiş, **
 | Kizomba | İRFAN AYIK |  | `1lvhJ68Zl_HnubaQqUgvECGFeyTuSkVJZ` |
 | Kizomba | MOOREA | ☑️ | `13gYynrZMD7zS4FwGKRI7ElFhijRM-bKk` |
 | Kizomba | ÖMER KILIÇGİL | ☑️ | `1Gi655pJdQK_0rDXQUo_993bMGfPpNNhE` |
-| Organizer Promoter | DOĞUŞ ÜSTÜNER |  | `1U9_x46KivehVJ-1AMc8KjWBX5g2Zm8FP` |
 | Oryantal | DİLEK TURAN |  | `177XZ1ywkZqi26aPdzTshfQ2uzY1zgv-m` |
+| Promoter | DOĞUŞ ÜSTÜNER |  | `1U9_x46KivehVJ-1AMc8KjWBX5g2Zm8FP` |
 | Salsa | AHMET & EKATERINA | ☑️ | `1_Ndz8MJguE5KgtHpHT5RWSjW49WBpckp` |
 | Salsa | ALP YOMRALIOĞLU | ☑️ | `1vFJjFbTE47wUjK0XI3MYxoBIEKMkXAb1` |
 | Salsa | ARDA KAŞ | ☑️ | `1oWN2_GSvyr9w2mGjaeJMYUvrP5yXAsXK` |
@@ -73,16 +76,19 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **95** afiş, **
 | Salsa | CUBAN MAMBO | ☑️ | `1wEZhn_LswukuMVMaZlBPL757b5H5UZos` |
 | Salsa | DİLAY & KORAY |  | `1PJ8yDsThS7V5fjopmA3vxP1ZuxOzpWze` |
 | Salsa | EMEK & BÜŞRA | ☑️ | `1ESWPzKTCuNTH4dYCj45uoXCWl77BDr3z` |
+| Salsa | ENGİN ORHAN |  | `1Nv0vVVv3gcG8VCPnCXISU4NRbCAfIBBE` |
 | Salsa | GÖRKEM ÇİTİM |  | `1vdXfNIQQyXu_dv16B4F61Yy_i5MhKl86` |
 | Salsa | GÜLDEN MELEK | ☑️ | `1kvg-04Wj3XeTvow98SAjhjQAkVXw37UT` |
 | Salsa | HANDE & ERSİN |  | `1BHt6HyAAViWqD5kqHuQrC_XSa5613qSo` |
 | Salsa | JACOPO & LINDA | ☑️ | `1w_A7Lz7OcF32xxG--nL9Qnb_vHGAELES` |
 | Salsa | LARA & KAAN |  | `1q8VHTDZNrATkHfkRFFFWxKjzCIDTfOfx` |
 | Salsa | MAMBO WORLD DANCERS |  | `1nNeTFK9KSc7MOZEav5GdN39_-vqhHZj6` |
+| Salsa | MELİSA SAHRA KATILMIŞ |  | `1cyGAjOLpAVZMcawjkZvoXt3AfMiHPNcR` |
 | Salsa | NINA & ZERJON | ☑️ | `1whMRqQ0wkvgfIJQ3ckJbXWvCHp3KriMF` |
 | Salsa | RADU MANOLE | ☑️ | `1peoNhee-hZFqKBbqr6eu049P6oUvRezi` |
 | Salsa | RAŞİT BEYLER | ☑️ | `1H61vqdB-9w1v4GQ8zIG-BUUhEb3RYUDH` |
 | Salsa | SAMET & DİLARA |  | `1dzcK1QjJg2D3OrhnbKBbyCEJP1f1Ijvw` |
+| Salsa | SEZGİN ÖZASLAN |  | `1Qqi4VrseMxf3mJvqwlij7IKpGkGiirfZ` |
 | Salsa | TİMUÇİN ÇAKIROĞLU |  | `1LfJjpwZl1sF-TY_RlV3jQEBO4PBTFrXH` |
 | Salsa | TOLGA & BERFİN | ☑️ | `1k-FutZvx9yAjEYuQODRuCGWyasyQs4jF` |
 | Salsa | TUĞÇE & CENK |  | `1mQTn45cNebEMmdSJhZQAytBsXZHRSOSD` |
