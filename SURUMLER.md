@@ -4,7 +4,8 @@ En yeni üstte. **Aktif** sürüm sitede görünen. Geri dönmek için: `sh tool
 
 | No | Tarih | Commit | Açıklama |
 |---|---|---|---|
-| **v9 (aktif)** | 2026-11-20 02:17 | `9750a93` | Güncelle: 6 yeni artist (Aleyna Kahyaoğlu, Mert Erkul, Murathan Çelik, Engin Orhan, Melisa Sahra Katılmış, Sezgin Özaslan); Promoter branşı |
+| **v10 (aktif)** | 2026-11-25 16:43 | `dfa1bc5` | Hız: CSS/JS parçaya gömüldü (tek istek), yazı tipi beklenmiyor, aynı sürüm tarayıcıda saklanıyor |
+| v9 | 2026-11-20 02:17 | `9750a93` | Güncelle: 6 yeni artist (Aleyna Kahyaoğlu, Mert Erkul, Murathan Çelik, Engin Orhan, Melisa Sahra Katılmış, Sezgin Özaslan); Promoter branşı |
 | v8 | 2026-11-16 18:48 | `1e5641b` | Program: açılışta bugünün günü (festival öncesi Çarşamba); biten workshoplar BİTTİ, sürenler ŞİMDİ; listede biten programlar katlanır |
 | v7 | 2026-11-16 17:51 | `85a58bf` | Güncelle: 3 yeni artist (Pelinsu Küçükçeşme, Lara Özer, Tartaross) + K-Pop branşı |
 | v6 | 2026-11-16 17:06 | `80b7128` | Güncelle: 4 yeni artist (Anıl & Eda, DJ Anıl, Cem Eren Sevinçer, Eşref Eröz) |

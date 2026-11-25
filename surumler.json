@@ -1,5 +1,5 @@
 {
- "aktif": 9,
+ "aktif": 10,
  "surumler": [
   {
    "no": 1,
@@ -54,6 +54,12 @@
    "tarih": "2026-11-20 02:17",
    "commit": "9750a9354a604cbb5db88bc19b04494f8ee10bc5",
    "mesaj": "Güncelle: 6 yeni artist (Aleyna Kahyaoğlu, Mert Erkul, Murathan Çelik, Engin Orhan, Melisa Sahra Katılmış, Sezgin Özaslan); Promoter branşı"
+  },
+  {
+   "no": 10,
+   "tarih": "2026-11-25 16:43",
+   "commit": "dfa1bc560ffa4638a7a378de84f18955caaec0e3",
+   "mesaj": "Hız: CSS/JS parçaya gömüldü (tek istek), yazı tipi beklenmiyor, aynı sürüm tarayıcıda saklanıyor"
   }
  ]
 }

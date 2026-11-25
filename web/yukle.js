@@ -2,7 +2,7 @@
    Kullanım: <div data-edf="artistler"></div> veya <div data-edf="program"></div>
    Hız: parça CSS+JS'i içinde taşır (tek istek); aynı sürüm tarayıcıda saklanır, tekrar ziyarette ağ beklenmez. */
 (function () {
-  var V = '9750a9354a604cbb5db88bc19b04494f8ee10bc5';
+  var V = 'dfa1bc560ffa4638a7a378de84f18955caaec0e3';
   var KOK = 'https://cdn.jsdelivr.net/gh/ersinaltas/edf-medya@' + V + '/';
   function oku(ad) { try { var x = JSON.parse(localStorage.getItem('edf:' + ad) || 'null'); return x && x.v === V ? x.h : null; } catch (e) { return null; } }
   function yaz(ad, h) { try { localStorage.setItem('edf:' + ad, JSON.stringify({ v: V, h: h })); } catch (e) {} }
