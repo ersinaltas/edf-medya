@@ -54,6 +54,8 @@ if mode == 'artifact':
     H.append('<title>EDF 2027 Artistler</title><meta name="claude:viewport-fit-sides" content="cover">')
     H.append('<style>:root{color-scheme:light}body{background:#fff;overflow-x:hidden;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}</style>')
     H.append(f'<style>{css}</style>')
+elif mode == 'parca':
+    H.append(f'<style>{css}</style>')  # tek istekte gelsin: CSS ve JS parçanın içinde
 else:
     H.append('<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>')
     H.append(f'<link rel="stylesheet" href="{cdn}web/artist.css">')
@@ -72,7 +74,7 @@ H.append('<div class="more"><b>Daha fazla isim<br>çok yakında açıklanacak</b
 if mode == 'artifact':
     H.append(f'<script>{js}</script></div>')
 elif mode == 'parca':
-    H.append(f'<script src="{cdn}web/artist.js"></script></div>')
+    H.append(f'<script>{js}</script></div>')
 else:
     # <script> ilk açılışta çalışır; ikas sayfayı sonradan (menüden geçişte) eklerse img onerror yedek olarak yükler.
     boot = f"if(!document.getElementById('edf-art').dataset.ok){{var s=document.createElement('script');s.src='{cdn}web/artist.js';document.body.appendChild(s)}}"

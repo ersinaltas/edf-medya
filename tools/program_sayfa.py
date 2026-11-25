@@ -7,6 +7,7 @@ AYAR = json.load(open(os.path.join(ROOT, 'program_ayar.json')))
 rows = list(csv.reader(open(os.path.join(ROOT, 'program_tablo.csv'))))[1:]
 L = json.load(open(os.path.join(ROOT, 'program_listeler.json')))
 css = open(os.path.join(ROOT, 'web', 'program.css')).read()
+js = open(os.path.join(ROOT, 'web', 'program.js')).read()  # tek istekte gelsin: JS parçanın içinde
 veri = json.dumps({'listeler': L, 'rows': rows}, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 IK_T = '<svg viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="2"/><path d="M1.5 6h13M6 6v8.5"/></svg>'
 IK_L = '<svg viewBox="0 0 16 16"><path d="M5 3.5h9.5M5 8h9.5M5 12.5h9.5M1.5 3.5h.5M1.5 8h.5M1.5 12.5h.5"/></svg>'
@@ -23,6 +24,6 @@ H = ['<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mont
      '<div class="pns"></div>',
      f'<div class="ft">{html.escape(AYAR["dipnot"])}</div>',
      f'<script type="application/json" class="veri">{veri}</script>',
-     '<script src="{{KOK}}web/program.js"></script></div>']
+     f'<script>{js}</script></div>']
 open(sys.argv[1], 'w').write(''.join(H))
 print('program:', len(rows), 'satır,', len(L['stil']), 'stil')
