@@ -13,6 +13,8 @@ git add -A
 gitc "$1" || true
 git push -q origin main
 H=$(git rev-parse HEAD)
+# jsDelivr önbelleğini ısıt: ilk ziyaretçi soğuk CDN beklemesin
+for f in sayfalar/*.html; do curl -sS -o /dev/null -m 60 "https://cdn.jsdelivr.net/gh/ersinaltas/edf-medya@$H/$f" || true; done
 SN=$(python3 tools/surum.py ekle "$H" "$1")
 git add web/yukle.js surumler.json SURUMLER.md
 gitc "Yayın $SN: $1"
