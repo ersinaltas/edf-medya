@@ -1,5 +1,5 @@
 {
- "aktif": 10,
+ "aktif": 11,
  "surumler": [
   {
    "no": 1,
@@ -60,6 +60,12 @@
    "tarih": "2026-11-25 16:43",
    "commit": "dfa1bc560ffa4638a7a378de84f18955caaec0e3",
    "mesaj": "Hız: CSS/JS parçaya gömüldü (tek istek), yazı tipi beklenmiyor, aynı sürüm tarayıcıda saklanıyor"
+  },
+  {
+   "no": 11,
+   "tarih": "2026-11-27 15:14",
+   "commit": "18abec9dbbb09672617605251abcd8bb8f7802e6",
+   "mesaj": "Güncelle: 6 yeni artist; Hande & Ersin öne çıkan"
   }
  ]
 }
