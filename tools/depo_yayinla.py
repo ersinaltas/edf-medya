@@ -10,7 +10,7 @@ for k, d in DEP['depolar'].items():
     yol = os.path.normpath(os.path.join(ROOT, d['yol']))
     git(yol, 'add', '-A')
     if git(yol, 'status', '--porcelain'):
-        git(yol, '-c', 'user.name=Ersin Altaş', '-c', 'user.email=ersinaltas87@gmail.com', 'commit', '-q', '-m', msg,
+        git(yol, '-c', 'user.name=Ersin Altaş', '-c', 'user.email=ersinaltas@users.noreply.github.com', 'commit', '-q', '-m', msg,
             '-m', 'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>')
         git(yol, 'push', '-q', 'origin', 'main')
     d['surum'] = git(yol, 'rev-parse', 'HEAD')

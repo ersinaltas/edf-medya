@@ -1,6 +1,6 @@
 # EDF 2027 Artist Listesi
 
-Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **101** afiş, **32** öne çıkan.
+Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **107** afiş, **33** öne çıkan.
 
 | Branş | Artist | Öne çıkan | Drive ID |
 |---|---|---|---|
@@ -15,10 +15,12 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **101** afiş, *
 | Bachata | BUSE DUYAR |  | `1oRkW5vgseG21Oy22HYaTKKs8BOhroHpR` |
 | Bachata | ELİF & ERKAN |  | `1kAC8WPUey5GbVCb0ryhHqthl6KMMt3R8` |
 | Bachata | GÖRKEM & ZEYNEP | ☑️ | `1VH1Rk56bc6B_C2rSdNrAq4tn39s9RWr7` |
+| Bachata | GÜLÇİN AYDOĞAN |  | `1R2YgaM5ArzJTYZut2OEevsa_i92XGRfb` |
 | Bachata | GÜRKAN KAYRA |  | `1f1nTwKbUEhXCeVXSZTa6SGVtTODieXWv` |
 | Bachata | HILLGATO |  | `1lIxfm9GVZkOPejgkLcEmi9BlDtiLeNZq` |
 | Bachata | HÜSEYİN & BAŞAK |  | `1UMvwiyK14TbSeG60mZP2w8sHIaWx3FZh` |
 | Bachata | KEREM & SUDE | ☑️ | `19O1-9XiKyfnQt1UBeYkohasP3T0IDSep` |
+| Bachata | MERT CAN & ECEMSU |  | `1_Shv7t0tYT09GYZlyCpmju-muFtyk5hJ` |
 | Bachata | MERT ERKUL |  | `1oKURx81hReH6Y0a1XHfkMGIN-31J5zSj` |
 | Bachata | MERT GENÇOĞUZ | ☑️ | `1YzbyBSslTXXV99ZiIo-qhmMQthouBPcX` |
 | Bachata | MERTCAN & BÜŞRA | ☑️ | `1XDE7LdUAu1Stmcv4xx3T9_wpwWa63ZbM` |
@@ -50,6 +52,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **101** afiş, *
 | Hip Hop | FURKAN COŞKUN (SİNCAP) |  | `1QpW9yAkHOen-O_5To-k2igZDLS9IwRJL` |
 | Hip Hop | GUMPOP | ☑️ | `170cFZ-JvH1VKdbrWtv0D1qjIT2LBM1Cg` |
 | Hip Hop | HAYAT |  | `1hVOasrlp4gkBZ-GEURuAA2tv88s2N26J` |
+| Hip Hop | KAAN YILDIZ |  | `1-YwG51VHI2BgWzbB3ioR1q62lPcQpd_f` |
 | Hip Hop | KÜBRA BACINOĞLU | ☑️ | `1ve87Qlwjvb-mqDAjj9xYW7VIvp38Df5a` |
 | Hip Hop | MESUT GÜNEŞ |  | `1m03sTmiHTYCNLWqCLShU-j2ZlcTPfZ7g` |
 | Hip Hop | MUSTAFA ÖZTÜRK |  | `1qIDF5Lver8THx1F9afqPQtucedj-WPbT` |
@@ -57,6 +60,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **101** afiş, *
 | Hip Hop | TALHA BATDAL |  | `1_V4n9dRCp6gH7qES1GPmVowaGYSb5NhZ` |
 | K-Pop | LARA ÖZER |  | `1PqcTxxze_HE9zYXuniPTg0ghs77TGVcz` |
 | K-Pop | TARTAROSS |  | `16rSxMKSWd_8-4f4pJvzLkwawQNjCPyua` |
+| K-Pop | YAĞMUR KESKİN |  | `1ZnI5ha-oL__V3Xm9RZmDc3NM40vAWxob` |
 | Kizomba | ALEX KARO | ☑️ | `1HUd6eW9sEwU4J9PbPJCCpH9whq0zfjIA` |
 | Kizomba | DADIE | ☑️ | `1-P1fahKiaEcJ4xPGlc-jjU65-05LEblp` |
 | Kizomba | İRFAN AYIK |  | `1lvhJ68Zl_HnubaQqUgvECGFeyTuSkVJZ` |
@@ -64,6 +68,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **101** afiş, *
 | Kizomba | ÖMER KILIÇGİL | ☑️ | `1Gi655pJdQK_0rDXQUo_993bMGfPpNNhE` |
 | Oryantal | DİLEK TURAN |  | `177XZ1ywkZqi26aPdzTshfQ2uzY1zgv-m` |
 | Promoter | DOĞUŞ ÜSTÜNER |  | `1U9_x46KivehVJ-1AMc8KjWBX5g2Zm8FP` |
+| Promoter | TUGAY YALÇIN |  | `1bOxsywiDPlMz6eE16W1ydb8KqtYgB_s6` |
 | Salsa | AHMET & EKATERINA | ☑️ | `1_Ndz8MJguE5KgtHpHT5RWSjW49WBpckp` |
 | Salsa | ALP YOMRALIOĞLU | ☑️ | `1vFJjFbTE47wUjK0XI3MYxoBIEKMkXAb1` |
 | Salsa | ARDA KAŞ | ☑️ | `1oWN2_GSvyr9w2mGjaeJMYUvrP5yXAsXK` |
@@ -79,7 +84,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **101** afiş, *
 | Salsa | ENGİN ORHAN |  | `1Nv0vVVv3gcG8VCPnCXISU4NRbCAfIBBE` |
 | Salsa | GÖRKEM ÇİTİM |  | `1vdXfNIQQyXu_dv16B4F61Yy_i5MhKl86` |
 | Salsa | GÜLDEN MELEK | ☑️ | `1kvg-04Wj3XeTvow98SAjhjQAkVXw37UT` |
-| Salsa | HANDE & ERSİN |  | `1BHt6HyAAViWqD5kqHuQrC_XSa5613qSo` |
+| Salsa | HANDE & ERSİN | ☑️ | `1BHt6HyAAViWqD5kqHuQrC_XSa5613qSo` |
 | Salsa | JACOPO & LINDA | ☑️ | `1w_A7Lz7OcF32xxG--nL9Qnb_vHGAELES` |
 | Salsa | LARA & KAAN |  | `1q8VHTDZNrATkHfkRFFFWxKjzCIDTfOfx` |
 | Salsa | MAMBO WORLD DANCERS |  | `1nNeTFK9KSc7MOZEav5GdN39_-vqhHZj6` |
@@ -91,6 +96,7 @@ Drive kaynağından otomatik üretilir, elle düzenleme. Toplam **101** afiş, *
 | Salsa | SEZGİN ÖZASLAN |  | `1Qqi4VrseMxf3mJvqwlij7IKpGkGiirfZ` |
 | Salsa | TİMUÇİN ÇAKIROĞLU |  | `1LfJjpwZl1sF-TY_RlV3jQEBO4PBTFrXH` |
 | Salsa | TOLGA & BERFİN | ☑️ | `1k-FutZvx9yAjEYuQODRuCGWyasyQs4jF` |
+| Salsa | TUĞBA ÜTE |  | `1qtvGTSLnQ5gIS_d31pipcJdKnv85LXIJ` |
 | Salsa | TUĞÇE & CENK |  | `1mQTn45cNebEMmdSJhZQAytBsXZHRSOSD` |
 | Zumba | CANER MASAK |  | `1N2SYCwdi64gDBvlHfp6YUBChd8sMwIjr` |
 | Zumba | CEM EREN SEVİNÇER |  | `11Vyt67ZJWg3Rj4vLbPYLJo9uvBOnxuv4` |
